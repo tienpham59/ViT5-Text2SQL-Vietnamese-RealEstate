@@ -1,0 +1,6142 @@
+[
+  {
+    "city": "Hưng Yên",
+    "district": "Văn Giang",
+    "ward": "Long Hưng"
+  },
+  {
+    "city": "Hưng Yên",
+    "district": "Văn Giang",
+    "ward": "Nghĩa Trụ"
+  },
+  {
+    "city": "Hưng Yên",
+    "district": "Văn Giang",
+    "ward": "Văn Giang"
+  },
+  {
+    "city": "Hưng Yên",
+    "district": "Văn Giang",
+    "ward": "Xuân Quan"
+  },
+  {
+    "city": "Hưng Yên",
+    "district": "Văn Giang",
+    "ward": "Cửu Cao"
+  },
+  {
+    "city": "Hưng Yên",
+    "district": "Yên Mỹ",
+    "ward": "Yên Phú"
+  },
+  {
+    "city": "Hưng Yên",
+    "district": "Yên Mỹ",
+    "ward": "Ngọc Long"
+  },
+  {
+    "city": "Hưng Yên",
+    "district": "Văn Lâm",
+    "ward": "Như Quỳnh"
+  },
+  {
+    "city": "Hưng Yên",
+    "district": "Mỹ Hào",
+    "ward": "Nhân Hòa"
+  },
+  {
+    "city": "Hưng Yên",
+    "district": "Mỹ Hào",
+    "ward": "Bần Yên Nhân"
+  },
+  {
+    "city": "Hưng Yên",
+    "district": "Khoái Châu",
+    "ward": "Đông Kết"
+  },
+  {
+    "city": "Hồ Chí Minh",
+    "district": "Gò Vấp",
+    "ward": "Phường 11"
+  },
+  {
+    "city": "Hồ Chí Minh",
+    "district": "Gò Vấp",
+    "ward": "Phường 6"
+  },
+  {
+    "city": "Hồ Chí Minh",
+    "district": "Gò Vấp",
+    "ward": "Phường 14"
+  },
+  {
+    "city": "Hồ Chí Minh",
+    "district": "Gò Vấp",
+    "ward": "Phường 12"
+  },
+  {
+    "city": "Hồ Chí Minh",
+    "district": "Gò Vấp",
+    "ward": "Phường 16"
+  },
+  {
+    "city": "Hồ Chí Minh",
+    "district": "Gò Vấp",
+    "ward": "Phường 3"
+  },
+  {
+    "city": "Hồ Chí Minh",
+    "district": "Gò Vấp",
+    "ward": "Phường 5"
+  },
+  {
+    "city": "Hồ Chí Minh",
+    "district": "Gò Vấp",
+    "ward": "Phường 17"
+  },
+  {
+    "city": "Hồ Chí Minh",
+    "district": "Gò Vấp",
+    "ward": "Phường 10"
+  },
+  {
+    "city": "Hồ Chí Minh",
+    "district": "Bình Thạnh",
+    "ward": "Phường 22"
+  },
+  {
+    "city": "Hồ Chí Minh",
+    "district": "Bình Thạnh",
+    "ward": "Phường 26"
+  },
+  {
+    "city": "Hồ Chí Minh",
+    "district": "Bình Thạnh",
+    "ward": "Phường 11"
+  },
+  {
+    "city": "Hồ Chí Minh",
+    "district": "Bình Thạnh",
+    "ward": "Phường 13"
+  },
+  {
+    "city": "Hồ Chí Minh",
+    "district": "Bình Thạnh",
+    "ward": "Phường 25"
+  },
+  {
+    "city": "Hồ Chí Minh",
+    "district": "Bình Thạnh",
+    "ward": "Phường 27"
+  },
+  {
+    "city": "Hồ Chí Minh",
+    "district": "Bình Thạnh",
+    "ward": "Phường 12"
+  },
+  {
+    "city": "Hồ Chí Minh",
+    "district": "Bình Thạnh",
+    "ward": "Phường 17"
+  },
+  {
+    "city": "Hồ Chí Minh",
+    "district": "Bình Thạnh",
+    "ward": "Phường 7"
+  },
+  {
+    "city": "Hồ Chí Minh",
+    "district": "Bình Thạnh",
+    "ward": "Phường 28"
+  },
+  {
+    "city": "Hồ Chí Minh",
+    "district": "Thủ Đức",
+    "ward": "Hiệp Bình Phước"
+  },
+  {
+    "city": "Hồ Chí Minh",
+    "district": "Thủ Đức",
+    "ward": "Long Thạnh Mỹ"
+  },
+  {
+    "city": "Hồ Chí Minh",
+    "district": "Thủ Đức",
+    "ward": "Tam Bình"
+  },
+  {
+    "city": "Hồ Chí Minh",
+    "district": "Thủ Đức",
+    "ward": "Long Trường"
+  },
+  {
+    "city": "Hồ Chí Minh",
+    "district": "Thủ Đức",
+    "ward": "Phú Hữu"
+  },
+  {
+    "city": "Hồ Chí Minh",
+    "district": "Thủ Đức",
+    "ward": "Trường Thạnh"
+  },
+  {
+    "city": "Hồ Chí Minh",
+    "district": "Thủ Đức",
+    "ward": "Hiệp Bình Chánh"
+  },
+  {
+    "city": "Hồ Chí Minh",
+    "district": "Thủ Đức",
+    "ward": "Bình Trưng Tây"
+  },
+  {
+    "city": "Hồ Chí Minh",
+    "district": "Thủ Đức",
+    "ward": "Linh Trung"
+  },
+  {
+    "city": "Hồ Chí Minh",
+    "district": "Thủ Đức",
+    "ward": "An Phú"
+  },
+  {
+    "city": "Hồ Chí Minh",
+    "district": "Thủ Đức",
+    "ward": "Phước Bình"
+  },
+  {
+    "city": "Hồ Chí Minh",
+    "district": "Thủ Đức",
+    "ward": "Tăng Nhơn Phú A"
+  },
+  {
+    "city": "Hồ Chí Minh",
+    "district": "Thủ Đức",
+    "ward": "Linh Đông"
+  },
+  {
+    "city": "Hồ Chí Minh",
+    "district": "Thủ Đức",
+    "ward": "Cát Lái"
+  },
+  {
+    "city": "Hồ Chí Minh",
+    "district": "Thủ Đức",
+    "ward": "Phước Long B"
+  },
+  {
+    "city": "Hồ Chí Minh",
+    "district": "Thủ Đức",
+    "ward": "Tăng Nhơn Phú B"
+  },
+  {
+    "city": "Hồ Chí Minh",
+    "district": "Thủ Đức",
+    "ward": "Trường Thọ"
+  },
+  {
+    "city": "Hồ Chí Minh",
+    "district": "Thủ Đức",
+    "ward": "Linh Chiểu"
+  },
+  {
+    "city": "Hồ Chí Minh",
+    "district": "Thủ Đức",
+    "ward": "Thạnh Mỹ Lợi"
+  },
+  {
+    "city": "Hồ Chí Minh",
+    "district": "Thủ Đức",
+    "ward": "Bình Thọ"
+  },
+  {
+    "city": "Hồ Chí Minh",
+    "district": "Thủ Đức",
+    "ward": "Bình Trưng Đông"
+  },
+  {
+    "city": "Hồ Chí Minh",
+    "district": "Thủ Đức",
+    "ward": "Linh Tây"
+  },
+  {
+    "city": "Hồ Chí Minh",
+    "district": "Thủ Đức",
+    "ward": "Linh Xuân"
+  },
+  {
+    "city": "Hồ Chí Minh",
+    "district": "Thủ Đức",
+    "ward": "Long Phước"
+  },
+  {
+    "city": "Hồ Chí Minh",
+    "district": "Thủ Đức",
+    "ward": "Bình Chiểu"
+  },
+  {
+    "city": "Hồ Chí Minh",
+    "district": "Thủ Đức",
+    "ward": "Phước Long A"
+  },
+  {
+    "city": "Hồ Chí Minh",
+    "district": "Thủ Đức",
+    "ward": "Hiệp Phú"
+  },
+  {
+    "city": "Hồ Chí Minh",
+    "district": "Thủ Đức",
+    "ward": "Thảo Điền"
+  },
+  {
+    "city": "Hồ Chí Minh",
+    "district": "Thủ Đức",
+    "ward": "An Khánh"
+  },
+  {
+    "city": "Hồ Chí Minh",
+    "district": "Thủ Đức",
+    "ward": "Tam Phú"
+  },
+  {
+    "city": "Hồ Chí Minh",
+    "district": "Thủ Đức",
+    "ward": "Tân Phú"
+  },
+  {
+    "city": "Hồ Chí Minh",
+    "district": "Thủ Đức",
+    "ward": "Long Bình"
+  },
+  {
+    "city": "Hồ Chí Minh",
+    "district": "Thủ Đức",
+    "ward": "An Lợi Đông"
+  },
+  {
+    "city": "Hồ Chí Minh",
+    "district": "Phú Nhuận",
+    "ward": "Phường 7"
+  },
+  {
+    "city": "Hồ Chí Minh",
+    "district": "Phú Nhuận",
+    "ward": "Phường 1"
+  },
+  {
+    "city": "Hồ Chí Minh",
+    "district": "Phú Nhuận",
+    "ward": "Phường 11"
+  },
+  {
+    "city": "Hồ Chí Minh",
+    "district": "Phú Nhuận",
+    "ward": "Phường 13"
+  },
+  {
+    "city": "Hồ Chí Minh",
+    "district": "Phú Nhuận",
+    "ward": "Phường 5"
+  },
+  {
+    "city": "Hồ Chí Minh",
+    "district": "Phú Nhuận",
+    "ward": "Phường 8"
+  },
+  {
+    "city": "Hồ Chí Minh",
+    "district": "Phú Nhuận",
+    "ward": "Phường 9"
+  },
+  {
+    "city": "Hồ Chí Minh",
+    "district": "Phú Nhuận",
+    "ward": "Phường 2"
+  },
+  {
+    "city": "Hồ Chí Minh",
+    "district": "Phú Nhuận",
+    "ward": "Phường 10"
+  },
+  {
+    "city": "Hồ Chí Minh",
+    "district": "Quận 12",
+    "ward": "Trung Mỹ Tây"
+  },
+  {
+    "city": "Hồ Chí Minh",
+    "district": "Quận 12",
+    "ward": "Hiệp Thành"
+  },
+  {
+    "city": "Hồ Chí Minh",
+    "district": "Quận 12",
+    "ward": "Thạnh Xuân"
+  },
+  {
+    "city": "Hồ Chí Minh",
+    "district": "Quận 12",
+    "ward": "Tân Chánh Hiệp"
+  },
+  {
+    "city": "Hồ Chí Minh",
+    "district": "Quận 12",
+    "ward": "Đông Hưng Thuận"
+  },
+  {
+    "city": "Hồ Chí Minh",
+    "district": "Quận 12",
+    "ward": "Thới An"
+  },
+  {
+    "city": "Hồ Chí Minh",
+    "district": "Quận 12",
+    "ward": "Thạnh Lộc"
+  },
+  {
+    "city": "Hồ Chí Minh",
+    "district": "Quận 12",
+    "ward": "Tân Thới Nhất"
+  },
+  {
+    "city": "Hồ Chí Minh",
+    "district": "Quận 12",
+    "ward": "Tân Thới Hiệp"
+  },
+  {
+    "city": "Hồ Chí Minh",
+    "district": "Quận 12",
+    "ward": "An Phú Đông"
+  },
+  {
+    "city": "Hồ Chí Minh",
+    "district": "Quận 12",
+    "ward": "Tân Hưng Thuận"
+  },
+  {
+    "city": "Hồ Chí Minh",
+    "district": "Quận 8",
+    "ward": "Phường 7"
+  },
+  {
+    "city": "Hồ Chí Minh",
+    "district": "Quận 8",
+    "ward": "Phường 14"
+  },
+  {
+    "city": "Hồ Chí Minh",
+    "district": "Quận 8",
+    "ward": "Phường 4"
+  },
+  {
+    "city": "Hồ Chí Minh",
+    "district": "Quận 8",
+    "ward": "Phường 16"
+  },
+  {
+    "city": "Hồ Chí Minh",
+    "district": "Quận 8",
+    "ward": "Phường 6"
+  },
+  {
+    "city": "Hồ Chí Minh",
+    "district": "Quận 8",
+    "ward": "Phường 5"
+  },
+  {
+    "city": "Hồ Chí Minh",
+    "district": "Quận 8",
+    "ward": "Phường 15"
+  },
+  {
+    "city": "Hồ Chí Minh",
+    "district": "Tân Bình",
+    "ward": "Phường 3"
+  },
+  {
+    "city": "Hồ Chí Minh",
+    "district": "Tân Bình",
+    "ward": "Phường 13"
+  },
+  {
+    "city": "Hồ Chí Minh",
+    "district": "Tân Bình",
+    "ward": "Phường 11"
+  },
+  {
+    "city": "Hồ Chí Minh",
+    "district": "Tân Bình",
+    "ward": "Phường 8"
+  },
+  {
+    "city": "Hồ Chí Minh",
+    "district": "Tân Bình",
+    "ward": "Phường 12"
+  },
+  {
+    "city": "Hồ Chí Minh",
+    "district": "Tân Bình",
+    "ward": "Phường 15"
+  },
+  {
+    "city": "Hồ Chí Minh",
+    "district": "Tân Bình",
+    "ward": "Phường 14"
+  },
+  {
+    "city": "Hồ Chí Minh",
+    "district": "Tân Bình",
+    "ward": "Phường 5"
+  },
+  {
+    "city": "Hồ Chí Minh",
+    "district": "Tân Bình",
+    "ward": "Phường 9"
+  },
+  {
+    "city": "Hồ Chí Minh",
+    "district": "Tân Bình",
+    "ward": "Phường 4"
+  },
+  {
+    "city": "Hồ Chí Minh",
+    "district": "Tân Bình",
+    "ward": "Phường 10"
+  },
+  {
+    "city": "Hồ Chí Minh",
+    "district": "Tân Bình",
+    "ward": "Phường 7"
+  },
+  {
+    "city": "Hồ Chí Minh",
+    "district": "Tân Bình",
+    "ward": "Phường 6"
+  },
+  {
+    "city": "Hồ Chí Minh",
+    "district": "Tân Bình",
+    "ward": "Phường 2"
+  },
+  {
+    "city": "Hồ Chí Minh",
+    "district": "Tân Bình",
+    "ward": "Phường 1"
+  },
+  {
+    "city": "Hồ Chí Minh",
+    "district": "Bình Chánh",
+    "ward": "Vĩnh Lộc B"
+  },
+  {
+    "city": "Hồ Chí Minh",
+    "district": "Bình Chánh",
+    "ward": "Bình Hưng"
+  },
+  {
+    "city": "Hồ Chí Minh",
+    "district": "Bình Chánh",
+    "ward": "Bình Chánh"
+  },
+  {
+    "city": "Hồ Chí Minh",
+    "district": "Bình Chánh",
+    "ward": "Lê Minh Xuân"
+  },
+  {
+    "city": "Hồ Chí Minh",
+    "district": "Bình Chánh",
+    "ward": "Tân Kiên"
+  },
+  {
+    "city": "Hồ Chí Minh",
+    "district": "Bình Chánh",
+    "ward": "Phong Phú"
+  },
+  {
+    "city": "Hồ Chí Minh",
+    "district": "Bình Chánh",
+    "ward": "Phạm Văn Hai"
+  },
+  {
+    "city": "Hồ Chí Minh",
+    "district": "Bình Chánh",
+    "ward": "Tân Túc"
+  },
+  {
+    "city": "Hồ Chí Minh",
+    "district": "Bình Chánh",
+    "ward": "Vĩnh Lộc A"
+  },
+  {
+    "city": "Hồ Chí Minh",
+    "district": "Bình Chánh",
+    "ward": "Quy Đức"
+  },
+  {
+    "city": "Hồ Chí Minh",
+    "district": "Bình Chánh",
+    "ward": "Đa Phước"
+  },
+  {
+    "city": "Hồ Chí Minh",
+    "district": "Bình Chánh",
+    "ward": "An Phú Tây"
+  },
+  {
+    "city": "Hồ Chí Minh",
+    "district": "Bình Chánh",
+    "ward": "Hưng Long"
+  },
+  {
+    "city": "Hồ Chí Minh",
+    "district": "Bình Chánh",
+    "ward": "Tân Quý Tây"
+  },
+  {
+    "city": "Hồ Chí Minh",
+    "district": "Bình Chánh",
+    "ward": "Bình Lợi"
+  },
+  {
+    "city": "Hồ Chí Minh",
+    "district": "Bình Chánh",
+    "ward": "Tân Nhựt"
+  },
+  {
+    "city": "Hồ Chí Minh",
+    "district": "Bình Tân",
+    "ward": "Bình Trị Đông A"
+  },
+  {
+    "city": "Hồ Chí Minh",
+    "district": "Bình Tân",
+    "ward": "Bình Hưng Hòa"
+  },
+  {
+    "city": "Hồ Chí Minh",
+    "district": "Bình Tân",
+    "ward": "Bình Trị Đông"
+  },
+  {
+    "city": "Hồ Chí Minh",
+    "district": "Bình Tân",
+    "ward": "Tân Tạo"
+  },
+  {
+    "city": "Hồ Chí Minh",
+    "district": "Bình Tân",
+    "ward": "Bình Trị Đông B"
+  },
+  {
+    "city": "Hồ Chí Minh",
+    "district": "Bình Tân",
+    "ward": "An Lạc A"
+  },
+  {
+    "city": "Hồ Chí Minh",
+    "district": "Bình Tân",
+    "ward": "An Lạc"
+  },
+  {
+    "city": "Hồ Chí Minh",
+    "district": "Bình Tân",
+    "ward": "Tân Tạo A"
+  },
+  {
+    "city": "Hồ Chí Minh",
+    "district": "Quận 6",
+    "ward": "Phường 11"
+  },
+  {
+    "city": "Hồ Chí Minh",
+    "district": "Quận 6",
+    "ward": "Phường 10"
+  },
+  {
+    "city": "Hồ Chí Minh",
+    "district": "Quận 6",
+    "ward": "Phường 13"
+  },
+  {
+    "city": "Hồ Chí Minh",
+    "district": "Quận 6",
+    "ward": "Phường 14"
+  },
+  {
+    "city": "Hồ Chí Minh",
+    "district": "Quận 6",
+    "ward": "Phường 8"
+  },
+  {
+    "city": "Hồ Chí Minh",
+    "district": "Quận 6",
+    "ward": "Phường 9"
+  },
+  {
+    "city": "Hồ Chí Minh",
+    "district": "Quận 6",
+    "ward": "Phường 7"
+  },
+  {
+    "city": "Hồ Chí Minh",
+    "district": "Quận 6",
+    "ward": "Phường 12"
+  },
+  {
+    "city": "Hồ Chí Minh",
+    "district": "Quận 3",
+    "ward": "Phường 14"
+  },
+  {
+    "city": "Hồ Chí Minh",
+    "district": "Quận 3",
+    "ward": "Phường 3"
+  },
+  {
+    "city": "Hồ Chí Minh",
+    "district": "Quận 3",
+    "ward": "Phường 5"
+  },
+  {
+    "city": "Hồ Chí Minh",
+    "district": "Quận 3",
+    "ward": "Võ Thị Sáu"
+  },
+  {
+    "city": "Hồ Chí Minh",
+    "district": "Quận 3",
+    "ward": "Phường 4"
+  },
+  {
+    "city": "Hồ Chí Minh",
+    "district": "Quận 3",
+    "ward": "Phường 11"
+  },
+  {
+    "city": "Hồ Chí Minh",
+    "district": "Quận 3",
+    "ward": "Phường 2"
+  },
+  {
+    "city": "Hồ Chí Minh",
+    "district": "Quận 3",
+    "ward": "Phường 1"
+  },
+  {
+    "city": "Hồ Chí Minh",
+    "district": "Quận 10",
+    "ward": "Phường 9"
+  },
+  {
+    "city": "Hồ Chí Minh",
+    "district": "Quận 10",
+    "ward": "Phường 1"
+  },
+  {
+    "city": "Hồ Chí Minh",
+    "district": "Quận 10",
+    "ward": "Phường 14"
+  },
+  {
+    "city": "Hồ Chí Minh",
+    "district": "Quận 10",
+    "ward": "Phường 13"
+  },
+  {
+    "city": "Hồ Chí Minh",
+    "district": "Quận 10",
+    "ward": "Phường 15"
+  },
+  {
+    "city": "Hồ Chí Minh",
+    "district": "Quận 10",
+    "ward": "Phường 2"
+  },
+  {
+    "city": "Hồ Chí Minh",
+    "district": "Quận 10",
+    "ward": "Phường 4"
+  },
+  {
+    "city": "Hồ Chí Minh",
+    "district": "Quận 10",
+    "ward": "Phường 12"
+  },
+  {
+    "city": "Hồ Chí Minh",
+    "district": "Tân Phú",
+    "ward": "Tân Sơn Nhì"
+  },
+  {
+    "city": "Hồ Chí Minh",
+    "district": "Tân Phú",
+    "ward": "Tân Quý"
+  },
+  {
+    "city": "Hồ Chí Minh",
+    "district": "Tân Phú",
+    "ward": "Tân Thành"
+  },
+  {
+    "city": "Hồ Chí Minh",
+    "district": "Tân Phú",
+    "ward": "Phú Thạnh"
+  },
+  {
+    "city": "Hồ Chí Minh",
+    "district": "Tân Phú",
+    "ward": "Phú Thọ Hòa"
+  },
+  {
+    "city": "Hồ Chí Minh",
+    "district": "Tân Phú",
+    "ward": "Sơn Kỳ"
+  },
+  {
+    "city": "Hồ Chí Minh",
+    "district": "Tân Phú",
+    "ward": "Phú Trung"
+  },
+  {
+    "city": "Hồ Chí Minh",
+    "district": "Tân Phú",
+    "ward": "Hiệp Tân"
+  },
+  {
+    "city": "Hồ Chí Minh",
+    "district": "Tân Phú",
+    "ward": "Tây Thạnh"
+  },
+  {
+    "city": "Hồ Chí Minh",
+    "district": "Tân Phú",
+    "ward": "Hòa Thạnh"
+  },
+  {
+    "city": "Hồ Chí Minh",
+    "district": "Tân Phú",
+    "ward": "Tân Thới Hòa"
+  },
+  {
+    "city": "Hồ Chí Minh",
+    "district": "Quận 7",
+    "ward": "Tân Thuận Đông"
+  },
+  {
+    "city": "Hồ Chí Minh",
+    "district": "Quận 7",
+    "ward": "Phú Thuận"
+  },
+  {
+    "city": "Hồ Chí Minh",
+    "district": "Quận 7",
+    "ward": "Phú Mỹ"
+  },
+  {
+    "city": "Hồ Chí Minh",
+    "district": "Quận 7",
+    "ward": "Tân Hưng"
+  },
+  {
+    "city": "Hồ Chí Minh",
+    "district": "Quận 7",
+    "ward": "Tân Phú"
+  },
+  {
+    "city": "Hồ Chí Minh",
+    "district": "Quận 7",
+    "ward": "Tân Thuận Tây"
+  },
+  {
+    "city": "Hồ Chí Minh",
+    "district": "Quận 7",
+    "ward": "Bình Thuận"
+  },
+  {
+    "city": "Hồ Chí Minh",
+    "district": "Quận 7",
+    "ward": "Tân Kiểng"
+  },
+  {
+    "city": "Hồ Chí Minh",
+    "district": "Quận 7",
+    "ward": "Tân Quy"
+  },
+  {
+    "city": "Hồ Chí Minh",
+    "district": "Quận 7",
+    "ward": "Tân Phong"
+  },
+  {
+    "city": "Hồ Chí Minh",
+    "district": "Nhà Bè",
+    "ward": "Nhơn Đức"
+  },
+  {
+    "city": "Hồ Chí Minh",
+    "district": "Nhà Bè",
+    "ward": "Nhà Bè"
+  },
+  {
+    "city": "Hồ Chí Minh",
+    "district": "Nhà Bè",
+    "ward": "Phước Kiển"
+  },
+  {
+    "city": "Hồ Chí Minh",
+    "district": "Nhà Bè",
+    "ward": "Hiệp Phước"
+  },
+  {
+    "city": "Hồ Chí Minh",
+    "district": "Nhà Bè",
+    "ward": "Phú Xuân"
+  },
+  {
+    "city": "Hồ Chí Minh",
+    "district": "Nhà Bè",
+    "ward": "Long Thới"
+  },
+  {
+    "city": "Hồ Chí Minh",
+    "district": "Nhà Bè",
+    "ward": "Phước Lộc"
+  },
+  {
+    "city": "Hồ Chí Minh",
+    "district": "Hóc Môn",
+    "ward": "Tân Hiệp"
+  },
+  {
+    "city": "Hồ Chí Minh",
+    "district": "Hóc Môn",
+    "ward": "Tân Thới Nhì"
+  },
+  {
+    "city": "Hồ Chí Minh",
+    "district": "Hóc Môn",
+    "ward": "Xuân Thới Đông"
+  },
+  {
+    "city": "Hồ Chí Minh",
+    "district": "Hóc Môn",
+    "ward": "Tân Xuân"
+  },
+  {
+    "city": "Hồ Chí Minh",
+    "district": "Hóc Môn",
+    "ward": "Thới Tam Thôn"
+  },
+  {
+    "city": "Hồ Chí Minh",
+    "district": "Hóc Môn",
+    "ward": "Xuân Thới Thượng"
+  },
+  {
+    "city": "Hồ Chí Minh",
+    "district": "Hóc Môn",
+    "ward": "Xuân Thới Sơn"
+  },
+  {
+    "city": "Hồ Chí Minh",
+    "district": "Hóc Môn",
+    "ward": "Bà Điểm"
+  },
+  {
+    "city": "Hồ Chí Minh",
+    "district": "Hóc Môn",
+    "ward": "Đông Thạnh"
+  },
+  {
+    "city": "Hồ Chí Minh",
+    "district": "Hóc Môn",
+    "ward": "Trung Chánh"
+  },
+  {
+    "city": "Hồ Chí Minh",
+    "district": "Hóc Môn",
+    "ward": "Hóc Môn"
+  },
+  {
+    "city": "Hồ Chí Minh",
+    "district": "Hóc Môn",
+    "ward": "Nhị Bình"
+  },
+  {
+    "city": "Hồ Chí Minh",
+    "district": "Quận 1",
+    "ward": "Phạm Ngũ Lão"
+  },
+  {
+    "city": "Hồ Chí Minh",
+    "district": "Quận 1",
+    "ward": "Cầu Kho"
+  },
+  {
+    "city": "Hồ Chí Minh",
+    "district": "Quận 1",
+    "ward": "Cô Giang"
+  },
+  {
+    "city": "Hồ Chí Minh",
+    "district": "Quận 1",
+    "ward": "Nguyễn Cư Trinh"
+  },
+  {
+    "city": "Hồ Chí Minh",
+    "district": "Quận 1",
+    "ward": "Tân Định"
+  },
+  {
+    "city": "Hồ Chí Minh",
+    "district": "Quận 1",
+    "ward": "Đa Kao"
+  },
+  {
+    "city": "Hồ Chí Minh",
+    "district": "Quận 1",
+    "ward": "Bến Thành"
+  },
+  {
+    "city": "Hồ Chí Minh",
+    "district": "Quận 1",
+    "ward": "Cầu Ông Lãnh"
+  },
+  {
+    "city": "Hồ Chí Minh",
+    "district": "Quận 4",
+    "ward": "Phường 1"
+  },
+  {
+    "city": "Hồ Chí Minh",
+    "district": "Quận 4",
+    "ward": "Phường 16"
+  },
+  {
+    "city": "Hồ Chí Minh",
+    "district": "Quận 4",
+    "ward": "Phường 18"
+  },
+  {
+    "city": "Hồ Chí Minh",
+    "district": "Quận 4",
+    "ward": "Phường 13"
+  },
+  {
+    "city": "Hồ Chí Minh",
+    "district": "Quận 4",
+    "ward": "Phường 3"
+  },
+  {
+    "city": "Hồ Chí Minh",
+    "district": "Quận 4",
+    "ward": "Phường 2"
+  },
+  {
+    "city": "Hồ Chí Minh",
+    "district": "Quận 4",
+    "ward": "Phường 4"
+  },
+  {
+    "city": "Hồ Chí Minh",
+    "district": "Quận 11",
+    "ward": "Phường 15"
+  },
+  {
+    "city": "Hồ Chí Minh",
+    "district": "Quận 11",
+    "ward": "Phường 3"
+  },
+  {
+    "city": "Hồ Chí Minh",
+    "district": "Quận 11",
+    "ward": "Phường 5"
+  },
+  {
+    "city": "Hồ Chí Minh",
+    "district": "Quận 11",
+    "ward": "Phường 14"
+  },
+  {
+    "city": "Hồ Chí Minh",
+    "district": "Quận 11",
+    "ward": "Phường 16"
+  },
+  {
+    "city": "Hồ Chí Minh",
+    "district": "Quận 5",
+    "ward": "Phường 1"
+  },
+  {
+    "city": "Hồ Chí Minh",
+    "district": "Quận 5",
+    "ward": "Phường 13"
+  },
+  {
+    "city": "Hồ Chí Minh",
+    "district": "Quận 5",
+    "ward": "Phường 4"
+  },
+  {
+    "city": "Hồ Chí Minh",
+    "district": "Quận 5",
+    "ward": "Phường 12"
+  },
+  {
+    "city": "Hồ Chí Minh",
+    "district": "Quận 5",
+    "ward": "Phường 9"
+  },
+  {
+    "city": "Hồ Chí Minh",
+    "district": "Củ Chi",
+    "ward": "Phước Vĩnh An"
+  },
+  {
+    "city": "Hồ Chí Minh",
+    "district": "Củ Chi",
+    "ward": "Hòa Phú"
+  },
+  {
+    "city": "Hồ Chí Minh",
+    "district": "Củ Chi",
+    "ward": "Bình Mỹ"
+  },
+  {
+    "city": "Hồ Chí Minh",
+    "district": "Củ Chi",
+    "ward": "Tân An Hội"
+  },
+  {
+    "city": "Hồ Chí Minh",
+    "district": "Củ Chi",
+    "ward": "Tân Thông Hội"
+  },
+  {
+    "city": "Hồ Chí Minh",
+    "district": "Củ Chi",
+    "ward": "Tân Thạnh Đông"
+  },
+  {
+    "city": "Hồ Chí Minh",
+    "district": "Củ Chi",
+    "ward": "Tân Phú Trung"
+  },
+  {
+    "city": "Hồ Chí Minh",
+    "district": "Củ Chi",
+    "ward": "Phạm Văn Cội"
+  },
+  {
+    "city": "Hồ Chí Minh",
+    "district": "Củ Chi",
+    "ward": "Phước Hiệp"
+  },
+  {
+    "city": "Hồ Chí Minh",
+    "district": "Củ Chi",
+    "ward": "Phú Hòa Đông"
+  },
+  {
+    "city": "Hồ Chí Minh",
+    "district": "Củ Chi",
+    "ward": "Phước Thạnh"
+  },
+  {
+    "city": "Hồ Chí Minh",
+    "district": "Củ Chi",
+    "ward": "An Nhơn Tây"
+  },
+  {
+    "city": "Hồ Chí Minh",
+    "district": "Củ Chi",
+    "ward": "Củ Chi"
+  },
+  {
+    "city": "Hồ Chí Minh",
+    "district": "Cần Giờ",
+    "ward": "Long Hòa"
+  },
+  {
+    "city": "Hồ Chí Minh",
+    "district": "Cần Giờ",
+    "ward": "Thạnh An"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Thường Tín",
+    "ward": "Liên Phương"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Thường Tín",
+    "ward": "Thường Tín"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Thường Tín",
+    "ward": "Nhị Khê"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Thường Tín",
+    "ward": "Duyên Thái"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Thường Tín",
+    "ward": "Ninh Sở"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Thường Tín",
+    "ward": "Văn Bình"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Tây Hồ",
+    "ward": "Phú Thượng"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Tây Hồ",
+    "ward": "Nhật Tân"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Tây Hồ",
+    "ward": "Thụy Khuê"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Tây Hồ",
+    "ward": "Yên Phụ"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Tây Hồ",
+    "ward": "Bưởi"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Tây Hồ",
+    "ward": "Tứ Liên"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Tây Hồ",
+    "ward": "Xuân La"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Tây Hồ",
+    "ward": "Quảng An"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Cầu Giấy",
+    "ward": "Quan Hoa"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Cầu Giấy",
+    "ward": "Yên Hoà"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Cầu Giấy",
+    "ward": "Trung Hoà"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Cầu Giấy",
+    "ward": "Nghĩa Đô"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Cầu Giấy",
+    "ward": "Dịch Vọng Hậu"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Cầu Giấy",
+    "ward": "Mai Dịch"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Cầu Giấy",
+    "ward": "Dịch Vọng"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Cầu Giấy",
+    "ward": "Nghĩa Tân"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Thạch Thất",
+    "ward": "Lại Thượng"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Thạch Thất",
+    "ward": "Kim Quan"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Thạch Thất",
+    "ward": "Thạch Hoà"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Thạch Thất",
+    "ward": "Yên Bình"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Thạch Thất",
+    "ward": "Tiến Xuân"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Nam Từ Liêm",
+    "ward": "Mỹ Đình 1"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Nam Từ Liêm",
+    "ward": "Đại Mỗ"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Nam Từ Liêm",
+    "ward": "Cầu Diễn"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Nam Từ Liêm",
+    "ward": "Tây Mỗ"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Nam Từ Liêm",
+    "ward": "Mỹ Đình 2"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Nam Từ Liêm",
+    "ward": "Phú Đô"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Nam Từ Liêm",
+    "ward": "Xuân Phương"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Nam Từ Liêm",
+    "ward": "Phương Canh"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Nam Từ Liêm",
+    "ward": "Mễ Trì"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Nam Từ Liêm",
+    "ward": "Trung Văn"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Hoài Đức",
+    "ward": "La Phù"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Hoài Đức",
+    "ward": "Đông La"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Hoài Đức",
+    "ward": "Vân Canh"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Hoài Đức",
+    "ward": "An Khánh"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Hoài Đức",
+    "ward": "Di Trạch"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Hoài Đức",
+    "ward": "Kim Chung"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Hoài Đức",
+    "ward": "Song Phương"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Hoài Đức",
+    "ward": "Yên Sở"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Hoài Đức",
+    "ward": "An Thượng"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Hoài Đức",
+    "ward": "Trạm Trôi"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Hoài Đức",
+    "ward": "Đức Giang"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Hoài Đức",
+    "ward": "Vân Côn"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Hoài Đức",
+    "ward": "Lại Yên"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Hoài Đức",
+    "ward": "Đức Thượng"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Hoài Đức",
+    "ward": "Dương Liễu"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Hoài Đức",
+    "ward": "Sơn Đồng"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Hoài Đức",
+    "ward": "Tiền Yên"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Hà Đông",
+    "ward": "Yên Nghĩa"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Hà Đông",
+    "ward": "Văn Quán"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Hà Đông",
+    "ward": "Kiến Hưng"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Hà Đông",
+    "ward": "Dương Nội"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Hà Đông",
+    "ward": "Vạn Phúc"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Hà Đông",
+    "ward": "Phú Lương"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Hà Đông",
+    "ward": "Biên Giang"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Hà Đông",
+    "ward": "Mộ Lao"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Hà Đông",
+    "ward": "Phú Lãm"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Hà Đông",
+    "ward": "Phúc La"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Hà Đông",
+    "ward": "La Khê"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Hà Đông",
+    "ward": "Đồng Mai"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Hà Đông",
+    "ward": "Hà Cầu"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Hà Đông",
+    "ward": "Phú La"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Chương Mỹ",
+    "ward": "Phụng Châu"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Chương Mỹ",
+    "ward": "Chúc Sơn"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Chương Mỹ",
+    "ward": "Thụy Hương"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Chương Mỹ",
+    "ward": "Mỹ Lương"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Chương Mỹ",
+    "ward": "Tiên Phương"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Chương Mỹ",
+    "ward": "Quảng Bị"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Chương Mỹ",
+    "ward": "Tân Tiến"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Chương Mỹ",
+    "ward": "Phú Nghĩa"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Chương Mỹ",
+    "ward": "Đại Yên"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Chương Mỹ",
+    "ward": "Xuân Mai"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Chương Mỹ",
+    "ward": "Đông Phương Yên"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Bắc Từ Liêm",
+    "ward": "Xuân Đỉnh"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Bắc Từ Liêm",
+    "ward": "Cổ Nhuế 1"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Bắc Từ Liêm",
+    "ward": "Liên Mạc"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Bắc Từ Liêm",
+    "ward": "Cổ Nhuế 2"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Bắc Từ Liêm",
+    "ward": "Minh Khai"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Bắc Từ Liêm",
+    "ward": "Phúc Diễn"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Bắc Từ Liêm",
+    "ward": "Phú Diễn"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Bắc Từ Liêm",
+    "ward": "Thụy Phương"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Bắc Từ Liêm",
+    "ward": "Đông Ngạc"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Bắc Từ Liêm",
+    "ward": "Đức Thắng"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Bắc Từ Liêm",
+    "ward": "Tây Tựu"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Bắc Từ Liêm",
+    "ward": "Thượng Cát"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Bắc Từ Liêm",
+    "ward": "Xuân Tảo"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Ba Đình",
+    "ward": "Cống Vị"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Ba Đình",
+    "ward": "Ngọc Hà"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Ba Đình",
+    "ward": "Phúc Xá"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Ba Đình",
+    "ward": "Đội Cấn"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Ba Đình",
+    "ward": "Kim Mã"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Ba Đình",
+    "ward": "Liễu Giai"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Ba Đình",
+    "ward": "Điện Biên"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Ba Đình",
+    "ward": "Quán Thánh"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Ba Đình",
+    "ward": "Vĩnh Phúc"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Ba Đình",
+    "ward": "Thành Công"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Ba Đình",
+    "ward": "Giảng Võ"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Ba Đình",
+    "ward": "Ngọc Khánh"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Đống Đa",
+    "ward": "Trung Liệt"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Đống Đa",
+    "ward": "Thổ Quan"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Đống Đa",
+    "ward": "Phương Mai"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Đống Đa",
+    "ward": "Hàng Bột"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Đống Đa",
+    "ward": "Văn Chương"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Đống Đa",
+    "ward": "Quang Trung"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Đống Đa",
+    "ward": "Khương Thượng"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Đống Đa",
+    "ward": "Kim Liên"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Đống Đa",
+    "ward": "Ô Chợ Dừa"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Đống Đa",
+    "ward": "Láng Hạ"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Đống Đa",
+    "ward": "Nam Đồng"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Đống Đa",
+    "ward": "Láng Thượng"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Đống Đa",
+    "ward": "Cát Linh"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Mê Linh",
+    "ward": "Thanh Lâm"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Mê Linh",
+    "ward": "Quang Minh"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Mê Linh",
+    "ward": "Chi Đông"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Mê Linh",
+    "ward": "Đại Thịnh"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Thanh Xuân",
+    "ward": "Nhân Chính"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Thanh Xuân",
+    "ward": "Khương Đình"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Thanh Xuân",
+    "ward": "Thanh Xuân Trung"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Thanh Xuân",
+    "ward": "Khương Mai"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Thanh Xuân",
+    "ward": "Thượng Đình"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Thanh Xuân",
+    "ward": "Khương Trung"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Thanh Xuân",
+    "ward": "Phương Liệt"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Long Biên",
+    "ward": "Bồ Đề"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Long Biên",
+    "ward": "Thạch Bàn"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Long Biên",
+    "ward": "Long Biên"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Long Biên",
+    "ward": "Phúc Lợi"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Long Biên",
+    "ward": "Thượng Thanh"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Long Biên",
+    "ward": "Ngọc Lâm"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Long Biên",
+    "ward": "Đức Giang"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Long Biên",
+    "ward": "Ngọc Thụy"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Long Biên",
+    "ward": "Việt Hưng"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Long Biên",
+    "ward": "Gia Thụy"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Long Biên",
+    "ward": "Giang Biên"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Long Biên",
+    "ward": "Cự Khối"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Hoàng Mai",
+    "ward": "Yên Sở"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Hoàng Mai",
+    "ward": "Vĩnh Hưng"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Hoàng Mai",
+    "ward": "Tương Mai"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Hoàng Mai",
+    "ward": "Thanh Trì"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Hoàng Mai",
+    "ward": "Tân Mai"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Hoàng Mai",
+    "ward": "Đại Kim"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Hoàng Mai",
+    "ward": "Hoàng Liệt"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Hoàng Mai",
+    "ward": "Mai Động"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Hoàng Mai",
+    "ward": "Hoàng Văn Thụ"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Hoàng Mai",
+    "ward": "Thịnh Liệt"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Hoàng Mai",
+    "ward": "Định Công"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Hoàng Mai",
+    "ward": "Trần Phú"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Hoàng Mai",
+    "ward": "Lĩnh Nam"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Hai Bà Trưng",
+    "ward": "Nguyễn Du"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Hai Bà Trưng",
+    "ward": "Đồng Tâm"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Hai Bà Trưng",
+    "ward": "Thanh Lương"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Hai Bà Trưng",
+    "ward": "Minh Khai"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Hai Bà Trưng",
+    "ward": "Vĩnh Tuy"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Hai Bà Trưng",
+    "ward": "Trương Định"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Hai Bà Trưng",
+    "ward": "Thanh Nhàn"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Hai Bà Trưng",
+    "ward": "Bạch Đằng"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Hai Bà Trưng",
+    "ward": "Quỳnh Mai"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Hai Bà Trưng",
+    "ward": "Lê Đại Hành"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Thanh Trì",
+    "ward": "Vĩnh Quỳnh"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Thanh Trì",
+    "ward": "Tả Thanh Oai"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Thanh Trì",
+    "ward": "Ngọc Hồi"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Thanh Trì",
+    "ward": "Tam Hiệp"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Thanh Trì",
+    "ward": "Tân Triều"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Thanh Trì",
+    "ward": "Ngũ Hiệp"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Thanh Trì",
+    "ward": "Liên Ninh"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Thanh Trì",
+    "ward": "Thanh Liệt"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Thanh Trì",
+    "ward": "Hữu Hoà"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Thanh Trì",
+    "ward": "Đông Mỹ"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Thanh Trì",
+    "ward": "Văn Điển"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Thanh Trì",
+    "ward": "Tứ Hiệp"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Thanh Trì",
+    "ward": "Yên Mỹ"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Thanh Trì",
+    "ward": "Vạn Phúc"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Thanh Trì",
+    "ward": "Duyên Hà"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Thanh Trì",
+    "ward": "Đại Áng"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Đông Anh",
+    "ward": "Mai Lâm"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Đông Anh",
+    "ward": "Kim Nỗ"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Đông Anh",
+    "ward": "Võng La"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Đông Anh",
+    "ward": "Vĩnh Ngọc"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Đông Anh",
+    "ward": "Cổ Loa"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Đông Anh",
+    "ward": "Kim Chung"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Đông Anh",
+    "ward": "Đại Mạch"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Đông Anh",
+    "ward": "Nam Hồng"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Đông Anh",
+    "ward": "Bắc Hồng"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Đông Anh",
+    "ward": "Nguyên Khê"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Đông Anh",
+    "ward": "Việt Hùng"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Đông Anh",
+    "ward": "Uy Nỗ"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Đông Anh",
+    "ward": "Đông Hội"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Đông Anh",
+    "ward": "Tiên Dương"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Đông Anh",
+    "ward": "Vân Nội"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Đông Anh",
+    "ward": "Xuân Canh"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Đông Anh",
+    "ward": "Đông Anh"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Đông Anh",
+    "ward": "Vân Hà"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Đông Anh",
+    "ward": "Hải Bối"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Đông Anh",
+    "ward": "Liên Hà"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Đông Anh",
+    "ward": "Xuân Nộn"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Quốc Oai",
+    "ward": "Thạch Thán"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Quốc Oai",
+    "ward": "Sài Sơn"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Quốc Oai",
+    "ward": "Hòa Thạch"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Quốc Oai",
+    "ward": "Phú Cát"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Quốc Oai",
+    "ward": "Đông Yên"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Gia Lâm",
+    "ward": "Kiêu Kỵ"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Gia Lâm",
+    "ward": "Yên Thường"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Gia Lâm",
+    "ward": "Dương Xá"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Gia Lâm",
+    "ward": "Trâu Quỳ"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Gia Lâm",
+    "ward": "Yên Viên"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Gia Lâm",
+    "ward": "Đặng Xá"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Gia Lâm",
+    "ward": "Đa Tốn"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Gia Lâm",
+    "ward": "Dương Quang"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Gia Lâm",
+    "ward": "Cổ Bi"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Gia Lâm",
+    "ward": "Ninh Hiệp"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Thanh Oai",
+    "ward": "Mỹ Hưng"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Thanh Oai",
+    "ward": "Cao Viên"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Thanh Oai",
+    "ward": "Cự Khê"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Thanh Oai",
+    "ward": "Bích Hòa"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Thanh Oai",
+    "ward": "Bình Minh"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Thanh Oai",
+    "ward": "Thanh Cao"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Thanh Oai",
+    "ward": "Tam Hưng"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Thanh Oai",
+    "ward": "Kim An"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Thanh Oai",
+    "ward": "Kim Bài"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Hoàn Kiếm",
+    "ward": "Hàng Trống"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Hoàn Kiếm",
+    "ward": "Hàng Gai"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Hoàn Kiếm",
+    "ward": "Chương Dương"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Hoàn Kiếm",
+    "ward": "Phúc Tân"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Hoàn Kiếm",
+    "ward": "Hàng Bồ"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Hoàn Kiếm",
+    "ward": "Lý Thái Tổ"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Hoàn Kiếm",
+    "ward": "Hàng Buồm"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Hoàn Kiếm",
+    "ward": "Trần Hưng Đạo"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Hoàn Kiếm",
+    "ward": "Đồng Xuân"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Hoàn Kiếm",
+    "ward": "Hàng Đào"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Hoàn Kiếm",
+    "ward": "Hàng Bông"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Hoàn Kiếm",
+    "ward": "Cửa Nam"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Sơn Tây",
+    "ward": "Trung Hưng"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Sơn Tây",
+    "ward": "Cổ Đông"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Sơn Tây",
+    "ward": "Đường Lâm"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Sơn Tây",
+    "ward": "Sơn Lộc"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Đan Phượng",
+    "ward": "Phùng"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Đan Phượng",
+    "ward": "Phương Đình"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Đan Phượng",
+    "ward": "Tân Lập"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Đan Phượng",
+    "ward": "Đồng Tháp"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Đan Phượng",
+    "ward": "Trung Châu"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Đan Phượng",
+    "ward": "Đan Phượng"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Đan Phượng",
+    "ward": "Tân Hội"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Ứng Hòa",
+    "ward": "Liên Bạt"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Ứng Hòa",
+    "ward": "Vân Đình"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Ứng Hòa",
+    "ward": "Phương Tú"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Ứng Hòa",
+    "ward": "Trường Thịnh"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Sóc Sơn",
+    "ward": "Phú Cường"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Sóc Sơn",
+    "ward": "Đông Xuân"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Sóc Sơn",
+    "ward": "Minh Phú"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Sóc Sơn",
+    "ward": "Phù Lỗ"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Sóc Sơn",
+    "ward": "Phù Linh"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Sóc Sơn",
+    "ward": "Phú Minh"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Sóc Sơn",
+    "ward": "Quang Tiến"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Sóc Sơn",
+    "ward": "Mai Đình"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Phú Xuyên",
+    "ward": "Tri Thủy"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Ba Vì",
+    "ward": "Cẩm Lĩnh"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Ba Vì",
+    "ward": "Yên Bài"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Ba Vì",
+    "ward": "Tây Đằng"
+  },
+  {
+    "city": "Hà Nội",
+    "district": "Ba Vì",
+    "ward": "Vân Hòa"
+  },
+  {
+    "city": "Quảng Ninh",
+    "district": "Vân Đồn",
+    "ward": "Đông Xá"
+  },
+  {
+    "city": "Quảng Ninh",
+    "district": "Vân Đồn",
+    "ward": "Bản Sen"
+  },
+  {
+    "city": "Quảng Ninh",
+    "district": "Vân Đồn",
+    "ward": "Hạ Long"
+  },
+  {
+    "city": "Quảng Ninh",
+    "district": "Vân Đồn",
+    "ward": "Quan Lạn"
+  },
+  {
+    "city": "Quảng Ninh",
+    "district": "Cẩm Phả",
+    "ward": "Cẩm Trung"
+  },
+  {
+    "city": "Quảng Ninh",
+    "district": "Cẩm Phả",
+    "ward": "Cẩm Thủy"
+  },
+  {
+    "city": "Quảng Ninh",
+    "district": "Cẩm Phả",
+    "ward": "Cẩm Đông"
+  },
+  {
+    "city": "Quảng Ninh",
+    "district": "Cẩm Phả",
+    "ward": "Cẩm Bình"
+  },
+  {
+    "city": "Quảng Ninh",
+    "district": "Cẩm Phả",
+    "ward": "Cẩm Tây"
+  },
+  {
+    "city": "Quảng Ninh",
+    "district": "Móng Cái",
+    "ward": "Hải Hoà"
+  },
+  {
+    "city": "Quảng Ninh",
+    "district": "Móng Cái",
+    "ward": "Ninh Dương"
+  },
+  {
+    "city": "Quảng Ninh",
+    "district": "Hạ Long",
+    "ward": "Bãi Cháy"
+  },
+  {
+    "city": "Quảng Ninh",
+    "district": "Hạ Long",
+    "ward": "Hùng Thắng"
+  },
+  {
+    "city": "Quảng Ninh",
+    "district": "Hạ Long",
+    "ward": "Hồng Hải"
+  },
+  {
+    "city": "Quảng Ninh",
+    "district": "Hạ Long",
+    "ward": "Hà Tu"
+  },
+  {
+    "city": "Quảng Ninh",
+    "district": "Hạ Long",
+    "ward": "Hà Khánh"
+  },
+  {
+    "city": "Quảng Ninh",
+    "district": "Hạ Long",
+    "ward": "Hồng Gai"
+  },
+  {
+    "city": "Quảng Ninh",
+    "district": "Hạ Long",
+    "ward": "Hồng Hà"
+  },
+  {
+    "city": "Quảng Ninh",
+    "district": "Hạ Long",
+    "ward": "Giếng Đáy"
+  },
+  {
+    "city": "Quảng Ninh",
+    "district": "Hạ Long",
+    "ward": "Tuần Châu"
+  },
+  {
+    "city": "Quảng Ninh",
+    "district": "Hạ Long",
+    "ward": "Hà Khẩu"
+  },
+  {
+    "city": "Quảng Ninh",
+    "district": "Hạ Long",
+    "ward": "Cao Thắng"
+  },
+  {
+    "city": "Quảng Ninh",
+    "district": "Hạ Long",
+    "ward": "Hà Phong"
+  },
+  {
+    "city": "Quảng Ninh",
+    "district": "Uông Bí",
+    "ward": "Thanh Sơn"
+  },
+  {
+    "city": "Quảng Ninh",
+    "district": "Uông Bí",
+    "ward": "Yên Thanh"
+  },
+  {
+    "city": "Bình Dương",
+    "district": "Tân Uyên",
+    "ward": "Vĩnh Tân"
+  },
+  {
+    "city": "Bình Dương",
+    "district": "Tân Uyên",
+    "ward": "Uyên Hưng"
+  },
+  {
+    "city": "Bình Dương",
+    "district": "Tân Uyên",
+    "ward": "Tân Phước Khánh"
+  },
+  {
+    "city": "Bình Dương",
+    "district": "Tân Uyên",
+    "ward": "Tân Hiệp"
+  },
+  {
+    "city": "Bình Dương",
+    "district": "Tân Uyên",
+    "ward": "Thạnh Phước"
+  },
+  {
+    "city": "Bình Dương",
+    "district": "Tân Uyên",
+    "ward": "Hội Nghĩa"
+  },
+  {
+    "city": "Bình Dương",
+    "district": "Tân Uyên",
+    "ward": "Phú Chánh"
+  },
+  {
+    "city": "Bình Dương",
+    "district": "Tân Uyên",
+    "ward": "Thái Hòa"
+  },
+  {
+    "city": "Bình Dương",
+    "district": "Tân Uyên",
+    "ward": "Khánh Bình"
+  },
+  {
+    "city": "Bình Dương",
+    "district": "Tân Uyên",
+    "ward": "Tân Vĩnh Hiệp"
+  },
+  {
+    "city": "Bình Dương",
+    "district": "Thuận An",
+    "ward": "An Phú"
+  },
+  {
+    "city": "Bình Dương",
+    "district": "Thuận An",
+    "ward": "Bình Chuẩn"
+  },
+  {
+    "city": "Bình Dương",
+    "district": "Thuận An",
+    "ward": "Thuận Giao"
+  },
+  {
+    "city": "Bình Dương",
+    "district": "Thuận An",
+    "ward": "Bình Hòa"
+  },
+  {
+    "city": "Bình Dương",
+    "district": "Thuận An",
+    "ward": "Bình Nhâm"
+  },
+  {
+    "city": "Bình Dương",
+    "district": "Thuận An",
+    "ward": "An Sơn"
+  },
+  {
+    "city": "Bình Dương",
+    "district": "Thuận An",
+    "ward": "Vĩnh Phú"
+  },
+  {
+    "city": "Bình Dương",
+    "district": "Thuận An",
+    "ward": "An Thạnh"
+  },
+  {
+    "city": "Bình Dương",
+    "district": "Thuận An",
+    "ward": "Lái Thiêu"
+  },
+  {
+    "city": "Bình Dương",
+    "district": "Dĩ An",
+    "ward": "An Bình"
+  },
+  {
+    "city": "Bình Dương",
+    "district": "Dĩ An",
+    "ward": "Tân Đông Hiệp"
+  },
+  {
+    "city": "Bình Dương",
+    "district": "Dĩ An",
+    "ward": "Dĩ An"
+  },
+  {
+    "city": "Bình Dương",
+    "district": "Dĩ An",
+    "ward": "Bình An"
+  },
+  {
+    "city": "Bình Dương",
+    "district": "Dĩ An",
+    "ward": "Đông Hòa"
+  },
+  {
+    "city": "Bình Dương",
+    "district": "Dĩ An",
+    "ward": "Bình Thắng"
+  },
+  {
+    "city": "Bình Dương",
+    "district": "Dĩ An",
+    "ward": "Tân Bình"
+  },
+  {
+    "city": "Bình Dương",
+    "district": "Thủ Dầu Một",
+    "ward": "Phú Hòa"
+  },
+  {
+    "city": "Bình Dương",
+    "district": "Thủ Dầu Một",
+    "ward": "Hiệp Thành"
+  },
+  {
+    "city": "Bình Dương",
+    "district": "Thủ Dầu Một",
+    "ward": "Phú Mỹ"
+  },
+  {
+    "city": "Bình Dương",
+    "district": "Thủ Dầu Một",
+    "ward": "Tương Bình Hiệp"
+  },
+  {
+    "city": "Bình Dương",
+    "district": "Thủ Dầu Một",
+    "ward": "Phú Lợi"
+  },
+  {
+    "city": "Bình Dương",
+    "district": "Thủ Dầu Một",
+    "ward": "Chánh Mỹ"
+  },
+  {
+    "city": "Bình Dương",
+    "district": "Thủ Dầu Một",
+    "ward": "Chánh Nghĩa"
+  },
+  {
+    "city": "Bình Dương",
+    "district": "Thủ Dầu Một",
+    "ward": "Phú Tân"
+  },
+  {
+    "city": "Bình Dương",
+    "district": "Thủ Dầu Một",
+    "ward": "Phú Thọ"
+  },
+  {
+    "city": "Bình Dương",
+    "district": "Thủ Dầu Một",
+    "ward": "Định Hoà"
+  },
+  {
+    "city": "Bình Dương",
+    "district": "Thủ Dầu Một",
+    "ward": "Hiệp An"
+  },
+  {
+    "city": "Bình Dương",
+    "district": "Thủ Dầu Một",
+    "ward": "Tân An"
+  },
+  {
+    "city": "Bình Dương",
+    "district": "Thủ Dầu Một",
+    "ward": "Phú Cường"
+  },
+  {
+    "city": "Bình Dương",
+    "district": "Bàu Bàng",
+    "ward": "Lai Uyên"
+  },
+  {
+    "city": "Bình Dương",
+    "district": "Bàu Bàng",
+    "ward": "Trừ Văn Thố"
+  },
+  {
+    "city": "Bình Dương",
+    "district": "Bến Cát",
+    "ward": "Thới Hòa"
+  },
+  {
+    "city": "Bình Dương",
+    "district": "Bến Cát",
+    "ward": "Chánh Phú Hòa"
+  },
+  {
+    "city": "Bình Dương",
+    "district": "Bến Cát",
+    "ward": "Mỹ Phước"
+  },
+  {
+    "city": "Bình Dương",
+    "district": "Bến Cát",
+    "ward": "Hòa Lợi"
+  },
+  {
+    "city": "Bình Dương",
+    "district": "Bến Cát",
+    "ward": "Tân Định"
+  },
+  {
+    "city": "Bình Dương",
+    "district": "Bến Cát",
+    "ward": "Phú An"
+  },
+  {
+    "city": "Bình Dương",
+    "district": "Bến Cát",
+    "ward": "An Điền"
+  },
+  {
+    "city": "Bình Dương",
+    "district": "Phú Giáo",
+    "ward": "Vĩnh Hoà"
+  },
+  {
+    "city": "Phú Thọ",
+    "district": "Thanh Sơn",
+    "ward": "Cự Đồng"
+  },
+  {
+    "city": "Phú Thọ",
+    "district": "Thanh Sơn",
+    "ward": "Yên Lãng"
+  },
+  {
+    "city": "Phú Thọ",
+    "district": "Việt Trì",
+    "ward": "Minh Nông"
+  },
+  {
+    "city": "Phú Thọ",
+    "district": "Việt Trì",
+    "ward": "Gia Cẩm"
+  },
+  {
+    "city": "Phú Thọ",
+    "district": "Việt Trì",
+    "ward": "Thanh Miếu"
+  },
+  {
+    "city": "Phú Thọ",
+    "district": "Việt Trì",
+    "ward": "Tân Dân"
+  },
+  {
+    "city": "Phú Thọ",
+    "district": "Việt Trì",
+    "ward": "Tiên Cát"
+  },
+  {
+    "city": "Phú Thọ",
+    "district": "Việt Trì",
+    "ward": "Vân Phú"
+  },
+  {
+    "city": "Phú Thọ",
+    "district": "Phú Thọ",
+    "ward": "Âu Cơ"
+  },
+  {
+    "city": "Phú Thọ",
+    "district": "Hạ Hoà",
+    "ward": "Đại Phạm"
+  },
+  {
+    "city": "Hải Dương",
+    "district": "Kinh Môn",
+    "ward": "Minh Tân"
+  },
+  {
+    "city": "Hải Dương",
+    "district": "Hải Dương",
+    "ward": "Ngọc Châu"
+  },
+  {
+    "city": "Hải Dương",
+    "district": "Hải Dương",
+    "ward": "Tân Bình"
+  },
+  {
+    "city": "Hải Dương",
+    "district": "Hải Dương",
+    "ward": "Quang Trung"
+  },
+  {
+    "city": "Hải Dương",
+    "district": "Hải Dương",
+    "ward": "Trần Hưng Đạo"
+  },
+  {
+    "city": "Hải Dương",
+    "district": "Chí Linh",
+    "ward": "Cộng Hoà"
+  },
+  {
+    "city": "Hải Dương",
+    "district": "Chí Linh",
+    "ward": "Sao Đỏ"
+  },
+  {
+    "city": "Hải Dương",
+    "district": "Thanh Miện",
+    "ward": "Ngũ Hùng"
+  },
+  {
+    "city": "Long An",
+    "district": "Bến Lức",
+    "ward": "An Thạnh"
+  },
+  {
+    "city": "Long An",
+    "district": "Bến Lức",
+    "ward": "Mỹ Yên"
+  },
+  {
+    "city": "Long An",
+    "district": "Bến Lức",
+    "ward": "Bến Lức"
+  },
+  {
+    "city": "Long An",
+    "district": "Bến Lức",
+    "ward": "Lương Bình"
+  },
+  {
+    "city": "Long An",
+    "district": "Bến Lức",
+    "ward": "Phước Lợi"
+  },
+  {
+    "city": "Long An",
+    "district": "Cần Giuộc",
+    "ward": "Mỹ Lộc"
+  },
+  {
+    "city": "Long An",
+    "district": "Cần Giuộc",
+    "ward": "Cần Giuộc"
+  },
+  {
+    "city": "Long An",
+    "district": "Cần Giuộc",
+    "ward": "Thuận Thành"
+  },
+  {
+    "city": "Long An",
+    "district": "Cần Giuộc",
+    "ward": "Long Hậu"
+  },
+  {
+    "city": "Long An",
+    "district": "Cần Giuộc",
+    "ward": "Phước Lý"
+  },
+  {
+    "city": "Long An",
+    "district": "Cần Giuộc",
+    "ward": "Long Thượng"
+  },
+  {
+    "city": "Long An",
+    "district": "Cần Giuộc",
+    "ward": "Phước Lại"
+  },
+  {
+    "city": "Long An",
+    "district": "Cần Giuộc",
+    "ward": "Long An"
+  },
+  {
+    "city": "Long An",
+    "district": "Cần Giuộc",
+    "ward": "Phước Hậu"
+  },
+  {
+    "city": "Long An",
+    "district": "Tân An",
+    "ward": "Phường 6"
+  },
+  {
+    "city": "Long An",
+    "district": "Tân An",
+    "ward": "Phường 5"
+  },
+  {
+    "city": "Long An",
+    "district": "Tân An",
+    "ward": "Phường 3"
+  },
+  {
+    "city": "Long An",
+    "district": "Tân An",
+    "ward": "Phường 7"
+  },
+  {
+    "city": "Long An",
+    "district": "Tân An",
+    "ward": "An Vĩnh Ngãi"
+  },
+  {
+    "city": "Long An",
+    "district": "Thủ Thừa",
+    "ward": "Bình An"
+  },
+  {
+    "city": "Long An",
+    "district": "Thủ Thừa",
+    "ward": "Thủ Thừa"
+  },
+  {
+    "city": "Long An",
+    "district": "Đức Hòa",
+    "ward": "Mỹ Hạnh Nam"
+  },
+  {
+    "city": "Long An",
+    "district": "Đức Hòa",
+    "ward": "Đức Hòa"
+  },
+  {
+    "city": "Long An",
+    "district": "Đức Hòa",
+    "ward": "Hậu Nghĩa"
+  },
+  {
+    "city": "Long An",
+    "district": "Đức Hòa",
+    "ward": "Mỹ Hạnh Bắc"
+  },
+  {
+    "city": "Long An",
+    "district": "Đức Hòa",
+    "ward": "Đức Hòa Hạ"
+  },
+  {
+    "city": "Long An",
+    "district": "Đức Hòa",
+    "ward": "Đức Hòa Đông"
+  },
+  {
+    "city": "Long An",
+    "district": "Đức Hòa",
+    "ward": "Đức Lập Hạ"
+  },
+  {
+    "city": "Long An",
+    "district": "Đức Hòa",
+    "ward": "Tân Mỹ"
+  },
+  {
+    "city": "Long An",
+    "district": "Đức Hòa",
+    "ward": "Hựu Thạnh"
+  },
+  {
+    "city": "Long An",
+    "district": "Đức Hòa",
+    "ward": "An Ninh Đông"
+  },
+  {
+    "city": "Long An",
+    "district": "Đức Hòa",
+    "ward": "Đức Hòa Thượng"
+  },
+  {
+    "city": "Long An",
+    "district": "Cần Đước",
+    "ward": "Long Cang"
+  },
+  {
+    "city": "Long An",
+    "district": "Cần Đước",
+    "ward": "Long Khê"
+  },
+  {
+    "city": "Long An",
+    "district": "Cần Đước",
+    "ward": "Long Định"
+  },
+  {
+    "city": "Long An",
+    "district": "Cần Đước",
+    "ward": "Phước Vân"
+  },
+  {
+    "city": "Long An",
+    "district": "Cần Đước",
+    "ward": "Long Trạch"
+  },
+  {
+    "city": "Long An",
+    "district": "Cần Đước",
+    "ward": "Long Sơn"
+  },
+  {
+    "city": "Long An",
+    "district": "Tân Trụ",
+    "ward": "Nhựt Ninh"
+  },
+  {
+    "city": "Long An",
+    "district": "Tân Trụ",
+    "ward": "Tân Trụ"
+  },
+  {
+    "city": "Long An",
+    "district": "Châu Thành",
+    "ward": "Tầm Vu"
+  },
+  {
+    "city": "Long An",
+    "district": "Tân Thạnh",
+    "ward": "Tân Thạnh"
+  },
+  {
+    "city": "Kiên Giang",
+    "district": "Rạch Giá",
+    "ward": "An Hòa"
+  },
+  {
+    "city": "Kiên Giang",
+    "district": "Rạch Giá",
+    "ward": "Vĩnh Lạc"
+  },
+  {
+    "city": "Kiên Giang",
+    "district": "Rạch Giá",
+    "ward": "Vĩnh Thanh"
+  },
+  {
+    "city": "Kiên Giang",
+    "district": "Rạch Giá",
+    "ward": "An Bình"
+  },
+  {
+    "city": "Kiên Giang",
+    "district": "Rạch Giá",
+    "ward": "Vĩnh Lợi"
+  },
+  {
+    "city": "Kiên Giang",
+    "district": "Rạch Giá",
+    "ward": "Vĩnh Quang"
+  },
+  {
+    "city": "Kiên Giang",
+    "district": "Phú Quốc",
+    "ward": "Gành Dầu"
+  },
+  {
+    "city": "Kiên Giang",
+    "district": "Phú Quốc",
+    "ward": "Dương Đông"
+  },
+  {
+    "city": "Kiên Giang",
+    "district": "Phú Quốc",
+    "ward": "Dương Tơ"
+  },
+  {
+    "city": "Kiên Giang",
+    "district": "Phú Quốc",
+    "ward": "An Thới"
+  },
+  {
+    "city": "Kiên Giang",
+    "district": "Phú Quốc",
+    "ward": "Hàm Ninh"
+  },
+  {
+    "city": "Kiên Giang",
+    "district": "Phú Quốc",
+    "ward": "Bãi Thơm"
+  },
+  {
+    "city": "Kiên Giang",
+    "district": "Phú Quốc",
+    "ward": "Cửa Dương"
+  },
+  {
+    "city": "Kiên Giang",
+    "district": "Hà Tiên",
+    "ward": "Pháo Đài"
+  },
+  {
+    "city": "Kiên Giang",
+    "district": "Hà Tiên",
+    "ward": "Đông Hồ"
+  },
+  {
+    "city": "Bình Thuận",
+    "district": "Phan Thiết",
+    "ward": "Tiến Thành"
+  },
+  {
+    "city": "Bình Thuận",
+    "district": "Phan Thiết",
+    "ward": "Tiến Lợi"
+  },
+  {
+    "city": "Bình Thuận",
+    "district": "Phan Thiết",
+    "ward": "Phú Hài"
+  },
+  {
+    "city": "Bình Thuận",
+    "district": "Phan Thiết",
+    "ward": "Phú Thủy"
+  },
+  {
+    "city": "Bình Thuận",
+    "district": "Phan Thiết",
+    "ward": "Hàm Tiến"
+  },
+  {
+    "city": "Bình Thuận",
+    "district": "Phan Thiết",
+    "ward": "Xuân An"
+  },
+  {
+    "city": "Bình Thuận",
+    "district": "Phan Thiết",
+    "ward": "Phong Nẫm"
+  },
+  {
+    "city": "Bình Thuận",
+    "district": "Phan Thiết",
+    "ward": "Thanh Hải"
+  },
+  {
+    "city": "Bình Thuận",
+    "district": "Phan Thiết",
+    "ward": "Đức Long"
+  },
+  {
+    "city": "Bình Thuận",
+    "district": "Phan Thiết",
+    "ward": "Phú Trinh"
+  },
+  {
+    "city": "Bình Thuận",
+    "district": "La Gi",
+    "ward": "Bình Tân"
+  },
+  {
+    "city": "Bình Thuận",
+    "district": "La Gi",
+    "ward": "Tân Phước"
+  },
+  {
+    "city": "Bình Thuận",
+    "district": "La Gi",
+    "ward": "Tân An"
+  },
+  {
+    "city": "Bình Thuận",
+    "district": "La Gi",
+    "ward": "Phước Hội"
+  },
+  {
+    "city": "Bình Thuận",
+    "district": "Tánh Linh",
+    "ward": "Lạc Tánh"
+  },
+  {
+    "city": "Bình Thuận",
+    "district": "Hàm Thuận Nam",
+    "ward": "Tân Thành"
+  },
+  {
+    "city": "Hà Nam",
+    "district": "Phủ Lý",
+    "ward": "Phù Vân"
+  },
+  {
+    "city": "Hà Nam",
+    "district": "Phủ Lý",
+    "ward": "Lê Hồng Phong"
+  },
+  {
+    "city": "Hà Nam",
+    "district": "Phủ Lý",
+    "ward": "Trịnh Xá"
+  },
+  {
+    "city": "Hà Nam",
+    "district": "Phủ Lý",
+    "ward": "Thanh Châu"
+  },
+  {
+    "city": "Hà Nam",
+    "district": "Kim Bảng",
+    "ward": "Thanh Sơn"
+  },
+  {
+    "city": "Hà Nam",
+    "district": "Thanh Liêm",
+    "ward": "Tân Thanh"
+  },
+  {
+    "city": "Hà Nam",
+    "district": "Thanh Liêm",
+    "ward": "Thanh Tân"
+  },
+  {
+    "city": "Bà Rịa - Vũng Tàu",
+    "district": "Phú Mỹ",
+    "ward": "Hắc Dịch"
+  },
+  {
+    "city": "Bà Rịa - Vũng Tàu",
+    "district": "Phú Mỹ",
+    "ward": "Phú Mỹ"
+  },
+  {
+    "city": "Bà Rịa - Vũng Tàu",
+    "district": "Phú Mỹ",
+    "ward": "Tóc Tiên"
+  },
+  {
+    "city": "Bà Rịa - Vũng Tàu",
+    "district": "Phú Mỹ",
+    "ward": "Mỹ Xuân"
+  },
+  {
+    "city": "Bà Rịa - Vũng Tàu",
+    "district": "Vũng Tàu",
+    "ward": "Phường 12"
+  },
+  {
+    "city": "Bà Rịa - Vũng Tàu",
+    "district": "Vũng Tàu",
+    "ward": "Thắng Nhì"
+  },
+  {
+    "city": "Bà Rịa - Vũng Tàu",
+    "district": "Vũng Tàu",
+    "ward": "Phường 8"
+  },
+  {
+    "city": "Bà Rịa - Vũng Tàu",
+    "district": "Vũng Tàu",
+    "ward": "Thắng Tam"
+  },
+  {
+    "city": "Bà Rịa - Vũng Tàu",
+    "district": "Vũng Tàu",
+    "ward": "Phường 2"
+  },
+  {
+    "city": "Bà Rịa - Vũng Tàu",
+    "district": "Vũng Tàu",
+    "ward": "Phường 1"
+  },
+  {
+    "city": "Bà Rịa - Vũng Tàu",
+    "district": "Vũng Tàu",
+    "ward": "Phường 3"
+  },
+  {
+    "city": "Bà Rịa - Vũng Tàu",
+    "district": "Vũng Tàu",
+    "ward": "Thắng Nhất"
+  },
+  {
+    "city": "Bà Rịa - Vũng Tàu",
+    "district": "Vũng Tàu",
+    "ward": "Phường 10"
+  },
+  {
+    "city": "Bà Rịa - Vũng Tàu",
+    "district": "Vũng Tàu",
+    "ward": "Phường 4"
+  },
+  {
+    "city": "Bà Rịa - Vũng Tàu",
+    "district": "Vũng Tàu",
+    "ward": "Rạch Dừa"
+  },
+  {
+    "city": "Bà Rịa - Vũng Tàu",
+    "district": "Vũng Tàu",
+    "ward": "Phường 11"
+  },
+  {
+    "city": "Bà Rịa - Vũng Tàu",
+    "district": "Vũng Tàu",
+    "ward": "Phường 9"
+  },
+  {
+    "city": "Bà Rịa - Vũng Tàu",
+    "district": "Vũng Tàu",
+    "ward": "Phường 5"
+  },
+  {
+    "city": "Bà Rịa - Vũng Tàu",
+    "district": "Vũng Tàu",
+    "ward": "Phường 7"
+  },
+  {
+    "city": "Bà Rịa - Vũng Tàu",
+    "district": "Vũng Tàu",
+    "ward": "Nguyễn An Ninh"
+  },
+  {
+    "city": "Bà Rịa - Vũng Tàu",
+    "district": "Châu Đức",
+    "ward": "Suối Nghệ"
+  },
+  {
+    "city": "Bà Rịa - Vũng Tàu",
+    "district": "Châu Đức",
+    "ward": "Nghĩa Thành"
+  },
+  {
+    "city": "Bà Rịa - Vũng Tàu",
+    "district": "Châu Đức",
+    "ward": "Ngãi Giao"
+  },
+  {
+    "city": "Bà Rịa - Vũng Tàu",
+    "district": "Long Đất",
+    "ward": "Đất Đỏ"
+  },
+  {
+    "city": "Bà Rịa - Vũng Tàu",
+    "district": "Long Đất",
+    "ward": "Phước Long Thọ"
+  },
+  {
+    "city": "Bà Rịa - Vũng Tàu",
+    "district": "Long Đất",
+    "ward": "Láng Dài"
+  },
+  {
+    "city": "Bà Rịa - Vũng Tàu",
+    "district": "Long Đất",
+    "ward": "Long Tân"
+  },
+  {
+    "city": "Bà Rịa - Vũng Tàu",
+    "district": "Bà Rịa",
+    "ward": "Hoà Long"
+  },
+  {
+    "city": "Bà Rịa - Vũng Tàu",
+    "district": "Bà Rịa",
+    "ward": "Phước Nguyên"
+  },
+  {
+    "city": "Bà Rịa - Vũng Tàu",
+    "district": "Bà Rịa",
+    "ward": "Long Tâm"
+  },
+  {
+    "city": "Bà Rịa - Vũng Tàu",
+    "district": "Bà Rịa",
+    "ward": "Long Toàn"
+  },
+  {
+    "city": "Bà Rịa - Vũng Tàu",
+    "district": "Bà Rịa",
+    "ward": "Phước Hưng"
+  },
+  {
+    "city": "Bà Rịa - Vũng Tàu",
+    "district": "Xuyên Mộc",
+    "ward": "Phước Thuận"
+  },
+  {
+    "city": "Bà Rịa - Vũng Tàu",
+    "district": "Xuyên Mộc",
+    "ward": "Bình Châu"
+  },
+  {
+    "city": "Bà Rịa - Vũng Tàu",
+    "district": "Xuyên Mộc",
+    "ward": "Xuyên Mộc"
+  },
+  {
+    "city": "Bà Rịa - Vũng Tàu",
+    "district": "Xuyên Mộc",
+    "ward": "Phước Bửu"
+  },
+  {
+    "city": "Đắk Lắk",
+    "district": "Buôn Ma Thuột",
+    "ward": "Tân An"
+  },
+  {
+    "city": "Đắk Lắk",
+    "district": "Buôn Ma Thuột",
+    "ward": "Tân Thành"
+  },
+  {
+    "city": "Đắk Lắk",
+    "district": "Buôn Ma Thuột",
+    "ward": "Thành Nhất"
+  },
+  {
+    "city": "Đắk Lắk",
+    "district": "Buôn Ma Thuột",
+    "ward": "Cư Êbur"
+  },
+  {
+    "city": "Đắk Lắk",
+    "district": "Buôn Ma Thuột",
+    "ward": "Ea Tam"
+  },
+  {
+    "city": "Đắk Lắk",
+    "district": "Buôn Ma Thuột",
+    "ward": "Tự An"
+  },
+  {
+    "city": "Đắk Lắk",
+    "district": "Buôn Ma Thuột",
+    "ward": "Tân Lợi"
+  },
+  {
+    "city": "Đắk Lắk",
+    "district": "Buôn Ma Thuột",
+    "ward": "Ea Tu"
+  },
+  {
+    "city": "Đắk Lắk",
+    "district": "Buôn Ma Thuột",
+    "ward": "Hòa Phú"
+  },
+  {
+    "city": "Đắk Lắk",
+    "district": "Buôn Ma Thuột",
+    "ward": "Tân Lập"
+  },
+  {
+    "city": "Đắk Lắk",
+    "district": "Buôn Ma Thuột",
+    "ward": "Tân Hòa"
+  },
+  {
+    "city": "Đắk Lắk",
+    "district": "Cư M'gar",
+    "ward": "Quảng Phú"
+  },
+  {
+    "city": "Đắk Lắk",
+    "district": "Cư M'gar",
+    "ward": "Ea Pốk"
+  },
+  {
+    "city": "Đắk Lắk",
+    "district": "Cư Kuin",
+    "ward": "Ea Tiêu"
+  },
+  {
+    "city": "Đắk Lắk",
+    "district": "Ea Kar",
+    "ward": "Cư Ni"
+  },
+  {
+    "city": "Bắc Ninh",
+    "district": "Từ Sơn",
+    "ward": "Phù Chẩn"
+  },
+  {
+    "city": "Bắc Ninh",
+    "district": "Từ Sơn",
+    "ward": "Phù Khê"
+  },
+  {
+    "city": "Bắc Ninh",
+    "district": "Từ Sơn",
+    "ward": "Hương Mạc"
+  },
+  {
+    "city": "Bắc Ninh",
+    "district": "Từ Sơn",
+    "ward": "Đồng Kỵ"
+  },
+  {
+    "city": "Bắc Ninh",
+    "district": "Từ Sơn",
+    "ward": "Đông Ngàn"
+  },
+  {
+    "city": "Bắc Ninh",
+    "district": "Tiên Du",
+    "ward": "Nội Duệ"
+  },
+  {
+    "city": "Bắc Ninh",
+    "district": "Tiên Du",
+    "ward": "Hoàn Sơn"
+  },
+  {
+    "city": "Bắc Ninh",
+    "district": "Tiên Du",
+    "ward": "Liên Bão"
+  },
+  {
+    "city": "Bắc Ninh",
+    "district": "Bắc Ninh",
+    "ward": "Kinh Bắc"
+  },
+  {
+    "city": "Bắc Ninh",
+    "district": "Bắc Ninh",
+    "ward": "Võ Cường"
+  },
+  {
+    "city": "Bắc Ninh",
+    "district": "Bắc Ninh",
+    "ward": "Suối Hoa"
+  },
+  {
+    "city": "Bắc Ninh",
+    "district": "Bắc Ninh",
+    "ward": "Đáp Cầu"
+  },
+  {
+    "city": "Bắc Ninh",
+    "district": "Bắc Ninh",
+    "ward": "Vạn An"
+  },
+  {
+    "city": "Bắc Ninh",
+    "district": "Bắc Ninh",
+    "ward": "Đại Phúc"
+  },
+  {
+    "city": "Bắc Ninh",
+    "district": "Bắc Ninh",
+    "ward": "Hòa Long"
+  },
+  {
+    "city": "Bắc Ninh",
+    "district": "Bắc Ninh",
+    "ward": "Thị Cầu"
+  },
+  {
+    "city": "Bắc Ninh",
+    "district": "Bắc Ninh",
+    "ward": "Vũ Ninh"
+  },
+  {
+    "city": "Bắc Ninh",
+    "district": "Yên Phong",
+    "ward": "Thụy Hòa"
+  },
+  {
+    "city": "Bắc Ninh",
+    "district": "Yên Phong",
+    "ward": "Yên Trung"
+  },
+  {
+    "city": "Bắc Ninh",
+    "district": "Yên Phong",
+    "ward": "Đông Tiến"
+  },
+  {
+    "city": "Bắc Ninh",
+    "district": "Yên Phong",
+    "ward": "Long Châu"
+  },
+  {
+    "city": "Bắc Ninh",
+    "district": "Thuận Thành",
+    "ward": "Xuân Lâm"
+  },
+  {
+    "city": "Thanh Hóa",
+    "district": "Thanh Hóa",
+    "ward": "Đông Vệ"
+  },
+  {
+    "city": "Thanh Hóa",
+    "district": "Thanh Hóa",
+    "ward": "Quảng Thắng"
+  },
+  {
+    "city": "Thanh Hóa",
+    "district": "Thanh Hóa",
+    "ward": "Đông Hải"
+  },
+  {
+    "city": "Thanh Hóa",
+    "district": "Thanh Hóa",
+    "ward": "Trường Thi"
+  },
+  {
+    "city": "Thanh Hóa",
+    "district": "Thanh Hóa",
+    "ward": "Đông Thọ"
+  },
+  {
+    "city": "Thanh Hóa",
+    "district": "Thanh Hóa",
+    "ward": "Quảng Thành"
+  },
+  {
+    "city": "Thanh Hóa",
+    "district": "Thanh Hóa",
+    "ward": "Quảng Thịnh"
+  },
+  {
+    "city": "Thanh Hóa",
+    "district": "Thanh Hóa",
+    "ward": "Lam Sơn"
+  },
+  {
+    "city": "Thanh Hóa",
+    "district": "Thanh Hóa",
+    "ward": "Ba Đình"
+  },
+  {
+    "city": "Thanh Hóa",
+    "district": "Thanh Hóa",
+    "ward": "An Hưng"
+  },
+  {
+    "city": "Thanh Hóa",
+    "district": "Thanh Hóa",
+    "ward": "Đông Cương"
+  },
+  {
+    "city": "Thanh Hóa",
+    "district": "Sầm Sơn",
+    "ward": "Quảng Minh"
+  },
+  {
+    "city": "Thanh Hóa",
+    "district": "Sầm Sơn",
+    "ward": "Quảng Cư"
+  },
+  {
+    "city": "Thanh Hóa",
+    "district": "Sầm Sơn",
+    "ward": "Bắc Sơn"
+  },
+  {
+    "city": "Thanh Hóa",
+    "district": "Hoằng Hóa",
+    "ward": "Hoằng Trường"
+  },
+  {
+    "city": "Thanh Hóa",
+    "district": "Hoằng Hóa",
+    "ward": "Hoằng Ngọc"
+  },
+  {
+    "city": "Thanh Hóa",
+    "district": "Hà Trung",
+    "ward": "Hà Đông"
+  },
+  {
+    "city": "Thanh Hóa",
+    "district": "Thạch Thành",
+    "ward": "Thạch Sơn"
+  },
+  {
+    "city": "Khánh Hòa",
+    "district": "Nha Trang",
+    "ward": "Vĩnh Thái"
+  },
+  {
+    "city": "Khánh Hòa",
+    "district": "Nha Trang",
+    "ward": "Vĩnh Hiệp"
+  },
+  {
+    "city": "Khánh Hòa",
+    "district": "Nha Trang",
+    "ward": "Vĩnh Ngọc"
+  },
+  {
+    "city": "Khánh Hòa",
+    "district": "Nha Trang",
+    "ward": "Vĩnh Thạnh"
+  },
+  {
+    "city": "Khánh Hòa",
+    "district": "Nha Trang",
+    "ward": "Phước Long"
+  },
+  {
+    "city": "Khánh Hòa",
+    "district": "Nha Trang",
+    "ward": "Vĩnh Nguyên"
+  },
+  {
+    "city": "Khánh Hòa",
+    "district": "Nha Trang",
+    "ward": "Phước Hải"
+  },
+  {
+    "city": "Khánh Hòa",
+    "district": "Nha Trang",
+    "ward": "Vĩnh Hải"
+  },
+  {
+    "city": "Khánh Hòa",
+    "district": "Nha Trang",
+    "ward": "Vĩnh Hòa"
+  },
+  {
+    "city": "Khánh Hòa",
+    "district": "Nha Trang",
+    "ward": "Vĩnh Thọ"
+  },
+  {
+    "city": "Khánh Hòa",
+    "district": "Nha Trang",
+    "ward": "Vĩnh Phước"
+  },
+  {
+    "city": "Khánh Hòa",
+    "district": "Nha Trang",
+    "ward": "Lộc Thọ"
+  },
+  {
+    "city": "Khánh Hòa",
+    "district": "Nha Trang",
+    "ward": "Ngọc Hiệp"
+  },
+  {
+    "city": "Khánh Hòa",
+    "district": "Nha Trang",
+    "ward": "Phước Hòa"
+  },
+  {
+    "city": "Khánh Hòa",
+    "district": "Nha Trang",
+    "ward": "Phước Đồng"
+  },
+  {
+    "city": "Khánh Hòa",
+    "district": "Nha Trang",
+    "ward": "Vĩnh Trường"
+  },
+  {
+    "city": "Khánh Hòa",
+    "district": "Nha Trang",
+    "ward": "Vĩnh Phương"
+  },
+  {
+    "city": "Khánh Hòa",
+    "district": "Nha Trang",
+    "ward": "Vĩnh Trung"
+  },
+  {
+    "city": "Khánh Hòa",
+    "district": "Cam Ranh",
+    "ward": "Cam Nghĩa"
+  },
+  {
+    "city": "Khánh Hòa",
+    "district": "Cam Ranh",
+    "ward": "Cam Thành Nam"
+  },
+  {
+    "city": "Khánh Hòa",
+    "district": "Cam Ranh",
+    "ward": "Cam Phúc Nam"
+  },
+  {
+    "city": "Khánh Hòa",
+    "district": "Cam Ranh",
+    "ward": "Cam Phúc Bắc"
+  },
+  {
+    "city": "Khánh Hòa",
+    "district": "Ninh Hòa",
+    "ward": "Ninh Thủy"
+  },
+  {
+    "city": "Khánh Hòa",
+    "district": "Ninh Hòa",
+    "ward": "Ninh Tân"
+  },
+  {
+    "city": "Khánh Hòa",
+    "district": "Ninh Hòa",
+    "ward": "Ninh Xuân"
+  },
+  {
+    "city": "Khánh Hòa",
+    "district": "Ninh Hòa",
+    "ward": "Ninh Hải"
+  },
+  {
+    "city": "Khánh Hòa",
+    "district": "Ninh Hòa",
+    "ward": "Ninh Diêm"
+  },
+  {
+    "city": "Khánh Hòa",
+    "district": "Ninh Hòa",
+    "ward": "Ninh Phụng"
+  },
+  {
+    "city": "Khánh Hòa",
+    "district": "Ninh Hòa",
+    "ward": "Ninh Hiệp"
+  },
+  {
+    "city": "Khánh Hòa",
+    "district": "Ninh Hòa",
+    "ward": "Ninh Lộc"
+  },
+  {
+    "city": "Khánh Hòa",
+    "district": "Ninh Hòa",
+    "ward": "Ninh Quang"
+  },
+  {
+    "city": "Khánh Hòa",
+    "district": "Ninh Hòa",
+    "ward": "Ninh Hà"
+  },
+  {
+    "city": "Khánh Hòa",
+    "district": "Ninh Hòa",
+    "ward": "Ninh Thọ"
+  },
+  {
+    "city": "Khánh Hòa",
+    "district": "Diên Khánh",
+    "ward": "Diên An"
+  },
+  {
+    "city": "Khánh Hòa",
+    "district": "Diên Khánh",
+    "ward": "Suối Hiệp"
+  },
+  {
+    "city": "Khánh Hòa",
+    "district": "Diên Khánh",
+    "ward": "Suối Tiên"
+  },
+  {
+    "city": "Khánh Hòa",
+    "district": "Diên Khánh",
+    "ward": "Diên Sơn"
+  },
+  {
+    "city": "Khánh Hòa",
+    "district": "Diên Khánh",
+    "ward": "Diên Hòa"
+  },
+  {
+    "city": "Khánh Hòa",
+    "district": "Diên Khánh",
+    "ward": "Diên Điền"
+  },
+  {
+    "city": "Khánh Hòa",
+    "district": "Diên Khánh",
+    "ward": "Diên Toàn"
+  },
+  {
+    "city": "Khánh Hòa",
+    "district": "Diên Khánh",
+    "ward": "Diên Phú"
+  },
+  {
+    "city": "Khánh Hòa",
+    "district": "Diên Khánh",
+    "ward": "Diên Khánh"
+  },
+  {
+    "city": "Khánh Hòa",
+    "district": "Diên Khánh",
+    "ward": "Diên Thạnh"
+  },
+  {
+    "city": "Khánh Hòa",
+    "district": "Diên Khánh",
+    "ward": "Diên Lạc"
+  },
+  {
+    "city": "Khánh Hòa",
+    "district": "Diên Khánh",
+    "ward": "Diên Lâm"
+  },
+  {
+    "city": "Khánh Hòa",
+    "district": "Cam Lâm",
+    "ward": "Cam Hải Đông"
+  },
+  {
+    "city": "Khánh Hòa",
+    "district": "Cam Lâm",
+    "ward": "Cam Hiệp Bắc"
+  },
+  {
+    "city": "Khánh Hòa",
+    "district": "Cam Lâm",
+    "ward": "Cam Hòa"
+  },
+  {
+    "city": "Khánh Hòa",
+    "district": "Cam Lâm",
+    "ward": "Suối Cát"
+  },
+  {
+    "city": "Khánh Hòa",
+    "district": "Cam Lâm",
+    "ward": "Cam Tân"
+  },
+  {
+    "city": "Khánh Hòa",
+    "district": "Cam Lâm",
+    "ward": "Suối Tân"
+  },
+  {
+    "city": "Khánh Hòa",
+    "district": "Vạn Ninh",
+    "ward": "Vạn Lương"
+  },
+  {
+    "city": "Khánh Hòa",
+    "district": "Vạn Ninh",
+    "ward": "Vạn Thắng"
+  },
+  {
+    "city": "Khánh Hòa",
+    "district": "Vạn Ninh",
+    "ward": "Vạn Giã"
+  },
+  {
+    "city": "Khánh Hòa",
+    "district": "Vạn Ninh",
+    "ward": "Vạn Phước"
+  },
+  {
+    "city": "Đà Nẵng",
+    "district": "Ngũ Hành Sơn",
+    "ward": "Khuê Mỹ"
+  },
+  {
+    "city": "Đà Nẵng",
+    "district": "Ngũ Hành Sơn",
+    "ward": "Mỹ An"
+  },
+  {
+    "city": "Đà Nẵng",
+    "district": "Ngũ Hành Sơn",
+    "ward": "Hoà Hải"
+  },
+  {
+    "city": "Đà Nẵng",
+    "district": "Ngũ Hành Sơn",
+    "ward": "Hoà Quý"
+  },
+  {
+    "city": "Đà Nẵng",
+    "district": "Thanh Khê",
+    "ward": "Thanh Khê Tây"
+  },
+  {
+    "city": "Đà Nẵng",
+    "district": "Thanh Khê",
+    "ward": "An Khê"
+  },
+  {
+    "city": "Đà Nẵng",
+    "district": "Hải Châu",
+    "ward": "Hòa Cường Bắc"
+  },
+  {
+    "city": "Đà Nẵng",
+    "district": "Hải Châu",
+    "ward": "Hòa Thuận Tây"
+  },
+  {
+    "city": "Đà Nẵng",
+    "district": "Hải Châu",
+    "ward": "Hòa Cường Nam"
+  },
+  {
+    "city": "Đà Nẵng",
+    "district": "Hải Châu",
+    "ward": "Thuận Phước"
+  },
+  {
+    "city": "Đà Nẵng",
+    "district": "Hải Châu",
+    "ward": "Thạch Thang"
+  },
+  {
+    "city": "Đà Nẵng",
+    "district": "Hải Châu",
+    "ward": "Thanh Bình"
+  },
+  {
+    "city": "Đà Nẵng",
+    "district": "Cẩm Lệ",
+    "ward": "Hòa Phát"
+  },
+  {
+    "city": "Đà Nẵng",
+    "district": "Cẩm Lệ",
+    "ward": "Hòa An"
+  },
+  {
+    "city": "Đà Nẵng",
+    "district": "Cẩm Lệ",
+    "ward": "Khuê Trung"
+  },
+  {
+    "city": "Đà Nẵng",
+    "district": "Cẩm Lệ",
+    "ward": "Hòa Thọ Đông"
+  },
+  {
+    "city": "Đà Nẵng",
+    "district": "Cẩm Lệ",
+    "ward": "Hòa Xuân"
+  },
+  {
+    "city": "Đà Nẵng",
+    "district": "Cẩm Lệ",
+    "ward": "Hòa Thọ Tây"
+  },
+  {
+    "city": "Đà Nẵng",
+    "district": "Liên Chiểu",
+    "ward": "Hòa Minh"
+  },
+  {
+    "city": "Đà Nẵng",
+    "district": "Liên Chiểu",
+    "ward": "Hòa Hiệp Nam"
+  },
+  {
+    "city": "Đà Nẵng",
+    "district": "Liên Chiểu",
+    "ward": "Hòa Khánh Nam"
+  },
+  {
+    "city": "Đà Nẵng",
+    "district": "Liên Chiểu",
+    "ward": "Hòa Khánh Bắc"
+  },
+  {
+    "city": "Đà Nẵng",
+    "district": "Liên Chiểu",
+    "ward": "Hòa Hiệp Bắc"
+  },
+  {
+    "city": "Đà Nẵng",
+    "district": "Sơn Trà",
+    "ward": "Nại Hiên Đông"
+  },
+  {
+    "city": "Đà Nẵng",
+    "district": "Sơn Trà",
+    "ward": "An Hải Bắc"
+  },
+  {
+    "city": "Đà Nẵng",
+    "district": "Sơn Trà",
+    "ward": "Thọ Quang"
+  },
+  {
+    "city": "Đà Nẵng",
+    "district": "Sơn Trà",
+    "ward": "Phước Mỹ"
+  },
+  {
+    "city": "Đà Nẵng",
+    "district": "Sơn Trà",
+    "ward": "Mân Thái"
+  },
+  {
+    "city": "Đà Nẵng",
+    "district": "Hòa Vang",
+    "ward": "Hòa Châu"
+  },
+  {
+    "city": "Đà Nẵng",
+    "district": "Hòa Vang",
+    "ward": "Hòa Tiến"
+  },
+  {
+    "city": "Đà Nẵng",
+    "district": "Hòa Vang",
+    "ward": "Hòa Phước"
+  },
+  {
+    "city": "Đà Nẵng",
+    "district": "Hòa Vang",
+    "ward": "Hòa Sơn"
+  },
+  {
+    "city": "Đà Nẵng",
+    "district": "Hòa Vang",
+    "ward": "Hòa Bắc"
+  },
+  {
+    "city": "Đà Nẵng",
+    "district": "Hòa Vang",
+    "ward": "Hòa Ninh"
+  },
+  {
+    "city": "Đà Nẵng",
+    "district": "Hòa Vang",
+    "ward": "Hòa Nhơn"
+  },
+  {
+    "city": "Thái Nguyên",
+    "district": "Phổ Yên",
+    "ward": "Đồng Tiến"
+  },
+  {
+    "city": "Thái Nguyên",
+    "district": "Phổ Yên",
+    "ward": "Hồng Tiến"
+  },
+  {
+    "city": "Thái Nguyên",
+    "district": "Thái Nguyên",
+    "ward": "Cao Ngạn"
+  },
+  {
+    "city": "Thái Nguyên",
+    "district": "Thái Nguyên",
+    "ward": "Gia Sàng"
+  },
+  {
+    "city": "Thái Nguyên",
+    "district": "Thái Nguyên",
+    "ward": "Hoàng Văn Thụ"
+  },
+  {
+    "city": "Thái Nguyên",
+    "district": "Thái Nguyên",
+    "ward": "Thịnh Đán"
+  },
+  {
+    "city": "Thái Nguyên",
+    "district": "Sông Công",
+    "ward": "Mỏ Chè"
+  },
+  {
+    "city": "Hải Phòng",
+    "district": "Kiến An",
+    "ward": "Nam Sơn"
+  },
+  {
+    "city": "Hải Phòng",
+    "district": "Kiến An",
+    "ward": "Trần Thành Ngọ"
+  },
+  {
+    "city": "Hải Phòng",
+    "district": "Kiến An",
+    "ward": "Ngọc Sơn"
+  },
+  {
+    "city": "Hải Phòng",
+    "district": "Kiến An",
+    "ward": "Bắc Sơn"
+  },
+  {
+    "city": "Hải Phòng",
+    "district": "Kiến An",
+    "ward": "Văn Đẩu"
+  },
+  {
+    "city": "Hải Phòng",
+    "district": "Hồng Bàng",
+    "ward": "Minh Khai"
+  },
+  {
+    "city": "Hải Phòng",
+    "district": "Hồng Bàng",
+    "ward": "Hùng Vương"
+  },
+  {
+    "city": "Hải Phòng",
+    "district": "Hồng Bàng",
+    "ward": "Quán Toan"
+  },
+  {
+    "city": "Hải Phòng",
+    "district": "Hồng Bàng",
+    "ward": "Sở Dầu"
+  },
+  {
+    "city": "Hải Phòng",
+    "district": "Hồng Bàng",
+    "ward": "Hoàng Văn Thụ"
+  },
+  {
+    "city": "Hải Phòng",
+    "district": "Hồng Bàng",
+    "ward": "Phan Bội Châu"
+  },
+  {
+    "city": "Hải Phòng",
+    "district": "Ngô Quyền",
+    "ward": "Đằng Giang"
+  },
+  {
+    "city": "Hải Phòng",
+    "district": "Ngô Quyền",
+    "ward": "Đông Khê"
+  },
+  {
+    "city": "Hải Phòng",
+    "district": "Ngô Quyền",
+    "ward": "Vạn Mỹ"
+  },
+  {
+    "city": "Hải Phòng",
+    "district": "Ngô Quyền",
+    "ward": "Cầu Đất"
+  },
+  {
+    "city": "Hải Phòng",
+    "district": "Ngô Quyền",
+    "ward": "Cầu Tre"
+  },
+  {
+    "city": "Hải Phòng",
+    "district": "Ngô Quyền",
+    "ward": "Máy Chai"
+  },
+  {
+    "city": "Hải Phòng",
+    "district": "Lê Chân",
+    "ward": "Vĩnh Niệm"
+  },
+  {
+    "city": "Hải Phòng",
+    "district": "Lê Chân",
+    "ward": "Kênh Dương"
+  },
+  {
+    "city": "Hải Phòng",
+    "district": "Lê Chân",
+    "ward": "Dư Hàng Kênh"
+  },
+  {
+    "city": "Hải Phòng",
+    "district": "Hải An",
+    "ward": "Đằng Hải"
+  },
+  {
+    "city": "Hải Phòng",
+    "district": "Hải An",
+    "ward": "Đằng Lâm"
+  },
+  {
+    "city": "Hải Phòng",
+    "district": "Hải An",
+    "ward": "Đông Hải 1"
+  },
+  {
+    "city": "Hải Phòng",
+    "district": "Hải An",
+    "ward": "Thành Tô"
+  },
+  {
+    "city": "Hải Phòng",
+    "district": "Hải An",
+    "ward": "Đông Hải 2"
+  },
+  {
+    "city": "Hải Phòng",
+    "district": "Hải An",
+    "ward": "Nam Hải"
+  },
+  {
+    "city": "Hải Phòng",
+    "district": "Hải An",
+    "ward": "Cát Bi"
+  },
+  {
+    "city": "Hải Phòng",
+    "district": "Hải An",
+    "ward": "Tràng Cát"
+  },
+  {
+    "city": "Hải Phòng",
+    "district": "Đồ Sơn",
+    "ward": "Bàng La"
+  },
+  {
+    "city": "Hải Phòng",
+    "district": "Đồ Sơn",
+    "ward": "Hợp Đức"
+  },
+  {
+    "city": "Hải Phòng",
+    "district": "Đồ Sơn",
+    "ward": "Ngọc Xuyên"
+  },
+  {
+    "city": "Hải Phòng",
+    "district": "Đồ Sơn",
+    "ward": "Minh Đức"
+  },
+  {
+    "city": "Hải Phòng",
+    "district": "Đồ Sơn",
+    "ward": "Hải Sơn"
+  },
+  {
+    "city": "Hải Phòng",
+    "district": "An Lão",
+    "ward": "Mỹ Đức"
+  },
+  {
+    "city": "Hải Phòng",
+    "district": "Dương Kinh",
+    "ward": "Hưng Đạo"
+  },
+  {
+    "city": "Hải Phòng",
+    "district": "Dương Kinh",
+    "ward": "Hải Thành"
+  },
+  {
+    "city": "Hải Phòng",
+    "district": "Dương Kinh",
+    "ward": "Hoà Nghĩa"
+  },
+  {
+    "city": "Hải Phòng",
+    "district": "Dương Kinh",
+    "ward": "Anh Dũng"
+  },
+  {
+    "city": "Hải Phòng",
+    "district": "Vĩnh Bảo",
+    "ward": "Vĩnh An"
+  },
+  {
+    "city": "Hải Phòng",
+    "district": "Kiến Thuỵ",
+    "ward": "Hữu Bằng"
+  },
+  {
+    "city": "Hải Phòng",
+    "district": "Kiến Thuỵ",
+    "ward": "Đoàn Xá"
+  },
+  {
+    "city": "Hải Phòng",
+    "district": "Kiến Thuỵ",
+    "ward": "Tân Phong"
+  },
+  {
+    "city": "Quảng Trị",
+    "district": "Đông Hà",
+    "ward": "Đông Giang"
+  },
+  {
+    "city": "Quảng Trị",
+    "district": "Đông Hà",
+    "ward": "Đông Lương"
+  },
+  {
+    "city": "Quảng Trị",
+    "district": "Đông Hà",
+    "ward": "Đông Lễ"
+  },
+  {
+    "city": "Quảng Trị",
+    "district": "Đông Hà",
+    "ward": "Phường 1"
+  },
+  {
+    "city": "Đồng Nai",
+    "district": "Trảng Bom",
+    "ward": "Bình Minh"
+  },
+  {
+    "city": "Đồng Nai",
+    "district": "Trảng Bom",
+    "ward": "Trảng Bom"
+  },
+  {
+    "city": "Đồng Nai",
+    "district": "Trảng Bom",
+    "ward": "Đông Hoà"
+  },
+  {
+    "city": "Đồng Nai",
+    "district": "Trảng Bom",
+    "ward": "Hố Nai 3"
+  },
+  {
+    "city": "Đồng Nai",
+    "district": "Trảng Bom",
+    "ward": "An Viễn"
+  },
+  {
+    "city": "Đồng Nai",
+    "district": "Trảng Bom",
+    "ward": "Giang Điền"
+  },
+  {
+    "city": "Đồng Nai",
+    "district": "Trảng Bom",
+    "ward": "Hưng Thịnh"
+  },
+  {
+    "city": "Đồng Nai",
+    "district": "Trảng Bom",
+    "ward": "Sông Trầu"
+  },
+  {
+    "city": "Đồng Nai",
+    "district": "Biên Hòa",
+    "ward": "Bửu Long"
+  },
+  {
+    "city": "Đồng Nai",
+    "district": "Biên Hòa",
+    "ward": "Long Hưng"
+  },
+  {
+    "city": "Đồng Nai",
+    "district": "Biên Hòa",
+    "ward": "Thống Nhất"
+  },
+  {
+    "city": "Đồng Nai",
+    "district": "Biên Hòa",
+    "ward": "Hóa An"
+  },
+  {
+    "city": "Đồng Nai",
+    "district": "Biên Hòa",
+    "ward": "Long Bình Tân"
+  },
+  {
+    "city": "Đồng Nai",
+    "district": "Biên Hòa",
+    "ward": "Tân Hòa"
+  },
+  {
+    "city": "Đồng Nai",
+    "district": "Biên Hòa",
+    "ward": "Bửu Hòa"
+  },
+  {
+    "city": "Đồng Nai",
+    "district": "Biên Hòa",
+    "ward": "Tân Vạn"
+  },
+  {
+    "city": "Đồng Nai",
+    "district": "Biên Hòa",
+    "ward": "Trảng Dài"
+  },
+  {
+    "city": "Đồng Nai",
+    "district": "Biên Hòa",
+    "ward": "Hố Nai"
+  },
+  {
+    "city": "Đồng Nai",
+    "district": "Biên Hòa",
+    "ward": "An Hòa"
+  },
+  {
+    "city": "Đồng Nai",
+    "district": "Biên Hòa",
+    "ward": "Tân Phong"
+  },
+  {
+    "city": "Đồng Nai",
+    "district": "Biên Hòa",
+    "ward": "An Bình"
+  },
+  {
+    "city": "Đồng Nai",
+    "district": "Biên Hòa",
+    "ward": "Tân Biên"
+  },
+  {
+    "city": "Đồng Nai",
+    "district": "Biên Hòa",
+    "ward": "Tân Hiệp"
+  },
+  {
+    "city": "Đồng Nai",
+    "district": "Biên Hòa",
+    "ward": "Tam Hiệp"
+  },
+  {
+    "city": "Đồng Nai",
+    "district": "Biên Hòa",
+    "ward": "Phước Tân"
+  },
+  {
+    "city": "Đồng Nai",
+    "district": "Biên Hòa",
+    "ward": "Tam Phước"
+  },
+  {
+    "city": "Đồng Nai",
+    "district": "Biên Hòa",
+    "ward": "Long Bình"
+  },
+  {
+    "city": "Đồng Nai",
+    "district": "Biên Hòa",
+    "ward": "Hiệp Hòa"
+  },
+  {
+    "city": "Đồng Nai",
+    "district": "Biên Hòa",
+    "ward": "Tân Hạnh"
+  },
+  {
+    "city": "Đồng Nai",
+    "district": "Nhơn Trạch",
+    "ward": "Vĩnh Thanh"
+  },
+  {
+    "city": "Đồng Nai",
+    "district": "Nhơn Trạch",
+    "ward": "Phú Thạnh"
+  },
+  {
+    "city": "Đồng Nai",
+    "district": "Nhơn Trạch",
+    "ward": "Đại Phước"
+  },
+  {
+    "city": "Đồng Nai",
+    "district": "Nhơn Trạch",
+    "ward": "Hiệp Phước"
+  },
+  {
+    "city": "Đồng Nai",
+    "district": "Nhơn Trạch",
+    "ward": "Phú Đông"
+  },
+  {
+    "city": "Đồng Nai",
+    "district": "Nhơn Trạch",
+    "ward": "Long Thọ"
+  },
+  {
+    "city": "Đồng Nai",
+    "district": "Nhơn Trạch",
+    "ward": "Phước An"
+  },
+  {
+    "city": "Đồng Nai",
+    "district": "Nhơn Trạch",
+    "ward": "Phú Hữu"
+  },
+  {
+    "city": "Đồng Nai",
+    "district": "Long Thành",
+    "ward": "An Phước"
+  },
+  {
+    "city": "Đồng Nai",
+    "district": "Long Thành",
+    "ward": "Long An"
+  },
+  {
+    "city": "Đồng Nai",
+    "district": "Long Thành",
+    "ward": "Long Đức"
+  },
+  {
+    "city": "Đồng Nai",
+    "district": "Long Thành",
+    "ward": "Long Thành"
+  },
+  {
+    "city": "Đồng Nai",
+    "district": "Long Thành",
+    "ward": "Bình Sơn"
+  },
+  {
+    "city": "Đồng Nai",
+    "district": "Long Thành",
+    "ward": "Phước Thái"
+  },
+  {
+    "city": "Đồng Nai",
+    "district": "Long Thành",
+    "ward": "Bàu Cạn"
+  },
+  {
+    "city": "Đồng Nai",
+    "district": "Long Thành",
+    "ward": "Tam An"
+  },
+  {
+    "city": "Đồng Nai",
+    "district": "Long Thành",
+    "ward": "Lộc An"
+  },
+  {
+    "city": "Đồng Nai",
+    "district": "Long Thành",
+    "ward": "Phước Bình"
+  },
+  {
+    "city": "Đồng Nai",
+    "district": "Vĩnh Cửu",
+    "ward": "Tân An"
+  },
+  {
+    "city": "Đồng Nai",
+    "district": "Vĩnh Cửu",
+    "ward": "Thạnh Phú"
+  },
+  {
+    "city": "Đồng Nai",
+    "district": "Vĩnh Cửu",
+    "ward": "Bình Lợi"
+  },
+  {
+    "city": "Đồng Nai",
+    "district": "Vĩnh Cửu",
+    "ward": "Thiện Tân"
+  },
+  {
+    "city": "Đồng Nai",
+    "district": "Vĩnh Cửu",
+    "ward": "Mã Đà"
+  },
+  {
+    "city": "Đồng Nai",
+    "district": "Long Khánh",
+    "ward": "Bình Lộc"
+  },
+  {
+    "city": "Đồng Nai",
+    "district": "Long Khánh",
+    "ward": "Bàu Trâm"
+  },
+  {
+    "city": "Đồng Nai",
+    "district": "Long Khánh",
+    "ward": "Xuân Tân"
+  },
+  {
+    "city": "Đồng Nai",
+    "district": "Long Khánh",
+    "ward": "Xuân Bình"
+  },
+  {
+    "city": "Đồng Nai",
+    "district": "Long Khánh",
+    "ward": "Bảo Vinh"
+  },
+  {
+    "city": "Đồng Nai",
+    "district": "Xuân Lộc",
+    "ward": "Gia Ray"
+  },
+  {
+    "city": "Đồng Nai",
+    "district": "Thống Nhất",
+    "ward": "Quang Trung"
+  },
+  {
+    "city": "Đồng Nai",
+    "district": "Thống Nhất",
+    "ward": "Lộ 25"
+  },
+  {
+    "city": "Đồng Nai",
+    "district": "Thống Nhất",
+    "ward": "Xuân Thiện"
+  },
+  {
+    "city": "Đồng Nai",
+    "district": "Thống Nhất",
+    "ward": "Gia Tân 3"
+  },
+  {
+    "city": "Đồng Nai",
+    "district": "Định Quán",
+    "ward": "Túc Trưng"
+  },
+  {
+    "city": "Đồng Nai",
+    "district": "Định Quán",
+    "ward": "Phú Túc"
+  },
+  {
+    "city": "Tuyên Quang",
+    "district": "Sơn Dương",
+    "ward": "Tân Trào"
+  },
+  {
+    "city": "Ninh Thuận",
+    "district": "Phan Rang-Tháp Chàm",
+    "ward": "Đô Vinh"
+  },
+  {
+    "city": "Ninh Thuận",
+    "district": "Phan Rang-Tháp Chàm",
+    "ward": "Đông Hải"
+  },
+  {
+    "city": "Ninh Thuận",
+    "district": "Phan Rang-Tháp Chàm",
+    "ward": "Đài Sơn"
+  },
+  {
+    "city": "Ninh Thuận",
+    "district": "Phan Rang-Tháp Chàm",
+    "ward": "Mỹ Đông"
+  },
+  {
+    "city": "Ninh Thuận",
+    "district": "Phan Rang-Tháp Chàm",
+    "ward": "Mỹ Bình"
+  },
+  {
+    "city": "Ninh Thuận",
+    "district": "Phan Rang-Tháp Chàm",
+    "ward": "Đạo Long"
+  },
+  {
+    "city": "Ninh Thuận",
+    "district": "Phan Rang-Tháp Chàm",
+    "ward": "Mỹ Hải"
+  },
+  {
+    "city": "Ninh Thuận",
+    "district": "Ninh Hải",
+    "ward": "Khánh Hải"
+  },
+  {
+    "city": "Ninh Thuận",
+    "district": "Thuận Nam",
+    "ward": "Cà Ná"
+  },
+  {
+    "city": "Nghệ An",
+    "district": "Vinh",
+    "ward": "Trung Đô"
+  },
+  {
+    "city": "Nghệ An",
+    "district": "Vinh",
+    "ward": "Hưng Hòa"
+  },
+  {
+    "city": "Nghệ An",
+    "district": "Vinh",
+    "ward": "Cửa Nam"
+  },
+  {
+    "city": "Nghệ An",
+    "district": "Vinh",
+    "ward": "Nghi Ân"
+  },
+  {
+    "city": "Nghệ An",
+    "district": "Thái Hoà",
+    "ward": "Long Sơn"
+  },
+  {
+    "city": "Cần Thơ",
+    "district": "Cái Răng",
+    "ward": "Hưng Thạnh"
+  },
+  {
+    "city": "Cần Thơ",
+    "district": "Cái Răng",
+    "ward": "Phú Thứ"
+  },
+  {
+    "city": "Cần Thơ",
+    "district": "Cái Răng",
+    "ward": "Thường Thạnh"
+  },
+  {
+    "city": "Cần Thơ",
+    "district": "Cái Răng",
+    "ward": "Hưng Phú"
+  },
+  {
+    "city": "Cần Thơ",
+    "district": "Cái Răng",
+    "ward": "Lê Bình"
+  },
+  {
+    "city": "Cần Thơ",
+    "district": "Ninh Kiều",
+    "ward": "Tân An"
+  },
+  {
+    "city": "Cần Thơ",
+    "district": "Ninh Kiều",
+    "ward": "Hưng Lợi"
+  },
+  {
+    "city": "Cần Thơ",
+    "district": "Ninh Kiều",
+    "ward": "Xuân Khánh"
+  },
+  {
+    "city": "Cần Thơ",
+    "district": "Ninh Kiều",
+    "ward": "An Khánh"
+  },
+  {
+    "city": "Cần Thơ",
+    "district": "Ninh Kiều",
+    "ward": "An Bình"
+  },
+  {
+    "city": "Cần Thơ",
+    "district": "Ninh Kiều",
+    "ward": "An Hòa"
+  },
+  {
+    "city": "Cần Thơ",
+    "district": "Ninh Kiều",
+    "ward": "Cái Khế"
+  },
+  {
+    "city": "Cần Thơ",
+    "district": "Bình Thuỷ",
+    "ward": "Bùi Hữu Nghĩa"
+  },
+  {
+    "city": "Cần Thơ",
+    "district": "Bình Thuỷ",
+    "ward": "Long Tuyền"
+  },
+  {
+    "city": "Cần Thơ",
+    "district": "Bình Thuỷ",
+    "ward": "Long Hòa"
+  },
+  {
+    "city": "Cần Thơ",
+    "district": "Bình Thuỷ",
+    "ward": "Trà An"
+  },
+  {
+    "city": "Cần Thơ",
+    "district": "Bình Thuỷ",
+    "ward": "Bình Thủy"
+  },
+  {
+    "city": "Cần Thơ",
+    "district": "Bình Thuỷ",
+    "ward": "An Thới"
+  },
+  {
+    "city": "Cần Thơ",
+    "district": "Phong Điền",
+    "ward": "Mỹ Khánh"
+  },
+  {
+    "city": "Thái Bình",
+    "district": "Thái Bình",
+    "ward": "Kỳ Bá"
+  },
+  {
+    "city": "Thái Bình",
+    "district": "Thái Bình",
+    "ward": "Trần Lãm"
+  },
+  {
+    "city": "Thái Bình",
+    "district": "Thái Bình",
+    "ward": "Tiền Phong"
+  },
+  {
+    "city": "Thái Bình",
+    "district": "Thái Bình",
+    "ward": "Quang Trung"
+  },
+  {
+    "city": "Thái Bình",
+    "district": "Thái Bình",
+    "ward": "Lê Hồng Phong"
+  },
+  {
+    "city": "Thái Bình",
+    "district": "Thái Bình",
+    "ward": "Đề Thám"
+  },
+  {
+    "city": "Thái Bình",
+    "district": "Thái Bình",
+    "ward": "Phú Xuân"
+  },
+  {
+    "city": "Thái Bình",
+    "district": "Thái Bình",
+    "ward": "Đông Thọ"
+  },
+  {
+    "city": "Thái Bình",
+    "district": "Thái Bình",
+    "ward": "Trần Hưng Đạo"
+  },
+  {
+    "city": "Thái Bình",
+    "district": "Đông Hưng",
+    "ward": "Đông La"
+  },
+  {
+    "city": "Bắc Giang",
+    "district": "Việt Yên",
+    "ward": "Nếnh"
+  },
+  {
+    "city": "Bắc Giang",
+    "district": "Việt Yên",
+    "ward": "Hương Mai"
+  },
+  {
+    "city": "Bắc Giang",
+    "district": "Lạng Giang",
+    "ward": "Thái Đào"
+  },
+  {
+    "city": "Bắc Giang",
+    "district": "Lạng Giang",
+    "ward": "Vôi"
+  },
+  {
+    "city": "Bắc Giang",
+    "district": "Lạng Giang",
+    "ward": "Đại Lâm"
+  },
+  {
+    "city": "Bắc Giang",
+    "district": "Bắc Giang",
+    "ward": "Mỹ Độ"
+  },
+  {
+    "city": "Bắc Giang",
+    "district": "Bắc Giang",
+    "ward": "Xương Giang"
+  },
+  {
+    "city": "Bắc Giang",
+    "district": "Hiệp Hòa",
+    "ward": "Thắng"
+  },
+  {
+    "city": "Bắc Giang",
+    "district": "Lục Ngạn",
+    "ward": "Tân Hoa"
+  },
+  {
+    "city": "Lâm Đồng",
+    "district": "Đà Lạt",
+    "ward": "Phường 9"
+  },
+  {
+    "city": "Lâm Đồng",
+    "district": "Đà Lạt",
+    "ward": "Phường 3"
+  },
+  {
+    "city": "Lâm Đồng",
+    "district": "Đà Lạt",
+    "ward": "Phường 12"
+  },
+  {
+    "city": "Lâm Đồng",
+    "district": "Đà Lạt",
+    "ward": "Phường 8"
+  },
+  {
+    "city": "Lâm Đồng",
+    "district": "Đà Lạt",
+    "ward": "Phường 7"
+  },
+  {
+    "city": "Lâm Đồng",
+    "district": "Đà Lạt",
+    "ward": "Phường 2"
+  },
+  {
+    "city": "Lâm Đồng",
+    "district": "Đà Lạt",
+    "ward": "Phường 10"
+  },
+  {
+    "city": "Lâm Đồng",
+    "district": "Đà Lạt",
+    "ward": "Phường 4"
+  },
+  {
+    "city": "Lâm Đồng",
+    "district": "Đà Lạt",
+    "ward": "Phường 6"
+  },
+  {
+    "city": "Lâm Đồng",
+    "district": "Đà Lạt",
+    "ward": "Phường 1"
+  },
+  {
+    "city": "Lâm Đồng",
+    "district": "Đà Lạt",
+    "ward": "Trạm Hành"
+  },
+  {
+    "city": "Lâm Đồng",
+    "district": "Đà Lạt",
+    "ward": "Phường 11"
+  },
+  {
+    "city": "Lâm Đồng",
+    "district": "Đà Lạt",
+    "ward": "Phường 5"
+  },
+  {
+    "city": "Lâm Đồng",
+    "district": "Bảo Lâm",
+    "ward": "Lộc Ngãi"
+  },
+  {
+    "city": "Lâm Đồng",
+    "district": "Bảo Lâm",
+    "ward": "Lộc Quảng"
+  },
+  {
+    "city": "Lâm Đồng",
+    "district": "Bảo Lâm",
+    "ward": "Lộc Thắng"
+  },
+  {
+    "city": "Lâm Đồng",
+    "district": "Bảo Lâm",
+    "ward": "Lộc An"
+  },
+  {
+    "city": "Lâm Đồng",
+    "district": "Đơn Dương",
+    "ward": "D'Ran"
+  },
+  {
+    "city": "Lâm Đồng",
+    "district": "Đơn Dương",
+    "ward": "Thạnh Mỹ"
+  },
+  {
+    "city": "Lâm Đồng",
+    "district": "Đơn Dương",
+    "ward": "Đạ Ròn"
+  },
+  {
+    "city": "Lâm Đồng",
+    "district": "Đơn Dương",
+    "ward": "Ka Đô"
+  },
+  {
+    "city": "Lâm Đồng",
+    "district": "Di Linh",
+    "ward": "Gia Hiệp"
+  },
+  {
+    "city": "Lâm Đồng",
+    "district": "Di Linh",
+    "ward": "Di Linh"
+  },
+  {
+    "city": "Lâm Đồng",
+    "district": "Đức Trọng",
+    "ward": "Hiệp Thạnh"
+  },
+  {
+    "city": "Lâm Đồng",
+    "district": "Đức Trọng",
+    "ward": "Liên Hiệp"
+  },
+  {
+    "city": "Lâm Đồng",
+    "district": "Đức Trọng",
+    "ward": "Liên Nghĩa"
+  },
+  {
+    "city": "Lâm Đồng",
+    "district": "Bảo Lộc",
+    "ward": "Phường 2"
+  },
+  {
+    "city": "Lâm Đồng",
+    "district": "Bảo Lộc",
+    "ward": "Lộc Châu"
+  },
+  {
+    "city": "Lâm Đồng",
+    "district": "Bảo Lộc",
+    "ward": "Đại Lào"
+  },
+  {
+    "city": "Lâm Đồng",
+    "district": "Bảo Lộc",
+    "ward": "Đạm Bri"
+  },
+  {
+    "city": "Lâm Đồng",
+    "district": "Bảo Lộc",
+    "ward": "Phường 1"
+  },
+  {
+    "city": "Lâm Đồng",
+    "district": "Bảo Lộc",
+    "ward": "Lộc Sơn"
+  },
+  {
+    "city": "Lâm Đồng",
+    "district": "Lâm Hà",
+    "ward": "Nam Ban"
+  },
+  {
+    "city": "Lâm Đồng",
+    "district": "Lâm Hà",
+    "ward": "Gia Lâm"
+  },
+  {
+    "city": "Lâm Đồng",
+    "district": "Lâm Hà",
+    "ward": "Hoài Đức"
+  },
+  {
+    "city": "Trà Vinh",
+    "district": "Trà Vinh",
+    "ward": "Phường 4"
+  },
+  {
+    "city": "Trà Vinh",
+    "district": "Trà Vinh",
+    "ward": "Phường 5"
+  },
+  {
+    "city": "Trà Vinh",
+    "district": "Trà Vinh",
+    "ward": "Phường 7"
+  },
+  {
+    "city": "Trà Vinh",
+    "district": "Châu Thành",
+    "ward": "Song Lộc"
+  },
+  {
+    "city": "Bình Phước",
+    "district": "Đồng Xoài",
+    "ward": "Tiến Hưng"
+  },
+  {
+    "city": "Bình Phước",
+    "district": "Bù Đăng",
+    "ward": "Thống Nhất"
+  },
+  {
+    "city": "Bình Phước",
+    "district": "Chơn Thành",
+    "ward": "Minh Hưng"
+  },
+  {
+    "city": "Quảng Nam",
+    "district": "Hội An",
+    "ward": "Cẩm Nam"
+  },
+  {
+    "city": "Quảng Nam",
+    "district": "Hội An",
+    "ward": "Tân An"
+  },
+  {
+    "city": "Quảng Nam",
+    "district": "Hội An",
+    "ward": "Cẩm Phô"
+  },
+  {
+    "city": "Quảng Nam",
+    "district": "Hội An",
+    "ward": "Thanh Hà"
+  },
+  {
+    "city": "Quảng Nam",
+    "district": "Hội An",
+    "ward": "Cẩm Thanh"
+  },
+  {
+    "city": "Quảng Nam",
+    "district": "Hội An",
+    "ward": "Minh An"
+  },
+  {
+    "city": "Quảng Nam",
+    "district": "Hội An",
+    "ward": "Cẩm An"
+  },
+  {
+    "city": "Quảng Nam",
+    "district": "Hội An",
+    "ward": "Cẩm Hà"
+  },
+  {
+    "city": "Quảng Nam",
+    "district": "Hội An",
+    "ward": "Cẩm Châu"
+  },
+  {
+    "city": "Quảng Nam",
+    "district": "Hội An",
+    "ward": "Sơn Phong"
+  },
+  {
+    "city": "Quảng Nam",
+    "district": "Núi Thành",
+    "ward": "Tam Hiệp"
+  },
+  {
+    "city": "Quảng Nam",
+    "district": "Tam Kỳ",
+    "ward": "Tân Thạnh"
+  },
+  {
+    "city": "Quảng Nam",
+    "district": "Tam Kỳ",
+    "ward": "Trường Xuân"
+  },
+  {
+    "city": "Quảng Nam",
+    "district": "Tam Kỳ",
+    "ward": "An Sơn"
+  },
+  {
+    "city": "Quảng Nam",
+    "district": "Tam Kỳ",
+    "ward": "Hòa Hương"
+  },
+  {
+    "city": "Quảng Nam",
+    "district": "Tam Kỳ",
+    "ward": "An Mỹ"
+  },
+  {
+    "city": "Quảng Nam",
+    "district": "Điện Bàn",
+    "ward": "Điện Ngọc"
+  },
+  {
+    "city": "Quảng Nam",
+    "district": "Điện Bàn",
+    "ward": "Điện Dương"
+  },
+  {
+    "city": "Quảng Nam",
+    "district": "Duy Xuyên",
+    "ward": "Duy Nghĩa"
+  },
+  {
+    "city": "Hoà Bình",
+    "district": "Lương Sơn",
+    "ward": "Lâm Sơn"
+  },
+  {
+    "city": "Hoà Bình",
+    "district": "Lương Sơn",
+    "ward": "Tân Vinh"
+  },
+  {
+    "city": "Hoà Bình",
+    "district": "Lương Sơn",
+    "ward": "Cư Yên"
+  },
+  {
+    "city": "Hoà Bình",
+    "district": "Lương Sơn",
+    "ward": "Thanh Cao"
+  },
+  {
+    "city": "Hoà Bình",
+    "district": "Hòa Bình",
+    "ward": "Quỳnh Lâm"
+  },
+  {
+    "city": "Hoà Bình",
+    "district": "Hòa Bình",
+    "ward": "Trung Minh"
+  },
+  {
+    "city": "Hoà Bình",
+    "district": "Hòa Bình",
+    "ward": "Đồng Tiến"
+  },
+  {
+    "city": "Hoà Bình",
+    "district": "Hòa Bình",
+    "ward": "Phương Lâm"
+  },
+  {
+    "city": "Hoà Bình",
+    "district": "Hòa Bình",
+    "ward": "Thống Nhất"
+  },
+  {
+    "city": "Hoà Bình",
+    "district": "Hòa Bình",
+    "ward": "Dân Chủ"
+  },
+  {
+    "city": "Hoà Bình",
+    "district": "Kim Bôi",
+    "ward": "Vĩnh Tiến"
+  },
+  {
+    "city": "Hoà Bình",
+    "district": "Lạc Thủy",
+    "ward": "Phú Nghĩa"
+  },
+  {
+    "city": "Sơn La",
+    "district": "Mộc Châu",
+    "ward": "Chiềng Hắc"
+  },
+  {
+    "city": "Sơn La",
+    "district": "Mộc Châu",
+    "ward": "Chiềng Sơn"
+  },
+  {
+    "city": "Sơn La",
+    "district": "Mai Sơn",
+    "ward": "Hát Lót"
+  },
+  {
+    "city": "Bình Định",
+    "district": "Quy Nhơn",
+    "ward": "Bùi Thị Xuân"
+  },
+  {
+    "city": "Bình Định",
+    "district": "Quy Nhơn",
+    "ward": "Nhơn Bình"
+  },
+  {
+    "city": "Bình Định",
+    "district": "Quy Nhơn",
+    "ward": "Ghềnh Ráng"
+  },
+  {
+    "city": "Bình Định",
+    "district": "Quy Nhơn",
+    "ward": "Đống Đa"
+  },
+  {
+    "city": "Bình Định",
+    "district": "Quy Nhơn",
+    "ward": "Trần Quang Diệu"
+  },
+  {
+    "city": "Bình Định",
+    "district": "Quy Nhơn",
+    "ward": "Ngô Mây"
+  },
+  {
+    "city": "Bình Định",
+    "district": "Quy Nhơn",
+    "ward": "Nhơn Lý"
+  },
+  {
+    "city": "Bình Định",
+    "district": "Quy Nhơn",
+    "ward": "Hải Cảng"
+  },
+  {
+    "city": "Bình Định",
+    "district": "Quy Nhơn",
+    "ward": "Nhơn Phú"
+  },
+  {
+    "city": "Bình Định",
+    "district": "Quy Nhơn",
+    "ward": "Quang Trung"
+  },
+  {
+    "city": "Bình Định",
+    "district": "Phù Cát",
+    "ward": "Cát Tài"
+  },
+  {
+    "city": "Bình Định",
+    "district": "Phù Cát",
+    "ward": "Cát Hanh"
+  },
+  {
+    "city": "Bình Định",
+    "district": "An Nhơn",
+    "ward": "Bình Định"
+  },
+  {
+    "city": "Bình Định",
+    "district": "Hoài Nhơn",
+    "ward": "Hoài Hải"
+  },
+  {
+    "city": "Bình Định",
+    "district": "Hoài Nhơn",
+    "ward": "Bồng Sơn"
+  },
+  {
+    "city": "Bình Định",
+    "district": "Hoài Nhơn",
+    "ward": "Hoài Sơn"
+  },
+  {
+    "city": "Vĩnh Phúc",
+    "district": "Phúc Yên",
+    "ward": "Ngọc Thanh"
+  },
+  {
+    "city": "Vĩnh Phúc",
+    "district": "Phúc Yên",
+    "ward": "Hùng Vương"
+  },
+  {
+    "city": "Vĩnh Phúc",
+    "district": "Phúc Yên",
+    "ward": "Xuân Hoà"
+  },
+  {
+    "city": "Vĩnh Phúc",
+    "district": "Phúc Yên",
+    "ward": "Nam Viêm"
+  },
+  {
+    "city": "Vĩnh Phúc",
+    "district": "Yên Lạc",
+    "ward": "Trung Kiên"
+  },
+  {
+    "city": "Vĩnh Phúc",
+    "district": "Vĩnh Yên",
+    "ward": "Hội Hợp"
+  },
+  {
+    "city": "Vĩnh Phúc",
+    "district": "Vĩnh Yên",
+    "ward": "Định Trung"
+  },
+  {
+    "city": "Vĩnh Phúc",
+    "district": "Vĩnh Yên",
+    "ward": "Liên Bảo"
+  },
+  {
+    "city": "Vĩnh Phúc",
+    "district": "Vĩnh Yên",
+    "ward": "Đồng Tâm"
+  },
+  {
+    "city": "Vĩnh Phúc",
+    "district": "Vĩnh Yên",
+    "ward": "Khai Quang"
+  },
+  {
+    "city": "Vĩnh Phúc",
+    "district": "Vĩnh Yên",
+    "ward": "Đống Đa"
+  },
+  {
+    "city": "Vĩnh Phúc",
+    "district": "Vĩnh Yên",
+    "ward": "Ngô Quyền"
+  },
+  {
+    "city": "Vĩnh Phúc",
+    "district": "Tam Đảo",
+    "ward": "Tam Quan"
+  },
+  {
+    "city": "Vĩnh Phúc",
+    "district": "Bình Xuyên",
+    "ward": "Gia Khánh"
+  },
+  {
+    "city": "Vĩnh Phúc",
+    "district": "Vĩnh Tường",
+    "ward": "Chấn Hưng"
+  },
+  {
+    "city": "Tây Ninh",
+    "district": "Dương Minh Châu",
+    "ward": "Chà Là"
+  },
+  {
+    "city": "Tây Ninh",
+    "district": "Dương Minh Châu",
+    "ward": "Bàu Năng"
+  },
+  {
+    "city": "Tây Ninh",
+    "district": "Gò Dầu",
+    "ward": "Gò Dầu"
+  },
+  {
+    "city": "Tây Ninh",
+    "district": "Gò Dầu",
+    "ward": "Hiệp Thạnh"
+  },
+  {
+    "city": "Tây Ninh",
+    "district": "Gò Dầu",
+    "ward": "Phước Đông"
+  },
+  {
+    "city": "Tây Ninh",
+    "district": "Hòa Thành",
+    "ward": "Long Thành Trung"
+  },
+  {
+    "city": "Tây Ninh",
+    "district": "Hòa Thành",
+    "ward": "Trường Tây"
+  },
+  {
+    "city": "Tây Ninh",
+    "district": "Tây Ninh",
+    "ward": "Phường 4"
+  },
+  {
+    "city": "Tây Ninh",
+    "district": "Tây Ninh",
+    "ward": "Phường 2"
+  },
+  {
+    "city": "Tây Ninh",
+    "district": "Tây Ninh",
+    "ward": "Ninh Thạnh"
+  },
+  {
+    "city": "Tây Ninh",
+    "district": "Tây Ninh",
+    "ward": "Ninh Sơn"
+  },
+  {
+    "city": "Tây Ninh",
+    "district": "Trảng Bàng",
+    "ward": "An Tịnh"
+  },
+  {
+    "city": "Tây Ninh",
+    "district": "Trảng Bàng",
+    "ward": "Trảng Bàng"
+  },
+  {
+    "city": "Tiền Giang",
+    "district": "Mỹ Tho",
+    "ward": "Phường 4"
+  },
+  {
+    "city": "Tiền Giang",
+    "district": "Mỹ Tho",
+    "ward": "Phường 10"
+  },
+  {
+    "city": "Tiền Giang",
+    "district": "Mỹ Tho",
+    "ward": "Mỹ Phong"
+  },
+  {
+    "city": "Tiền Giang",
+    "district": "Mỹ Tho",
+    "ward": "Phường 5"
+  },
+  {
+    "city": "Tiền Giang",
+    "district": "Mỹ Tho",
+    "ward": "Phường 6"
+  },
+  {
+    "city": "Tiền Giang",
+    "district": "Mỹ Tho",
+    "ward": "Tân Mỹ Chánh"
+  },
+  {
+    "city": "Tiền Giang",
+    "district": "Mỹ Tho",
+    "ward": "Đạo Thạnh"
+  },
+  {
+    "city": "Tiền Giang",
+    "district": "Mỹ Tho",
+    "ward": "Trung An"
+  },
+  {
+    "city": "Tiền Giang",
+    "district": "Chợ Gạo",
+    "ward": "Trung Hòa"
+  },
+  {
+    "city": "Tiền Giang",
+    "district": "Chợ Gạo",
+    "ward": "Hòa Tịnh"
+  },
+  {
+    "city": "Tiền Giang",
+    "district": "Châu Thành",
+    "ward": "Long Định"
+  },
+  {
+    "city": "Tiền Giang",
+    "district": "Châu Thành",
+    "ward": "Tân Hương"
+  },
+  {
+    "city": "Tiền Giang",
+    "district": "Châu Thành",
+    "ward": "Thân Cửu Nghĩa"
+  },
+  {
+    "city": "Tiền Giang",
+    "district": "Châu Thành",
+    "ward": "Tân Lý Đông"
+  },
+  {
+    "city": "Tiền Giang",
+    "district": "Châu Thành",
+    "ward": "Tam Hiệp"
+  },
+  {
+    "city": "Tiền Giang",
+    "district": "Cai Lậy",
+    "ward": "Phường 1"
+  },
+  {
+    "city": "Tiền Giang",
+    "district": "Gò Công",
+    "ward": "Phường 2"
+  },
+  {
+    "city": "Hà Tĩnh",
+    "district": "Thạch Hà",
+    "ward": "Thạch Hà"
+  },
+  {
+    "city": "Hà Tĩnh",
+    "district": "Thạch Hà",
+    "ward": "Thạch Xuân"
+  },
+  {
+    "city": "Hà Tĩnh",
+    "district": "Nghi Xuân",
+    "ward": "Xuân Thành"
+  },
+  {
+    "city": "Lạng Sơn",
+    "district": "Lạng Sơn",
+    "ward": "Mai Pha"
+  },
+  {
+    "city": "Lạng Sơn",
+    "district": "Lạng Sơn",
+    "ward": "Đông Kinh"
+  },
+  {
+    "city": "Lạng Sơn",
+    "district": "Lạng Sơn",
+    "ward": "Chi Lăng"
+  },
+  {
+    "city": "Lào Cai",
+    "district": "Sa Pa",
+    "ward": "Phan Si Păng"
+  },
+  {
+    "city": "Lào Cai",
+    "district": "Sa Pa",
+    "ward": "Mường Hoa"
+  },
+  {
+    "city": "Lào Cai",
+    "district": "Sa Pa",
+    "ward": "Sa Pa"
+  },
+  {
+    "city": "Lào Cai",
+    "district": "Sa Pa",
+    "ward": "Tả Phìn"
+  },
+  {
+    "city": "Lào Cai",
+    "district": "Lào Cai",
+    "ward": "Kim Tân"
+  },
+  {
+    "city": "Lào Cai",
+    "district": "Lào Cai",
+    "ward": "Bắc Cường"
+  },
+  {
+    "city": "Lào Cai",
+    "district": "Lào Cai",
+    "ward": "Đồng Tuyển"
+  },
+  {
+    "city": "Điện Biên",
+    "district": "Điện Biên Phủ",
+    "ward": "Mường Thanh"
+  },
+  {
+    "city": "Gia Lai",
+    "district": "Pleiku",
+    "ward": "Trà Bá"
+  },
+  {
+    "city": "Gia Lai",
+    "district": "Pleiku",
+    "ward": "Trà Đa"
+  },
+  {
+    "city": "Gia Lai",
+    "district": "Pleiku",
+    "ward": "Ia Kring"
+  },
+  {
+    "city": "Gia Lai",
+    "district": "Pleiku",
+    "ward": "Thắng Lợi"
+  },
+  {
+    "city": "Gia Lai",
+    "district": "Pleiku",
+    "ward": "Yên Đỗ"
+  },
+  {
+    "city": "Gia Lai",
+    "district": "Ia Grai",
+    "ward": "Ia Dêr"
+  },
+  {
+    "city": "Gia Lai",
+    "district": "Chư Păh",
+    "ward": "Phú Hòa"
+  },
+  {
+    "city": "Phú Yên",
+    "district": "Đông Hòa",
+    "ward": "Hoà Hiệp Trung"
+  },
+  {
+    "city": "Phú Yên",
+    "district": "Đông Hòa",
+    "ward": "Hòa Xuân Nam"
+  },
+  {
+    "city": "Phú Yên",
+    "district": "Đông Hòa",
+    "ward": "Hòa Hiệp Bắc"
+  },
+  {
+    "city": "Phú Yên",
+    "district": "Sông Cầu",
+    "ward": "Xuân Đài"
+  },
+  {
+    "city": "Phú Yên",
+    "district": "Tuy Hoà",
+    "ward": "Bình Kiến"
+  },
+  {
+    "city": "Phú Yên",
+    "district": "Tuy Hoà",
+    "ward": "Phường 9"
+  },
+  {
+    "city": "Phú Yên",
+    "district": "Tuy Hoà",
+    "ward": "Phú Lâm"
+  },
+  {
+    "city": "Phú Yên",
+    "district": "Tuy Hoà",
+    "ward": "Phú Đông"
+  },
+  {
+    "city": "Bến Tre",
+    "district": "Bến Tre",
+    "ward": "Phường 8"
+  },
+  {
+    "city": "Bến Tre",
+    "district": "Bến Tre",
+    "ward": "Bình Phú"
+  },
+  {
+    "city": "Bến Tre",
+    "district": "Bến Tre",
+    "ward": "Phú Khương"
+  },
+  {
+    "city": "Bến Tre",
+    "district": "Châu Thành",
+    "ward": "Tiên Thủy"
+  },
+  {
+    "city": "Bến Tre",
+    "district": "Chợ Lách",
+    "ward": "Long Thới"
+  },
+  {
+    "city": "An Giang",
+    "district": "Long Xuyên",
+    "ward": "Mỹ Phước"
+  },
+  {
+    "city": "An Giang",
+    "district": "Long Xuyên",
+    "ward": "Mỹ Quý"
+  },
+  {
+    "city": "An Giang",
+    "district": "Châu Đốc",
+    "ward": "Vĩnh Mỹ"
+  },
+  {
+    "city": "An Giang",
+    "district": "Tịnh Biên",
+    "ward": "Nhà Bàng"
+  },
+  {
+    "city": "Quảng Ngãi",
+    "district": "Quảng Ngãi",
+    "ward": "Trần Phú"
+  },
+  {
+    "city": "Quảng Ngãi",
+    "district": "Quảng Ngãi",
+    "ward": "Chánh Lộ"
+  },
+  {
+    "city": "Quảng Ngãi",
+    "district": "Quảng Ngãi",
+    "ward": "Nghĩa Lộ"
+  },
+  {
+    "city": "Quảng Ngãi",
+    "district": "Quảng Ngãi",
+    "ward": "Nghĩa Chánh"
+  },
+  {
+    "city": "Quảng Ngãi",
+    "district": "Quảng Ngãi",
+    "ward": "Trương Quang Trọng"
+  },
+  {
+    "city": "Hà Giang",
+    "district": "Hà Giang",
+    "ward": "Minh Khai"
+  },
+  {
+    "city": "Nam Định",
+    "district": "Giao Thủy",
+    "ward": "Quất Lâm"
+  },
+  {
+    "city": "Nam Định",
+    "district": "Nam Định",
+    "ward": "Cửa Nam"
+  },
+  {
+    "city": "Nam Định",
+    "district": "Nam Định",
+    "ward": "Lộc Hòa"
+  },
+  {
+    "city": "Nam Định",
+    "district": "Nam Định",
+    "ward": "Lộc Vượng"
+  },
+  {
+    "city": "Nam Định",
+    "district": "Nam Định",
+    "ward": "Mỹ Xá"
+  },
+  {
+    "city": "Nam Định",
+    "district": "Nghĩa Hưng",
+    "ward": "Nghĩa Hải"
+  },
+  {
+    "city": "Sóc Trăng",
+    "district": "Sóc Trăng",
+    "ward": "Phường 4"
+  },
+  {
+    "city": "Sóc Trăng",
+    "district": "Sóc Trăng",
+    "ward": "Phường 6"
+  },
+  {
+    "city": "Ninh Bình",
+    "district": "Kim Sơn",
+    "ward": "Ân Hòa"
+  },
+  {
+    "city": "Yên Bái",
+    "district": "Yên Bái",
+    "ward": "Nguyễn Thái Học"
+  },
+  {
+    "city": "Yên Bái",
+    "district": "Yên Bái",
+    "ward": "Yên Ninh"
+  },
+  {
+    "city": "Yên Bái",
+    "district": "Nghĩa Lộ",
+    "ward": "Nghĩa Lợi"
+  },
+  {
+    "city": "Cà Mau",
+    "district": "Cà Mau",
+    "ward": "Phường 9"
+  },
+  {
+    "city": "Cà Mau",
+    "district": "Trần Văn Thời",
+    "ward": "Sông Đốc"
+  },
+  {
+    "city": "Bạc Liêu",
+    "district": "Vĩnh Lợi",
+    "ward": "Châu Hưng"
+  },
+  {
+    "city": "Bạc Liêu",
+    "district": "Bạc Liêu",
+    "ward": "Phường 1"
+  },
+  {
+    "city": "Vĩnh Long",
+    "district": "Vĩnh Long",
+    "ward": "Phường 9"
+  },
+  {
+    "city": "Vĩnh Long",
+    "district": "Vĩnh Long",
+    "ward": "Phường 5"
+  },
+  {
+    "city": "Vĩnh Long",
+    "district": "Vĩnh Long",
+    "ward": "Phường 3"
+  },
+  {
+    "city": "Vĩnh Long",
+    "district": "Bình Minh",
+    "ward": "Thành Phước"
+  },
+  {
+    "city": "Vĩnh Long",
+    "district": "Long Hồ",
+    "ward": "Thanh Đức"
+  },
+  {
+    "city": "Đồng Tháp",
+    "district": "Sa Đéc",
+    "ward": "Tân Quy Tây"
+  },
+  {
+    "city": "Đồng Tháp",
+    "district": "Sa Đéc",
+    "ward": "Phường 2"
+  },
+  {
+    "city": "Đồng Tháp",
+    "district": "Cao Lãnh",
+    "ward": "Phường 6"
+  },
+  {
+    "city": "Đồng Tháp",
+    "district": "Cao Lãnh",
+    "ward": "Phường 4"
+  },
+  {
+    "city": "Hậu Giang",
+    "district": "Phụng Hiệp",
+    "ward": "Thạnh Hòa"
+  },
+  {
+    "city": "Quảng Bình",
+    "district": "Quảng Trạch",
+    "ward": "Quảng Đông"
+  }
+]

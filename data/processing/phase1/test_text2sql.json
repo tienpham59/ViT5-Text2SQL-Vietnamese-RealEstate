@@ -1,0 +1,2502 @@
+[
+  {
+    "Question": "Ở Hồ Chí Minh có căn nào tìm nhà giá dưới 9,8 tỷ không?",
+    "SQL": "SELECT * FROM price_house WHERE price < 9800000000 AND city = 'Hồ Chí Minh'",
+    "Schema": "price[float], city[str]"
+  },
+  {
+    "Question": "Nhà nào ít giá nhất?",
+    "SQL": "SELECT * FROM price_house ORDER BY price ASC LIMIT 1",
+    "Schema": "price[float]"
+  },
+  {
+    "Question": "Bất động sản nào có mặt tiền trên 8,1m?",
+    "SQL": "SELECT * FROM price_house WHERE frontage > 8.1",
+    "Schema": "frontage[float], price[float]"
+  },
+  {
+    "Question": "Có nhà nào diện tích ít hơn 97m2 không bạn?",
+    "SQL": "SELECT * FROM price_house WHERE area < 97",
+    "Schema": "area[float], price[float]"
+  },
+  {
+    "Question": "tìm nhà giá khoảng 4,0 tỷ",
+    "SQL": "SELECT * FROM price_house WHERE price = 4000000000",
+    "Schema": "price[float]"
+  },
+  {
+    "Question": "Ủa, nhiều nhà có đường vào trên 8m không ta?",
+    "SQL": "SELECT COUNT(*) FROM price_house WHERE access_road > 8",
+    "Schema": "access_road[float], price[float]"
+  },
+  {
+    "Question": "Tôi muốn tìm nhà có diện tích hơn 36 m2 hoặc đường vào hơn 60 m, có không?",
+    "SQL": "SELECT * FROM price_house WHERE area > 36 OR access_road > 60",
+    "Schema": "area[float], access_road[float], price[float]"
+  },
+  {
+    "Question": "Ủa, nhiều nhà có giá dưới 4,6 tỷ không ta?",
+    "SQL": "SELECT COUNT(*) FROM price_house WHERE price < 4600000000",
+    "Schema": "price[float]"
+  },
+  {
+    "Question": "Tìm nhà có mặt tiền dưới 15m",
+    "SQL": "SELECT * FROM price_house WHERE frontage < 15",
+    "Schema": "frontage[float], price[float]"
+  },
+  {
+    "Question": "Nhà nào ít mặt tiền nhất?",
+    "SQL": "SELECT * FROM price_house ORDER BY frontage ASC LIMIT 1",
+    "Schema": "frontage[float], price[float]"
+  },
+  {
+    "Question": "Khoảng 5,7 tỷ-5,8 tỷ giá thì có nhà nào không?",
+    "SQL": "SELECT * FROM price_house WHERE price >= 5700000000 AND price <= 5800000000",
+    "Schema": "price[float]"
+  },
+  {
+    "Question": "Tìm nhà có giá từ 5,9 tỷ đến 6 tỷ",
+    "SQL": "SELECT * FROM price_house WHERE price >= 5900000000 AND price <= 6000000000",
+    "Schema": "price[float]"
+  },
+  {
+    "Question": "Nhà nào giá thấp hơn 5,5 tỷ?",
+    "SQL": "SELECT * FROM price_house WHERE price < 5500000000",
+    "Schema": "price[float]"
+  },
+  {
+    "Question": "Bạn lọc giúp tôi nhà giá cỡ 4 tỷ tới 4,1 tỷ",
+    "SQL": "SELECT * FROM price_house WHERE price >= 4000000000 AND price <= 4100000000",
+    "Schema": "price[float]"
+  },
+  {
+    "Question": "Thành phố nào có tên chứa từ 'Bìn' đang có nhà bán?",
+    "SQL": "SELECT * FROM price_house WHERE city LIKE '%Bìn%'",
+    "Schema": "price[float], city[str]"
+  },
+  {
+    "Question": "Top 1 diện tích là nhà nào?",
+    "SQL": "SELECT * FROM price_house ORDER BY area DESC LIMIT 1",
+    "Schema": "area[float], price[float]"
+  },
+  {
+    "Question": "Bất động sản nào có mặt tiền ít hơn 4,5m?",
+    "SQL": "SELECT * FROM price_house WHERE frontage < 4.5",
+    "Schema": "frontage[float], price[float]"
+  },
+  {
+    "Question": "Thành phố nào có tên chứa từ 'Phú' đang có nhà bán?",
+    "SQL": "SELECT * FROM price_house WHERE city LIKE '%Phú%'",
+    "Schema": "price[float], city[str]"
+  },
+  {
+    "Question": "Số lượng bất động sản đường vào dưới 2m là bao nhiêu?",
+    "SQL": "SELECT COUNT(*) FROM price_house WHERE access_road < 2",
+    "Schema": "access_road[float], price[float]"
+  },
+  {
+    "Question": "Có nhà nào đường vào nhiều hơn 7m không bạn?",
+    "SQL": "SELECT * FROM price_house WHERE access_road > 7",
+    "Schema": "access_road[float], price[float]"
+  },
+  {
+    "Question": "Nhà nào có diện tích cao nhất?",
+    "SQL": "SELECT * FROM price_house ORDER BY area DESC LIMIT 1",
+    "Schema": "area[float], price[float]"
+  },
+  {
+    "Question": "Nhà nào có diện tích cao nhất?",
+    "SQL": "SELECT * FROM price_house ORDER BY area DESC LIMIT 1",
+    "Schema": "area[float], price[float]"
+  },
+  {
+    "Question": "Bất động sản nào có đường vào trên 8m?",
+    "SQL": "SELECT * FROM price_house WHERE access_road > 8",
+    "Schema": "access_road[float], price[float]"
+  },
+  {
+    "Question": "Top 10 bất động sản có mặt tiền lớn nhất hiện tại?",
+    "SQL": "SELECT * FROM price_house ORDER BY frontage DESC LIMIT 10",
+    "Schema": "frontage[float], price[float]"
+  },
+  {
+    "Question": "Tìm nhà giá cao hơn 3,5 tỷ",
+    "SQL": "SELECT * FROM price_house WHERE price > 3500000000",
+    "Schema": "price[float]"
+  },
+  {
+    "Question": "Số lượng bất động sản diện tích dưới 124,3m2 là bao nhiêu?",
+    "SQL": "SELECT COUNT(*) FROM price_house WHERE area < 124.3",
+    "Schema": "area[float], price[float]"
+  },
+  {
+    "Question": "Bạn có biết căn nào có tầng dưới 4 hoặc mặt tiền dưới 5 m không?",
+    "SQL": "SELECT * FROM price_house WHERE floors < 4 OR frontage < 5",
+    "Schema": "frontage[float], floors[str], price[float]"
+  },
+  {
+    "Question": "Số lượng bất động sản đường vào là 6m là bao nhiêu?",
+    "SQL": "SELECT COUNT(*) FROM price_house WHERE access_road = 6",
+    "Schema": "access_road[float], price[float]"
+  },
+  {
+    "Question": "Top nhà thấp nhất về mặt tiền là nhà nào?",
+    "SQL": "SELECT * FROM price_house ORDER BY frontage ASC LIMIT 1",
+    "Schema": "frontage[float], price[float]"
+  },
+  {
+    "Question": "Tôi muốn tìm nhà với giá từ 9 tỷ đến 9,1 tỷ",
+    "SQL": "SELECT * FROM price_house WHERE price >= 9000000000 AND price <= 9100000000",
+    "Schema": "price[float]"
+  },
+  {
+    "Question": "Long An có nhà nào nhà nào giá thấp hơn 7,4 tỷ không?",
+    "SQL": "SELECT * FROM price_house WHERE price < 7400000000 AND city = 'Long An'",
+    "Schema": "price[float], city[str]"
+  },
+  {
+    "Question": "Liệt kê các nhà có diện tích là 60m2",
+    "SQL": "SELECT * FROM price_house WHERE area = 60",
+    "Schema": "area[float], price[float]"
+  },
+  {
+    "Question": "Số lượng bất động sản mặt tiền dưới 8m là bao nhiêu?",
+    "SQL": "SELECT COUNT(*) FROM price_house WHERE frontage < 8",
+    "Schema": "frontage[float], price[float]"
+  },
+  {
+    "Question": "Bất động sản nào có diện tích nhiều hơn 75m2?",
+    "SQL": "SELECT * FROM price_house WHERE area > 75",
+    "Schema": "area[float], price[float]"
+  },
+  {
+    "Question": "Cho tôi biết nhà có diện tích thấp nhất",
+    "SQL": "SELECT * FROM price_house ORDER BY area ASC LIMIT 1",
+    "Schema": "area[float], price[float]"
+  },
+  {
+    "Question": "Bất động sản nào có giá lớn nhất?",
+    "SQL": "SELECT * FROM price_house ORDER BY price DESC LIMIT 1",
+    "Schema": "price[float]"
+  },
+  {
+    "Question": "Liệt kê nhà đất có giá từ 8,6 tỷ đến 8,7 tỷ",
+    "SQL": "SELECT * FROM price_house WHERE price >= 8600000000 AND price <= 8700000000",
+    "Schema": "price[float]"
+  },
+  {
+    "Question": "Bất động sản nào có giá lớn nhất?",
+    "SQL": "SELECT * FROM price_house ORDER BY price DESC LIMIT 1",
+    "Schema": "price[float]"
+  },
+  {
+    "Question": "Bạn thống kê giúp mình số căn mặt tiền trên 3m nha!",
+    "SQL": "SELECT COUNT(*) FROM price_house WHERE frontage > 3",
+    "Schema": "frontage[float], price[float]"
+  },
+  {
+    "Question": "Liệt kê các nhà có mặt tiền là 5m",
+    "SQL": "SELECT * FROM price_house WHERE frontage = 5",
+    "Schema": "frontage[float], price[float]"
+  },
+  {
+    "Question": "Tôi muốn tìm nhà với giá từ 2 tỷ đến 2,1 tỷ",
+    "SQL": "SELECT * FROM price_house WHERE price >= 2000000000 AND price <= 2100000000",
+    "Schema": "price[float]"
+  },
+  {
+    "Question": "Tôi muốn tìm nhà ở nơi có tên gồm 'Hà '",
+    "SQL": "SELECT * FROM price_house WHERE city LIKE '%Hà %'",
+    "Schema": "price[float], city[str]"
+  },
+  {
+    "Question": "phường Nghĩa Trụ, quận Văn Giang, Hưng Yên có nhà nào khoảng 6,9 tỷ-7 tỷ giá thì có nhà nào không không?",
+    "SQL": "SELECT * FROM price_house WHERE price >= 6900000000 AND price <= 7000000000 AND ward = 'Nghĩa Trụ' AND district = 'Văn Giang' AND city = 'Hưng Yên'",
+    "Schema": "price[float], city[str], district[str], ward[str]"
+  },
+  {
+    "Question": "Tìm nhà có giá từ 5,7 tỷ đến 5,8 tỷ",
+    "SQL": "SELECT * FROM price_house WHERE price >= 5700000000 AND price <= 5800000000",
+    "Schema": "price[float]"
+  },
+  {
+    "Question": "Nhà nào có giá cao nhất?",
+    "SQL": "SELECT * FROM price_house ORDER BY price DESC LIMIT 1",
+    "Schema": "price[float]"
+  },
+  {
+    "Question": "Nhà nào có phòng ngủ hơn 6 hoặc mặt tiền hơn 6,5 m nhỉ?",
+    "SQL": "SELECT * FROM price_house WHERE bedrooms > 6 OR frontage > 6.5",
+    "Schema": "frontage[float], bedrooms[str], price[float]"
+  },
+  {
+    "Question": "quận Hải Châu có nhà nào bạn có biết nhà nào giá rẻ hơn 8,7 tỷ không không?",
+    "SQL": "SELECT * FROM price_house WHERE price < 8700000000 AND district = 'Hải Châu'",
+    "Schema": "price[float], district[str]"
+  },
+  {
+    "Question": "Có bất động sản nào đường vào khoảng 5,5m – 6,5m tại quận Bình Thạnh không?",
+    "SQL": "SELECT * FROM price_house WHERE access_road >= 5.5 AND access_road <= 6.5 AND district = 'Bình Thạnh'",
+    "Schema": "access_road[float], price[float], district[str]"
+  },
+  {
+    "Question": "Số lượng bất động sản diện tích là 100m2 là bao nhiêu?",
+    "SQL": "SELECT COUNT(*) FROM price_house WHERE area = 100",
+    "Schema": "area[float], price[float]"
+  },
+  {
+    "Question": "Tôi muốn biết có nhiều căn diện tích dưới 86m2 không?",
+    "SQL": "SELECT COUNT(*) FROM price_house WHERE area < 86",
+    "Schema": "area[float], price[float]"
+  },
+  {
+    "Question": "Nhà nào có giá nằm giữa 5,8 tỷ và 5,9 tỷ?",
+    "SQL": "SELECT * FROM price_house WHERE price >= 5800000000 AND price <= 5900000000",
+    "Schema": "price[float]"
+  },
+  {
+    "Question": "Tìm nhà giá cao hơn 5,2 tỷ",
+    "SQL": "SELECT * FROM price_house WHERE price > 5200000000",
+    "Schema": "price[float]"
+  },
+  {
+    "Question": "quận Hà Đông, Hà Nội có nhà nào nhà nào có giá nằm giữa 7 tỷ và 7,1 tỷ không?",
+    "SQL": "SELECT * FROM price_house WHERE price >= 7000000000 AND price <= 7100000000 AND district = 'Hà Đông' AND city = 'Hà Nội'",
+    "Schema": "price[float], city[str], district[str]"
+  },
+  {
+    "Question": "quận Long Biên có nhà nào nhà nào có giá nằm giữa 5,5 tỷ và 5,6 tỷ không?",
+    "SQL": "SELECT * FROM price_house WHERE price >= 5500000000 AND price <= 5600000000 AND district = 'Long Biên'",
+    "Schema": "price[float], district[str]"
+  },
+  {
+    "Question": "Cho tôi biết nhà có đường vào thấp nhất",
+    "SQL": "SELECT * FROM price_house ORDER BY access_road ASC LIMIT 1",
+    "Schema": "access_road[float], price[float]"
+  },
+  {
+    "Question": "Nhà nào có diện tích thấp nhất?",
+    "SQL": "SELECT * FROM price_house ORDER BY area ASC LIMIT 1",
+    "Schema": "area[float], price[float]"
+  },
+  {
+    "Question": "Tìm nhà có mặt tiền ít hơn 4m",
+    "SQL": "SELECT * FROM price_house WHERE frontage < 4",
+    "Schema": "frontage[float], price[float]"
+  },
+  {
+    "Question": "Cho tôi biết nhà có đường vào thấp nhất",
+    "SQL": "SELECT * FROM price_house ORDER BY access_road ASC LIMIT 1",
+    "Schema": "access_road[float], price[float]"
+  },
+  {
+    "Question": "Khoảng 3,2 tỷ-3,3 tỷ giá thì có nhà nào không?",
+    "SQL": "SELECT * FROM price_house WHERE price >= 3200000000 AND price <= 3300000000",
+    "Schema": "price[float]"
+  },
+  {
+    "Question": "Tìm nhà ở khu vực có thành phố chứa từ 'Hà '?",
+    "SQL": "SELECT * FROM price_house WHERE city LIKE '%Hà %'",
+    "Schema": "price[float], city[str]"
+  },
+  {
+    "Question": "Tìm nhà có giá từ 6,5 tỷ đến 6,6 tỷ",
+    "SQL": "SELECT * FROM price_house WHERE price >= 6500000000 AND price <= 6600000000",
+    "Schema": "price[float]"
+  },
+  {
+    "Question": "Có nhà nào có 3,8m mặt tiền không?",
+    "SQL": "SELECT * FROM price_house WHERE frontage = 3.8",
+    "Schema": "frontage[float], price[float]"
+  },
+  {
+    "Question": "Tôi muốn mua nhà Tôi muốn tìm nhà với giá từ 8,5 tỷ đến 8,6 tỷ ở phường Mỹ An, quận Ngũ Hành Sơn, Đà Nẵng, có không?",
+    "SQL": "SELECT * FROM price_house WHERE price >= 8500000000 AND price <= 8600000000 AND ward = 'Mỹ An' AND district = 'Ngũ Hành Sơn' AND city = 'Đà Nẵng'",
+    "Schema": "price[float], city[str], district[str], ward[str]"
+  },
+  {
+    "Question": "Tôi đang tìm nhà diện tích 3m–4m ở phường An Khê, quận Thanh Khê, có không?",
+    "SQL": "SELECT * FROM price_house WHERE access_road >= 3 AND access_road <= 4 AND ward = 'An Khê' AND district = 'Thanh Khê'",
+    "Schema": "access_road[float], price[float], district[str], ward[str]"
+  },
+  {
+    "Question": "Nhà nào mà đường vào trên 5m vậy?",
+    "SQL": "SELECT * FROM price_house WHERE access_road > 5",
+    "Schema": "access_road[float], price[float]"
+  },
+  {
+    "Question": "Tôi muốn tìm nhà ở nơi có tên gồm 'Hồ '",
+    "SQL": "SELECT * FROM price_house WHERE city LIKE '%Hồ %'",
+    "Schema": "price[float], city[str]"
+  },
+  {
+    "Question": "Có nhà nào có 3m đường vào không?",
+    "SQL": "SELECT * FROM price_house WHERE access_road = 3",
+    "Schema": "access_road[float], price[float]"
+  },
+  {
+    "Question": "Top 5 căn có mặt tiền cao nhất là gì?",
+    "SQL": "SELECT * FROM price_house ORDER BY frontage DESC LIMIT 5",
+    "Schema": "frontage[float], price[float]"
+  },
+  {
+    "Question": "Nhà nào đứng đầu về diện tích?",
+    "SQL": "SELECT * FROM price_house ORDER BY area DESC LIMIT 1",
+    "Schema": "area[float], price[float]"
+  },
+  {
+    "Question": "Liệt kê các nhà có diện tích là 73m2",
+    "SQL": "SELECT * FROM price_house WHERE area = 73",
+    "Schema": "area[float], price[float]"
+  },
+  {
+    "Question": "Bạn lọc giúp tôi nhà giá cỡ 6,9 tỷ tới 7 tỷ",
+    "SQL": "SELECT * FROM price_house WHERE price >= 6900000000 AND price <= 7000000000",
+    "Schema": "price[float]"
+  },
+  {
+    "Question": "phường Hòa Cường Nam, quận Hải Châu có nhà nào liệt kê nhà đất có giá từ 8,7 tỷ đến 8,8 tỷ không?",
+    "SQL": "SELECT * FROM price_house WHERE price >= 8700000000 AND price <= 8800000000 AND ward = 'Hòa Cường Nam' AND district = 'Hải Châu'",
+    "Schema": "price[float], district[str], ward[str]"
+  },
+  {
+    "Question": "Hà Nội có nhà nào tôi đang tìm nhà tầm giá 7 tỷ, có không không?",
+    "SQL": "SELECT * FROM price_house WHERE price = 7000000000 AND city = 'Hà Nội'",
+    "Schema": "price[float], city[str]"
+  },
+  {
+    "Question": "Có nhà nào có phòng tắm dưới 3 hoặc mặt tiền dưới 7,5 m không?",
+    "SQL": "SELECT * FROM price_house WHERE bathrooms < 3 OR frontage < 7.5",
+    "Schema": "frontage[float], bathrooms[str], price[float]"
+  },
+  {
+    "Question": "Bất động sản nào có đường vào nhỏ nhất?",
+    "SQL": "SELECT * FROM price_house ORDER BY access_road ASC LIMIT 1",
+    "Schema": "access_road[float], price[float]"
+  },
+  {
+    "Question": "Liệt kê nhà đất có giá từ 8,4 tỷ đến 8,5 tỷ",
+    "SQL": "SELECT * FROM price_house WHERE price >= 8400000000 AND price <= 8500000000",
+    "Schema": "price[float]"
+  },
+  {
+    "Question": "Tôi muốn biết có nhiều căn diện tích trên 36m2 không?",
+    "SQL": "SELECT COUNT(*) FROM price_house WHERE area > 36",
+    "Schema": "area[float], price[float]"
+  },
+  {
+    "Question": "Tôi muốn tìm nhà với giá từ 6,6 tỷ đến 6,7 tỷ",
+    "SQL": "SELECT * FROM price_house WHERE price >= 6600000000 AND price <= 6700000000",
+    "Schema": "price[float]"
+  },
+  {
+    "Question": "Tôi muốn mua nhà Tôi muốn tìm nhà với giá từ 7,6 tỷ đến 7,7 tỷ ở phường Đông Hòa, quận Dĩ An, có không?",
+    "SQL": "SELECT * FROM price_house WHERE price >= 7600000000 AND price <= 7700000000 AND ward = 'Đông Hòa' AND district = 'Dĩ An'",
+    "Schema": "price[float], district[str], ward[str]"
+  },
+  {
+    "Question": "Tôi muốn tìm nhà ở phường Mỹ An, quận Ngũ Hành Sơn, Đà Nẵng giá tìm nhà giá tầm 6,8 tỷ, có không?",
+    "SQL": "SELECT * FROM price_house WHERE price = 6800000000 AND ward = 'Mỹ An' AND district = 'Ngũ Hành Sơn' AND city = 'Đà Nẵng'",
+    "Schema": "price[float], city[str], district[str], ward[str]"
+  },
+  {
+    "Question": "Nhà nào có diện tích dưới 42 m2 hoặc đường vào dưới 54 m nhỉ?",
+    "SQL": "SELECT * FROM price_house WHERE area < 42 OR access_road < 54",
+    "Schema": "area[float], access_road[float], price[float]"
+  },
+  {
+    "Question": "phường Phường 9, quận Tân Bình, Hồ Chí Minh có nhà nào liệt kê nhà đất có giá từ 6,8 tỷ đến 6,9 tỷ không?",
+    "SQL": "SELECT * FROM price_house WHERE price >= 6800000000 AND price <= 6900000000 AND ward = 'Phường 9' AND district = 'Tân Bình' AND city = 'Hồ Chí Minh'",
+    "Schema": "price[float], city[str], district[str], ward[str]"
+  },
+  {
+    "Question": "Bất động sản nào có đường vào nhỏ nhất?",
+    "SQL": "SELECT * FROM price_house ORDER BY access_road ASC LIMIT 1",
+    "Schema": "access_road[float], price[float]"
+  },
+  {
+    "Question": "quận Tân Phú có nhà nào khoảng 7 tỷ-7,1 tỷ giá thì có nhà nào không không?",
+    "SQL": "SELECT * FROM price_house WHERE price >= 7000000000 AND price <= 7100000000 AND district = 'Tân Phú'",
+    "Schema": "price[float], district[str]"
+  },
+  {
+    "Question": "Tìm nhà có giá từ 3,9 tỷ đến 4 tỷ",
+    "SQL": "SELECT * FROM price_house WHERE price >= 3900000000 AND price <= 4000000000",
+    "Schema": "price[float]"
+  },
+  {
+    "Question": "Có nhà nào đường vào nhiều hơn 30m không bạn?",
+    "SQL": "SELECT * FROM price_house WHERE access_road > 30",
+    "Schema": "access_road[float], price[float]"
+  },
+  {
+    "Question": "Nhà nào ít giá nhất?",
+    "SQL": "SELECT * FROM price_house ORDER BY price ASC LIMIT 1",
+    "Schema": "price[float]"
+  },
+  {
+    "Question": "quận Thủ Đức có nhà nào nhà nào có giá nằm giữa 6,4 tỷ và 6,5 tỷ không?",
+    "SQL": "SELECT * FROM price_house WHERE price >= 6400000000 AND price <= 6500000000 AND district = 'Thủ Đức'",
+    "Schema": "price[float], district[str]"
+  },
+  {
+    "Question": "quận Quận 8 có nhà nào tôi đang tìm nhà tầm giá 7,5 tỷ, có không không?",
+    "SQL": "SELECT * FROM price_house WHERE price = 7500000000 AND district = 'Quận 8'",
+    "Schema": "price[float], district[str]"
+  },
+  {
+    "Question": "Có bất động sản nào giá trong khoảng 5,7 tỷ – 5,8 tỷ không?",
+    "SQL": "SELECT * FROM price_house WHERE price >= 5700000000 AND price <= 5800000000",
+    "Schema": "price[float]"
+  },
+  {
+    "Question": "Bạn lọc giúp tôi nhà giá cỡ 6 tỷ tới 6,1 tỷ",
+    "SQL": "SELECT * FROM price_house WHERE price >= 6000000000 AND price <= 6100000000",
+    "Schema": "price[float]"
+  },
+  {
+    "Question": "Tôi muốn tìm nhà với giá từ 2,4 tỷ đến 2,5 tỷ",
+    "SQL": "SELECT * FROM price_house WHERE price >= 2400000000 AND price <= 2500000000",
+    "Schema": "price[float]"
+  },
+  {
+    "Question": "Hà Nội có nhà nào nhà nào giá bằng 5,5 tỷ không?",
+    "SQL": "SELECT * FROM price_house WHERE price = 5500000000 AND city = 'Hà Nội'",
+    "Schema": "price[float], city[str]"
+  },
+  {
+    "Question": "Nhà nào có mặt tiền thấp nhất?",
+    "SQL": "SELECT * FROM price_house ORDER BY frontage ASC LIMIT 1",
+    "Schema": "frontage[float], price[float]"
+  },
+  {
+    "Question": "Cho tôi biết nhà có diện tích cao nhất",
+    "SQL": "SELECT * FROM price_house ORDER BY area DESC LIMIT 1",
+    "Schema": "area[float], price[float]"
+  },
+  {
+    "Question": "Nhà nào mà đường vào dưới 3m vậy?",
+    "SQL": "SELECT * FROM price_house WHERE access_road < 3",
+    "Schema": "access_road[float], price[float]"
+  },
+  {
+    "Question": "Tìm nhà có đường vào nhiều hơn 3m",
+    "SQL": "SELECT * FROM price_house WHERE access_road > 3",
+    "Schema": "access_road[float], price[float]"
+  },
+  {
+    "Question": "Có bất động sản nào giá trong khoảng 4,6 tỷ – 4,7 tỷ không?",
+    "SQL": "SELECT * FROM price_house WHERE price >= 4600000000 AND price <= 4700000000",
+    "Schema": "price[float]"
+  },
+  {
+    "Question": "Nhà nào có mặt tiền dưới 4 m hoặc tầng dưới 5 nhỉ?",
+    "SQL": "SELECT * FROM price_house WHERE frontage < 4 OR floors < 5",
+    "Schema": "frontage[float], floors[str], price[float]"
+  },
+  {
+    "Question": "Bất động sản nào có diện tích dưới 51,3m2?",
+    "SQL": "SELECT * FROM price_house WHERE area < 51.3",
+    "Schema": "area[float], price[float]"
+  },
+  {
+    "Question": "Nhà nào có giá nằm giữa 6,5 tỷ và 6,6 tỷ?",
+    "SQL": "SELECT * FROM price_house WHERE price >= 6500000000 AND price <= 6600000000",
+    "Schema": "price[float]"
+  },
+  {
+    "Question": "Nhà nào có giá thấp nhất?",
+    "SQL": "SELECT * FROM price_house ORDER BY price ASC LIMIT 1",
+    "Schema": "price[float]"
+  },
+  {
+    "Question": "Có bao nhiêu nhà có mặt tiền là 5m?",
+    "SQL": "SELECT COUNT(*) FROM price_house WHERE frontage = 5",
+    "Schema": "frontage[float], price[float]"
+  },
+  {
+    "Question": "Nhà nào có mặt tiền là 4 m hoặc phòng ngủ là 6 nhỉ?",
+    "SQL": "SELECT * FROM price_house WHERE frontage = 4 OR bedrooms = 6",
+    "Schema": "frontage[float], bedrooms[str], price[float]"
+  },
+  {
+    "Question": "Cho tôi biết 5 nhà có mặt tiền lớn nhất",
+    "SQL": "SELECT * FROM price_house ORDER BY frontage DESC LIMIT 5",
+    "Schema": "frontage[float], price[float]"
+  },
+  {
+    "Question": "Tôi đang tìm nhà tầm giá 6,0 tỷ, có không?",
+    "SQL": "SELECT * FROM price_house WHERE price < 6000000000",
+    "Schema": "price[float]"
+  },
+  {
+    "Question": "Nhà nào có phòng tắm dưới 2 hoặc giá dưới 4,6 tỷ nhỉ?",
+    "SQL": "SELECT * FROM price_house WHERE bathrooms < 2 OR price < 4650000000",
+    "Schema": "bathrooms[str], price[float]"
+  },
+  {
+    "Question": "Có nhà nào diện tích nhiều hơn 35m2 không bạn?",
+    "SQL": "SELECT * FROM price_house WHERE area > 35",
+    "Schema": "area[float], price[float]"
+  },
+  {
+    "Question": "Ủa, nhiều nhà có giá là 5,6 tỷ không ta?",
+    "SQL": "SELECT COUNT(*) FROM price_house WHERE price = 5600000000",
+    "Schema": "price[float]"
+  },
+  {
+    "Question": "Khoảng 5,9 tỷ-6 tỷ giá thì có nhà nào không?",
+    "SQL": "SELECT * FROM price_house WHERE price >= 5900000000 AND price <= 6000000000",
+    "Schema": "price[float]"
+  },
+  {
+    "Question": "Nhà nào mà đường vào dưới 12m vậy?",
+    "SQL": "SELECT * FROM price_house WHERE access_road < 12",
+    "Schema": "access_road[float], price[float]"
+  },
+  {
+    "Question": "Có nhà nào diện tích nhiều hơn 50m2 không bạn?",
+    "SQL": "SELECT * FROM price_house WHERE area > 50",
+    "Schema": "area[float], price[float]"
+  },
+  {
+    "Question": "Tôi muốn tìm nhà với giá từ 6,5 tỷ đến 6,6 tỷ",
+    "SQL": "SELECT * FROM price_house WHERE price >= 6500000000 AND price <= 6600000000",
+    "Schema": "price[float]"
+  },
+  {
+    "Question": "Có bất động sản nào giá trong khoảng 5,3 tỷ – 5,4 tỷ không?",
+    "SQL": "SELECT * FROM price_house WHERE price >= 5300000000 AND price <= 5400000000",
+    "Schema": "price[float]"
+  },
+  {
+    "Question": "Tôi đang tìm nhà tầm giá 10 tỷ, có không?",
+    "SQL": "SELECT * FROM price_house WHERE price < 10000000000",
+    "Schema": "price[float]"
+  },
+  {
+    "Question": "Bạn có biết căn nào có mặt tiền hơn 4,2 m hoặc tầng hơn 5 không?",
+    "SQL": "SELECT * FROM price_house WHERE frontage > 4.2 OR floors > 5",
+    "Schema": "frontage[float], floors[str], price[float]"
+  },
+  {
+    "Question": "Tôi muốn tìm nhà có mặt tiền dưới 4,5 m hoặc giá dưới 5 tỷ, có không?",
+    "SQL": "SELECT * FROM price_house WHERE frontage < 4.5 OR price < 5000000000",
+    "Schema": "frontage[float], price[float]"
+  },
+  {
+    "Question": "Bạn có biết căn nào có phòng ngủ dưới 3 hoặc giá dưới 8,3 tỷ không?",
+    "SQL": "SELECT * FROM price_house WHERE bedrooms < 3 OR price < 8300000000",
+    "Schema": "bedrooms[str], price[float]"
+  },
+  {
+    "Question": "Tôi muốn tìm nhà với giá từ 8,4 tỷ đến 8,5 tỷ",
+    "SQL": "SELECT * FROM price_house WHERE price >= 8400000000 AND price <= 8500000000",
+    "Schema": "price[float]"
+  },
+  {
+    "Question": "Tìm nhà Tôi muốn tìm nhà với giá từ 4 tỷ đến 4,1 tỷ tại phường Kiến Hưng, quận Hà Đông, Hà Nội",
+    "SQL": "SELECT * FROM price_house WHERE price >= 4000000000 AND price <= 4100000000 AND ward = 'Kiến Hưng' AND district = 'Hà Đông' AND city = 'Hà Nội'",
+    "Schema": "price[float], city[str], district[str], ward[str]"
+  },
+  {
+    "Question": "Tôi muốn tìm nhà với giá từ 5,7 tỷ đến 5,8 tỷ",
+    "SQL": "SELECT * FROM price_house WHERE price >= 5700000000 AND price <= 5800000000",
+    "Schema": "price[float]"
+  },
+  {
+    "Question": "Nhà nào có giá nằm giữa 3 tỷ và 3,1 tỷ?",
+    "SQL": "SELECT * FROM price_house WHERE price >= 3000000000 AND price <= 3100000000",
+    "Schema": "price[float]"
+  },
+  {
+    "Question": "phường Tân Triều, quận Thanh Trì có nhà nào liệt kê nhà đất có giá từ 4,4 tỷ đến 4,5 tỷ không?",
+    "SQL": "SELECT * FROM price_house WHERE price >= 4400000000 AND price <= 4500000000 AND ward = 'Tân Triều' AND district = 'Thanh Trì'",
+    "Schema": "price[float], district[str], ward[str]"
+  },
+  {
+    "Question": "Tôi đang tìm nhà tầm giá 4,6 tỷ, có không?",
+    "SQL": "SELECT * FROM price_house WHERE price < 4600000000",
+    "Schema": "price[float]"
+  },
+  {
+    "Question": "Nhà nào đứng đầu về diện tích?",
+    "SQL": "SELECT * FROM price_house ORDER BY area DESC LIMIT 1",
+    "Schema": "area[float], price[float]"
+  },
+  {
+    "Question": "Có nhà nào đường vào nhiều hơn 3m không bạn?",
+    "SQL": "SELECT * FROM price_house WHERE access_road > 3",
+    "Schema": "access_road[float], price[float]"
+  },
+  {
+    "Question": "Bạn lọc giúp tôi nhà giá cỡ 2,2 tỷ tới 2,3 tỷ",
+    "SQL": "SELECT * FROM price_house WHERE price >= 2200000000 AND price <= 2300000000",
+    "Schema": "price[float]"
+  },
+  {
+    "Question": "phường Phường 4, quận Quận 3 có nhà nào nhà nào có giá nằm giữa 5,7 tỷ và 5,8 tỷ không?",
+    "SQL": "SELECT * FROM price_house WHERE price >= 5700000000 AND price <= 5800000000 AND ward = 'Phường 4' AND district = 'Quận 3'",
+    "Schema": "price[float], district[str], ward[str]"
+  },
+  {
+    "Question": "Nhà nào có mặt tiền cao nhất?",
+    "SQL": "SELECT * FROM price_house ORDER BY frontage DESC LIMIT 1",
+    "Schema": "frontage[float], price[float]"
+  },
+  {
+    "Question": "Tìm nhà có giá từ 7,3 tỷ đến 7,4 tỷ",
+    "SQL": "SELECT * FROM price_house WHERE price >= 7300000000 AND price <= 7400000000",
+    "Schema": "price[float]"
+  },
+  {
+    "Question": "Nhà nào có mặt tiền từ 3m đến 4m nằm tại quận Hà Đông?",
+    "SQL": "SELECT * FROM price_house WHERE frontage >= 3 AND frontage <= 4 AND district = 'Hà Đông'",
+    "Schema": "frontage[float], price[float], district[str]"
+  },
+  {
+    "Question": "Cho tôi biết 10 nhà có diện tích lớn nhất",
+    "SQL": "SELECT * FROM price_house ORDER BY area DESC LIMIT 10",
+    "Schema": "area[float], price[float]"
+  },
+  {
+    "Question": "Tôi muốn tìm nhà có phòng ngủ dưới 4 hoặc phòng tắm dưới 6, có không?",
+    "SQL": "SELECT * FROM price_house WHERE bedrooms < 4 OR bathrooms < 6",
+    "Schema": "bedrooms[str], bathrooms[str], price[float]"
+  },
+  {
+    "Question": "Tìm nhà tìm nhà giá rẻ hơn 7,5 tỷ ở quận Gò Vấp",
+    "SQL": "SELECT * FROM price_house WHERE price < 7500000000 AND district = 'Gò Vấp'",
+    "Schema": "price[float], district[str]"
+  },
+  {
+    "Question": "Bạn lọc giúp tôi nhà giá cỡ 3,5 tỷ tới 3,6 tỷ",
+    "SQL": "SELECT * FROM price_house WHERE price >= 3500000000 AND price <= 3600000000",
+    "Schema": "price[float]"
+  },
+  {
+    "Question": "quận Tân Bình, Hồ Chí Minh có nhà nào tôi đang tìm nhà tầm giá 6 tỷ, có không không?",
+    "SQL": "SELECT * FROM price_house WHERE price = 6000000000 AND district = 'Tân Bình' AND city = 'Hồ Chí Minh'",
+    "Schema": "price[float], city[str], district[str]"
+  },
+  {
+    "Question": "Nhà nào đứng đầu về giá?",
+    "SQL": "SELECT * FROM price_house ORDER BY price DESC LIMIT 1",
+    "Schema": "price[float]"
+  },
+  {
+    "Question": "Tìm nhà có mặt tiền nhiều hơn 5,5m",
+    "SQL": "SELECT * FROM price_house WHERE frontage > 5.5",
+    "Schema": "frontage[float], price[float]"
+  },
+  {
+    "Question": "Liệt kê các nhà có diện tích là 48m2",
+    "SQL": "SELECT * FROM price_house WHERE area = 48",
+    "Schema": "area[float], price[float]"
+  },
+  {
+    "Question": "Khoảng 5,5 tỷ-5,6 tỷ giá thì có nhà nào không?",
+    "SQL": "SELECT * FROM price_house WHERE price >= 5500000000 AND price <= 5600000000",
+    "Schema": "price[float]"
+  },
+  {
+    "Question": "Có nhà nào có 73,1m2 diện tích không?",
+    "SQL": "SELECT * FROM price_house WHERE area = 73.1",
+    "Schema": "area[float], price[float]"
+  },
+  {
+    "Question": "Nhà nào ít đường vào nhất?",
+    "SQL": "SELECT * FROM price_house ORDER BY access_road ASC LIMIT 1",
+    "Schema": "access_road[float], price[float]"
+  },
+  {
+    "Question": "Cho tôi biết nhà có diện tích thấp nhất",
+    "SQL": "SELECT * FROM price_house ORDER BY area ASC LIMIT 1",
+    "Schema": "area[float], price[float]"
+  },
+  {
+    "Question": "Tôi muốn tìm nhà ở nơi có tên gồm 'Hồ '",
+    "SQL": "SELECT * FROM price_house WHERE city LIKE '%Hồ %'",
+    "Schema": "price[float], city[str]"
+  },
+  {
+    "Question": "Tôi muốn biết có nhiều căn mặt tiền trên 4,3m không?",
+    "SQL": "SELECT COUNT(*) FROM price_house WHERE frontage > 4.3",
+    "Schema": "frontage[float], price[float]"
+  },
+  {
+    "Question": "Tìm nhà ở khu vực có thành phố chứa từ 'Hồ '?",
+    "SQL": "SELECT * FROM price_house WHERE city LIKE '%Hồ %'",
+    "Schema": "price[float], city[str]"
+  },
+  {
+    "Question": "Top 1 đường vào là nhà nào?",
+    "SQL": "SELECT * FROM price_house ORDER BY access_road DESC LIMIT 1",
+    "Schema": "access_road[float], price[float]"
+  },
+  {
+    "Question": "Bạn lọc giúp tôi nhà giá cỡ 5,6 tỷ tới 5,7 tỷ",
+    "SQL": "SELECT * FROM price_house WHERE price >= 5600000000 AND price <= 5700000000",
+    "Schema": "price[float]"
+  },
+  {
+    "Question": "Top 1 giá là nhà nào?",
+    "SQL": "SELECT * FROM price_house ORDER BY price DESC LIMIT 1",
+    "Schema": "price[float]"
+  },
+  {
+    "Question": "Bất động sản nào có mặt tiền nhiều hơn 5m?",
+    "SQL": "SELECT * FROM price_house WHERE frontage > 5",
+    "Schema": "frontage[float], price[float]"
+  },
+  {
+    "Question": "Khoảng 6,5 tỷ-6,6 tỷ giá thì có nhà nào không?",
+    "SQL": "SELECT * FROM price_house WHERE price >= 6500000000 AND price <= 6600000000",
+    "Schema": "price[float]"
+  },
+  {
+    "Question": "Có bất động sản nào giá trong khoảng 3,4 tỷ – 3,5 tỷ không?",
+    "SQL": "SELECT * FROM price_house WHERE price >= 3400000000 AND price <= 3500000000",
+    "Schema": "price[float]"
+  },
+  {
+    "Question": "Liệt kê nhà đất có giá từ 3,2 tỷ đến 3,3 tỷ",
+    "SQL": "SELECT * FROM price_house WHERE price >= 3200000000 AND price <= 3300000000",
+    "Schema": "price[float]"
+  },
+  {
+    "Question": "Tìm nhà có mặt tiền là 5m",
+    "SQL": "SELECT * FROM price_house WHERE frontage = 5",
+    "Schema": "frontage[float], price[float]"
+  },
+  {
+    "Question": "Tôi đang tìm nhà diện tích 4600000000tỷ–4700000000tỷ ở phường Việt Hưng, quận Long Biên, có không?",
+    "SQL": "SELECT * FROM price_house WHERE price >= 4600000000 AND price <= 4700000000 AND ward = 'Việt Hưng' AND district = 'Long Biên'",
+    "Schema": "price[float], district[str], ward[str]"
+  },
+  {
+    "Question": "quận Quận 3, Hồ Chí Minh có nhà nào tôi đang tìm nhà tầm giá 3,4 tỷ, có không không?",
+    "SQL": "SELECT * FROM price_house WHERE price < 3400000000 AND district = 'Quận 3' AND city = 'Hồ Chí Minh'",
+    "Schema": "price[float], city[str], district[str]"
+  },
+  {
+    "Question": "Nhà nào mà đường vào ít hơn 5m vậy?",
+    "SQL": "SELECT * FROM price_house WHERE access_road < 5",
+    "Schema": "access_road[float], price[float]"
+  },
+  {
+    "Question": "Bất động sản nào có đường vào nhỏ nhất?",
+    "SQL": "SELECT * FROM price_house ORDER BY access_road ASC LIMIT 1",
+    "Schema": "access_road[float], price[float]"
+  },
+  {
+    "Question": "Top 1 giá là nhà nào?",
+    "SQL": "SELECT * FROM price_house ORDER BY price DESC LIMIT 1",
+    "Schema": "price[float]"
+  },
+  {
+    "Question": "Tìm nhà có giá từ 8 tỷ đến 8,1 tỷ",
+    "SQL": "SELECT * FROM price_house WHERE price >= 8000000000 AND price <= 8100000000",
+    "Schema": "price[float]"
+  },
+  {
+    "Question": "Giá nhà nào khoảng 2,9 tỷ vậy?",
+    "SQL": "SELECT * FROM price_house WHERE price = 2900000000",
+    "Schema": "price[float]"
+  },
+  {
+    "Question": "Có bao nhiêu nhà có đường vào là 12m?",
+    "SQL": "SELECT COUNT(*) FROM price_house WHERE access_road = 12",
+    "Schema": "access_road[float], price[float]"
+  },
+  {
+    "Question": "quận Thanh Xuân, Hà Nội có nhà nào có căn nào giá thấp hơn 7,2 tỷ không không?",
+    "SQL": "SELECT * FROM price_house WHERE price < 7200000000 AND district = 'Thanh Xuân' AND city = 'Hà Nội'",
+    "Schema": "price[float], city[str], district[str]"
+  },
+  {
+    "Question": "quận Bắc Từ Liêm có nhà nào nhà nào giá thấp hơn 4,1 tỷ không?",
+    "SQL": "SELECT * FROM price_house WHERE price < 4099999999 AND district = 'Bắc Từ Liêm'",
+    "Schema": "price[float], district[str]"
+  },
+  {
+    "Question": "Tôi muốn tìm nhà có phòng tắm dưới 4 hoặc giá dưới 1,4 tỷ, có không?",
+    "SQL": "SELECT * FROM price_house WHERE bathrooms < 4 OR price < 1360000000",
+    "Schema": "bathrooms[str], price[float]"
+  },
+  {
+    "Question": "Có nhà nào đường vào nhiều hơn 6m không bạn?",
+    "SQL": "SELECT * FROM price_house WHERE access_road > 6",
+    "Schema": "access_road[float], price[float]"
+  },
+  {
+    "Question": "Nhà nào có giá thấp nhất?",
+    "SQL": "SELECT * FROM price_house ORDER BY price ASC LIMIT 1",
+    "Schema": "price[float]"
+  },
+  {
+    "Question": "quận Nha Trang có nhà nào liệt kê nhà đất có giá từ 8,8 tỷ đến 8,9 tỷ không?",
+    "SQL": "SELECT * FROM price_house WHERE price >= 8800000000 AND price <= 8900000000 AND district = 'Nha Trang'",
+    "Schema": "price[float], district[str]"
+  },
+  {
+    "Question": "Có bất động sản nào giá trong khoảng 5,8 tỷ – 5,9 tỷ không?",
+    "SQL": "SELECT * FROM price_house WHERE price >= 5800000000 AND price <= 5900000000",
+    "Schema": "price[float]"
+  },
+  {
+    "Question": "Bất động sản nào có diện tích nhỏ nhất?",
+    "SQL": "SELECT * FROM price_house ORDER BY area ASC LIMIT 1",
+    "Schema": "area[float], price[float]"
+  },
+  {
+    "Question": "phường Cống Vị, quận Ba Đình có nhà nào giá nhà nào dưới 4,8 tỷ vậy không?",
+    "SQL": "SELECT * FROM price_house WHERE price < 4800000000 AND ward = 'Cống Vị' AND district = 'Ba Đình'",
+    "Schema": "price[float], district[str], ward[str]"
+  },
+  {
+    "Question": "quận Phú Nhuận có nhà nào có căn nào giá rẻ hơn 4,7 tỷ không không?",
+    "SQL": "SELECT * FROM price_house WHERE price < 4700000000 AND district = 'Phú Nhuận'",
+    "Schema": "price[float], district[str]"
+  },
+  {
+    "Question": "Nhà nào đứng đầu về mặt tiền?",
+    "SQL": "SELECT * FROM price_house ORDER BY frontage DESC LIMIT 1",
+    "Schema": "frontage[float], price[float]"
+  },
+  {
+    "Question": "Bạn lọc giúp tôi nhà giá cỡ 6 tỷ tới 6,1 tỷ",
+    "SQL": "SELECT * FROM price_house WHERE price >= 6000000000 AND price <= 6100000000",
+    "Schema": "price[float]"
+  },
+  {
+    "Question": "Nhà nào có tầng là 5 hoặc đường vào là 14 m nhỉ?",
+    "SQL": "SELECT * FROM price_house WHERE floors = 5 OR access_road = 14",
+    "Schema": "access_road[float], floors[str], price[float]"
+  },
+  {
+    "Question": "Tôi đang tìm nhà diện tích 40m2–41m2 ở Hồ Chí Minh, có không?",
+    "SQL": "SELECT * FROM price_house WHERE area >= 40 AND area <= 41 AND city = 'Hồ Chí Minh'",
+    "Schema": "area[float], price[float], city[str]"
+  },
+  {
+    "Question": "Có nhà nào đường vào ít hơn 3m không bạn?",
+    "SQL": "SELECT * FROM price_house WHERE access_road < 3",
+    "Schema": "access_road[float], price[float]"
+  },
+  {
+    "Question": "Có nhà nào mặt tiền dưới 4m không bạn?",
+    "SQL": "SELECT * FROM price_house WHERE frontage < 4",
+    "Schema": "frontage[float], price[float]"
+  },
+  {
+    "Question": "Tìm nhà có giá từ 5,8 tỷ đến 5,9 tỷ",
+    "SQL": "SELECT * FROM price_house WHERE price >= 5800000000 AND price <= 5900000000",
+    "Schema": "price[float]"
+  },
+  {
+    "Question": "Bạn có biết nhà nào giá dưới 4,0 tỷ không?",
+    "SQL": "SELECT * FROM price_house WHERE price < 4000000000",
+    "Schema": "price[float]"
+  },
+  {
+    "Question": "Cho tôi biết nhà có đường vào thấp nhất",
+    "SQL": "SELECT * FROM price_house ORDER BY access_road ASC LIMIT 1",
+    "Schema": "access_road[float], price[float]"
+  },
+  {
+    "Question": "Cho tôi biết nhà có giá thấp nhất",
+    "SQL": "SELECT * FROM price_house ORDER BY price ASC LIMIT 1",
+    "Schema": "price[float]"
+  },
+  {
+    "Question": "Tìm nhà có giá từ 5,1 tỷ đến 5,2 tỷ",
+    "SQL": "SELECT * FROM price_house WHERE price >= 5100000000 AND price <= 5200000000",
+    "Schema": "price[float]"
+  },
+  {
+    "Question": "Bất động sản nào có diện tích lớn nhất?",
+    "SQL": "SELECT * FROM price_house ORDER BY area DESC LIMIT 1",
+    "Schema": "area[float], price[float]"
+  },
+  {
+    "Question": "Nhà nào đứng đầu về đường vào?",
+    "SQL": "SELECT * FROM price_house ORDER BY access_road DESC LIMIT 1",
+    "Schema": "access_road[float], price[float]"
+  },
+  {
+    "Question": "Nhà nào đứng đầu về diện tích?",
+    "SQL": "SELECT * FROM price_house ORDER BY area DESC LIMIT 1",
+    "Schema": "area[float], price[float]"
+  },
+  {
+    "Question": "quận Bình Tân, Hồ Chí Minh có nhà nào khoảng 4,9 tỷ-5 tỷ giá thì có nhà nào không không?",
+    "SQL": "SELECT * FROM price_house WHERE price >= 4900000000 AND price <= 5000000000 AND district = 'Bình Tân' AND city = 'Hồ Chí Minh'",
+    "Schema": "price[float], city[str], district[str]"
+  },
+  {
+    "Question": "Nhà nào mà mặt tiền ít hơn 24m vậy?",
+    "SQL": "SELECT * FROM price_house WHERE frontage < 24",
+    "Schema": "frontage[float], price[float]"
+  },
+  {
+    "Question": "Khoảng 2 tỷ-2,1 tỷ giá thì có nhà nào không?",
+    "SQL": "SELECT * FROM price_house WHERE price >= 2000000000 AND price <= 2100000000",
+    "Schema": "price[float]"
+  },
+  {
+    "Question": "Thành phố nào có tên chứa từ 'Hà ' đang có nhà bán?",
+    "SQL": "SELECT * FROM price_house WHERE city LIKE '%Hà %'",
+    "Schema": "price[float], city[str]"
+  },
+  {
+    "Question": "Có nhà nào ở quận Long Biên, Hà Nội mà giá Tìm nhà giá rẻ hơn 6,2 tỷ không?",
+    "SQL": "SELECT * FROM price_house WHERE price < 6200000000 AND district = 'Long Biên' AND city = 'Hà Nội'",
+    "Schema": "price[float], city[str], district[str]"
+  },
+  {
+    "Question": "Tìm nhà có mặt tiền từ 4m đến 5m ở quận Long Biên, Hà Nội",
+    "SQL": "SELECT * FROM price_house WHERE frontage >= 4 AND frontage <= 5 AND district = 'Long Biên' AND city = 'Hà Nội'",
+    "Schema": "frontage[float], price[float], city[str], district[str]"
+  },
+  {
+    "Question": "Top nhà thấp nhất về diện tích là nhà nào?",
+    "SQL": "SELECT * FROM price_house ORDER BY area ASC LIMIT 1",
+    "Schema": "area[float], price[float]"
+  },
+  {
+    "Question": "phường Bình Trưng Đông, quận Thủ Đức, Hồ Chí Minh có nhà nào nhà nào giá bằng 4,5 tỷ không?",
+    "SQL": "SELECT * FROM price_house WHERE price = 4500000000 AND ward = 'Bình Trưng Đông' AND district = 'Thủ Đức' AND city = 'Hồ Chí Minh'",
+    "Schema": "price[float], city[str], district[str], ward[str]"
+  },
+  {
+    "Question": "Có nhà nào có tầng hơn 4 hoặc diện tích hơn 35 m2 không?",
+    "SQL": "SELECT * FROM price_house WHERE floors > 4 OR area > 35",
+    "Schema": "area[float], floors[str], price[float]"
+  },
+  {
+    "Question": "Có nhà nào ở Hồ Chí Minh mà giá Tìm nhà giá bằng 7,5 tỷ không?",
+    "SQL": "SELECT * FROM price_house WHERE price = 7500000000 AND city = 'Hồ Chí Minh'",
+    "Schema": "price[float], city[str]"
+  },
+  {
+    "Question": "Có bất động sản nào giá trong khoảng 4,4 tỷ – 4,5 tỷ không?",
+    "SQL": "SELECT * FROM price_house WHERE price >= 4400000000 AND price <= 4500000000",
+    "Schema": "price[float]"
+  },
+  {
+    "Question": "Bất động sản nào có mặt tiền trên 4,1m?",
+    "SQL": "SELECT * FROM price_house WHERE frontage > 4.1",
+    "Schema": "frontage[float], price[float]"
+  },
+  {
+    "Question": "Tôi muốn biết có nhiều căn giá trên 1,2 tỷ không?",
+    "SQL": "SELECT COUNT(*) FROM price_house WHERE price > 1200000000",
+    "Schema": "price[float]"
+  },
+  {
+    "Question": "Bạn lọc giúp tôi nhà giá cỡ 6,5 tỷ tới 6,6 tỷ",
+    "SQL": "SELECT * FROM price_house WHERE price >= 6500000000 AND price <= 6600000000",
+    "Schema": "price[float]"
+  },
+  {
+    "Question": "Có nhà nào có 57m2 diện tích không?",
+    "SQL": "SELECT * FROM price_house WHERE area = 57",
+    "Schema": "area[float], price[float]"
+  },
+  {
+    "Question": "Bạn thống kê giúp mình số căn giá dưới 8,7 tỷ nha!",
+    "SQL": "SELECT COUNT(*) FROM price_house WHERE price < 8700000000",
+    "Schema": "price[float]"
+  },
+  {
+    "Question": "Nhà nào có giá nằm giữa 10 tỷ và 10,2 tỷ?",
+    "SQL": "SELECT * FROM price_house WHERE price >= 10000000000 AND price <= 10200000000",
+    "Schema": "price[float]"
+  },
+  {
+    "Question": "Bất động sản nào có giá nhỏ nhất?",
+    "SQL": "SELECT * FROM price_house ORDER BY price ASC LIMIT 1",
+    "Schema": "price[float]"
+  },
+  {
+    "Question": "Khoảng 6,8 tỷ-6,9 tỷ giá thì có nhà nào không?",
+    "SQL": "SELECT * FROM price_house WHERE price >= 6800000000 AND price <= 6900000000",
+    "Schema": "price[float]"
+  },
+  {
+    "Question": "Tôi muốn biết có nhiều căn đường vào dưới 7,5m không?",
+    "SQL": "SELECT COUNT(*) FROM price_house WHERE access_road < 7.5",
+    "Schema": "access_road[float], price[float]"
+  },
+  {
+    "Question": "phường Xuân Đỉnh, quận Bắc Từ Liêm, Hà Nội có nhà nào giá nhà nào rẻ hơn 9,8 tỷ vậy không?",
+    "SQL": "SELECT * FROM price_house WHERE price < 9800000000 AND ward = 'Xuân Đỉnh' AND district = 'Bắc Từ Liêm' AND city = 'Hà Nội'",
+    "Schema": "price[float], city[str], district[str], ward[str]"
+  },
+  {
+    "Question": "Số lượng bất động sản diện tích trên 35m2 là bao nhiêu?",
+    "SQL": "SELECT COUNT(*) FROM price_house WHERE area > 35",
+    "Schema": "area[float], price[float]"
+  },
+  {
+    "Question": "Hồ Chí Minh có nhà nào nhà nào giá bằng 5,3 tỷ không?",
+    "SQL": "SELECT * FROM price_house WHERE price = 5300000000 AND city = 'Hồ Chí Minh'",
+    "Schema": "price[float], city[str]"
+  },
+  {
+    "Question": "tìm nhà giá dưới 3,7 tỷ",
+    "SQL": "SELECT * FROM price_house WHERE price < 3700000000",
+    "Schema": "price[float]"
+  },
+  {
+    "Question": "Top nhà thấp nhất về đường vào là nhà nào?",
+    "SQL": "SELECT * FROM price_house ORDER BY access_road ASC LIMIT 1",
+    "Schema": "access_road[float], price[float]"
+  },
+  {
+    "Question": "Tôi muốn biết top 3 nhà có diện tích lớn nhất",
+    "SQL": "SELECT * FROM price_house ORDER BY area DESC LIMIT 3",
+    "Schema": "area[float], price[float]"
+  },
+  {
+    "Question": "Bất động sản nào có diện tích trên 62m2?",
+    "SQL": "SELECT * FROM price_house WHERE area > 62",
+    "Schema": "area[float], price[float]"
+  },
+  {
+    "Question": "Khoảng 9,3 tỷ-9,4 tỷ giá thì có nhà nào không?",
+    "SQL": "SELECT * FROM price_house WHERE price >= 9300000000 AND price <= 9400000000",
+    "Schema": "price[float]"
+  },
+  {
+    "Question": "Bạn có biết nhà nào giá dưới 5,5 tỷ không?",
+    "SQL": "SELECT * FROM price_house WHERE price < 5500000000",
+    "Schema": "price[float]"
+  },
+  {
+    "Question": "phường Phường 4, quận Quận 3 có nhà nào nhà nào giá rẻ hơn 6,1 tỷ không?",
+    "SQL": "SELECT * FROM price_house WHERE price < 6100000000 AND ward = 'Phường 4' AND district = 'Quận 3'",
+    "Schema": "price[float], district[str], ward[str]"
+  },
+  {
+    "Question": "Tìm nhà có mặt tiền ít hơn 5m",
+    "SQL": "SELECT * FROM price_house WHERE frontage < 5",
+    "Schema": "frontage[float], price[float]"
+  },
+  {
+    "Question": "Tìm nhà có giá từ 9,8 tỷ đến 9,9 tỷ",
+    "SQL": "SELECT * FROM price_house WHERE price >= 9800000000 AND price <= 9900000000",
+    "Schema": "price[float]"
+  },
+  {
+    "Question": "Nhà nào có giá nằm giữa 6,7 tỷ và 6,8 tỷ?",
+    "SQL": "SELECT * FROM price_house WHERE price >= 6700000000 AND price <= 6800000000",
+    "Schema": "price[float]"
+  },
+  {
+    "Question": "Số lượng bất động sản đường vào dưới 3m là bao nhiêu?",
+    "SQL": "SELECT COUNT(*) FROM price_house WHERE access_road < 3",
+    "Schema": "access_road[float], price[float]"
+  },
+  {
+    "Question": "Bạn lọc giúp tôi nhà giá cỡ 6,5 tỷ tới 6,6 tỷ",
+    "SQL": "SELECT * FROM price_house WHERE price >= 6500000000 AND price <= 6600000000",
+    "Schema": "price[float]"
+  },
+  {
+    "Question": "Liệt kê nhà đất có giá từ 4 tỷ đến 4,1 tỷ",
+    "SQL": "SELECT * FROM price_house WHERE price >= 4000000000 AND price <= 4100000000",
+    "Schema": "price[float]"
+  },
+  {
+    "Question": "Bất động sản nào có mặt tiền ít hơn 4,1m?",
+    "SQL": "SELECT * FROM price_house WHERE frontage < 4.1",
+    "Schema": "frontage[float], price[float]"
+  },
+  {
+    "Question": "Tôi muốn mua nhà giá trong khoảng 6800000000tỷ đến 6900000000tỷ ở quận Dĩ An, Bình Dương",
+    "SQL": "SELECT * FROM price_house WHERE price >= 6800000000 AND price <= 6900000000 AND district = 'Dĩ An' AND city = 'Bình Dương'",
+    "Schema": "price[float], city[str], district[str]"
+  },
+  {
+    "Question": "tìm nhà giá đắt hơn 6,9 tỷ",
+    "SQL": "SELECT * FROM price_house WHERE price > 6900000000",
+    "Schema": "price[float]"
+  },
+  {
+    "Question": "Nhà nào có giá nằm giữa 5,5 tỷ và 5,6 tỷ?",
+    "SQL": "SELECT * FROM price_house WHERE price >= 5500000000 AND price <= 5600000000",
+    "Schema": "price[float]"
+  },
+  {
+    "Question": "quận Quận 7, Hồ Chí Minh có nhà nào giá nhà nào thấp hơn 7,0 tỷ vậy không?",
+    "SQL": "SELECT * FROM price_house WHERE price < 7000000000 AND district = 'Quận 7' AND city = 'Hồ Chí Minh'",
+    "Schema": "price[float], city[str], district[str]"
+  },
+  {
+    "Question": "Top 1 diện tích là nhà nào?",
+    "SQL": "SELECT * FROM price_house ORDER BY area DESC LIMIT 1",
+    "Schema": "area[float], price[float]"
+  },
+  {
+    "Question": "Tìm nhà phường Mỹ Đình 1, quận Nam Từ Liêm, Hà Nội giá tìm nhà giá khoảng 5,2 tỷ. Khu vực phường Mỹ Đình 1, quận Nam Từ Liêm, Hà Nội có nhà nào tìm nhà giá khoảng 5,2 tỷ không?",
+    "SQL": "SELECT * FROM price_house WHERE price = 5200000000 AND ward = 'Mỹ Đình 1' AND district = 'Nam Từ Liêm' AND city = 'Hà Nội'",
+    "Schema": "price[float], city[str], district[str], ward[str]"
+  },
+  {
+    "Question": "Tìm nhà có đường vào là 2m",
+    "SQL": "SELECT * FROM price_house WHERE access_road = 2",
+    "Schema": "access_road[float], price[float]"
+  },
+  {
+    "Question": "Ủa, nhiều nhà có diện tích là 60m2 không ta?",
+    "SQL": "SELECT COUNT(*) FROM price_house WHERE area = 60",
+    "Schema": "area[float], price[float]"
+  },
+  {
+    "Question": "Top 1 diện tích là nhà nào?",
+    "SQL": "SELECT * FROM price_house ORDER BY area DESC LIMIT 1",
+    "Schema": "area[float], price[float]"
+  },
+  {
+    "Question": "Tìm nhà có diện tích ít hơn 45m2",
+    "SQL": "SELECT * FROM price_house WHERE area < 45",
+    "Schema": "area[float], price[float]"
+  },
+  {
+    "Question": "Hải Phòng có nhà nào có căn nào giá khoảng 1,6 tỷ không không?",
+    "SQL": "SELECT * FROM price_house WHERE price = 1600000000 AND city = 'Hải Phòng'",
+    "Schema": "price[float], city[str]"
+  },
+  {
+    "Question": "Tìm nhà giá trên 9,5 tỷ",
+    "SQL": "SELECT * FROM price_house WHERE price > 9500000000",
+    "Schema": "price[float]"
+  },
+  {
+    "Question": "quận Quận 12, Hồ Chí Minh có nhà nào nhà nào có giá nằm giữa 5,3 tỷ và 5,4 tỷ không?",
+    "SQL": "SELECT * FROM price_house WHERE price >= 5300000000 AND price <= 5400000000 AND district = 'Quận 12' AND city = 'Hồ Chí Minh'",
+    "Schema": "price[float], city[str], district[str]"
+  },
+  {
+    "Question": "Top nhà thấp nhất về giá là nhà nào?",
+    "SQL": "SELECT * FROM price_house ORDER BY price ASC LIMIT 1",
+    "Schema": "price[float]"
+  },
+  {
+    "Question": "Bất động sản nào có diện tích lớn nhất?",
+    "SQL": "SELECT * FROM price_house ORDER BY area DESC LIMIT 1",
+    "Schema": "area[float], price[float]"
+  },
+  {
+    "Question": "Nhà nào có giá thấp nhất?",
+    "SQL": "SELECT * FROM price_house ORDER BY price ASC LIMIT 1",
+    "Schema": "price[float]"
+  },
+  {
+    "Question": "quận Dĩ An có nhà nào có căn nào giá tầm 6,5 tỷ không không?",
+    "SQL": "SELECT * FROM price_house WHERE price = 6500000000 AND district = 'Dĩ An'",
+    "Schema": "price[float], district[str]"
+  },
+  {
+    "Question": "Tôi đang nhắm khu quận Gò Vấp, Hồ Chí Minh, có căn nào tìm nhà giá tầm 6,8 tỷ không bạn?",
+    "SQL": "SELECT * FROM price_house WHERE price = 6800000000 AND district = 'Gò Vấp' AND city = 'Hồ Chí Minh'",
+    "Schema": "price[float], city[str], district[str]"
+  },
+  {
+    "Question": "Nhà nào có giá từ 7700000000tỷ đến 7800000000tỷ nằm tại quận Thuận An, Bình Dương?",
+    "SQL": "SELECT * FROM price_house WHERE price >= 7700000000 AND price <= 7800000000 AND district = 'Thuận An' AND city = 'Bình Dương'",
+    "Schema": "price[float], city[str], district[str]"
+  },
+  {
+    "Question": "Tìm nhà có mặt tiền dưới 6,4m",
+    "SQL": "SELECT * FROM price_house WHERE frontage < 6.4",
+    "Schema": "frontage[float], price[float]"
+  },
+  {
+    "Question": "Bất động sản nào có diện tích nhiều hơn 45m2?",
+    "SQL": "SELECT * FROM price_house WHERE area > 45",
+    "Schema": "area[float], price[float]"
+  },
+  {
+    "Question": "Nhà nào có giá nằm giữa 6,3 tỷ và 6,4 tỷ?",
+    "SQL": "SELECT * FROM price_house WHERE price >= 6300000000 AND price <= 6400000000",
+    "Schema": "price[float]"
+  },
+  {
+    "Question": "Cho tôi biết nhà có đường vào thấp nhất",
+    "SQL": "SELECT * FROM price_house ORDER BY access_road ASC LIMIT 1",
+    "Schema": "access_road[float], price[float]"
+  },
+  {
+    "Question": "Nhà nào có mặt tiền từ 4m đến 5m nằm tại phường Thanh Trì, quận Hoàng Mai, Hà Nội?",
+    "SQL": "SELECT * FROM price_house WHERE frontage >= 4 AND frontage <= 5 AND ward = 'Thanh Trì' AND district = 'Hoàng Mai' AND city = 'Hà Nội'",
+    "Schema": "frontage[float], price[float], city[str], district[str], ward[str]"
+  },
+  {
+    "Question": "Có nhà nào diện tích nhiều hơn 34m2 không bạn?",
+    "SQL": "SELECT * FROM price_house WHERE area > 34",
+    "Schema": "area[float], price[float]"
+  },
+  {
+    "Question": "Tôi muốn tìm nhà có phòng tắm dưới 4 hoặc mặt tiền dưới 5 m, có không?",
+    "SQL": "SELECT * FROM price_house WHERE bathrooms < 4 OR frontage < 5",
+    "Schema": "frontage[float], bathrooms[str], price[float]"
+  },
+  {
+    "Question": "Bất động sản nào có diện tích nhỏ nhất?",
+    "SQL": "SELECT * FROM price_house ORDER BY area ASC LIMIT 1",
+    "Schema": "area[float], price[float]"
+  },
+  {
+    "Question": "Tôi đang tìm nhà ở phường Cầu Diễn, quận Nam Từ Liêm, Hà Nội giá 7,5 tỷ, có gợi ý nào không?",
+    "SQL": "SELECT * FROM price_house WHERE price < 7500000000 AND ward = 'Cầu Diễn' AND district = 'Nam Từ Liêm' AND city = 'Hà Nội'",
+    "Schema": "price[float], city[str], district[str], ward[str]"
+  },
+  {
+    "Question": "Giá nhà nào trên 9,2 tỷ vậy?",
+    "SQL": "SELECT * FROM price_house WHERE price > 9200000000",
+    "Schema": "price[float]"
+  },
+  {
+    "Question": "quận Nha Trang, Khánh Hòa có nhà nào bạn có biết nhà nào giá tầm 9 tỷ không không?",
+    "SQL": "SELECT * FROM price_house WHERE price = 9000000000 AND district = 'Nha Trang' AND city = 'Khánh Hòa'",
+    "Schema": "price[float], city[str], district[str]"
+  },
+  {
+    "Question": "Liệt kê các nhà có mặt tiền là 5,2m",
+    "SQL": "SELECT * FROM price_house WHERE frontage = 5.2",
+    "Schema": "frontage[float], price[float]"
+  },
+  {
+    "Question": "Có nhà nào diện tích trên 145m2 không bạn?",
+    "SQL": "SELECT * FROM price_house WHERE area > 145",
+    "Schema": "area[float], price[float]"
+  },
+  {
+    "Question": "Giá nhà nào thấp hơn 6,8 tỷ vậy?",
+    "SQL": "SELECT * FROM price_house WHERE price < 6800000000",
+    "Schema": "price[float]"
+  },
+  {
+    "Question": "Tìm giúp tôi nhà ở khu vực nào đó liên quan đến 'Hà '",
+    "SQL": "SELECT * FROM price_house WHERE city LIKE '%Hà %'",
+    "Schema": "price[float], city[str]"
+  },
+  {
+    "Question": "Thành phố nào có tên chứa từ 'Hồ ' đang có nhà bán?",
+    "SQL": "SELECT * FROM price_house WHERE city LIKE '%Hồ %'",
+    "Schema": "price[float], city[str]"
+  },
+  {
+    "Question": "Tìm nhà có giá từ 9 tỷ đến 9,1 tỷ",
+    "SQL": "SELECT * FROM price_house WHERE price >= 9000000000 AND price <= 9100000000",
+    "Schema": "price[float]"
+  },
+  {
+    "Question": "Nhà nào có diện tích thấp nhất?",
+    "SQL": "SELECT * FROM price_house ORDER BY area ASC LIMIT 1",
+    "Schema": "area[float], price[float]"
+  },
+  {
+    "Question": "Có bất động sản nào giá trong khoảng 3,4 tỷ – 3,5 tỷ không?",
+    "SQL": "SELECT * FROM price_house WHERE price >= 3400000000 AND price <= 3500000000",
+    "Schema": "price[float]"
+  },
+  {
+    "Question": "Tôi muốn tìm nhà với giá từ 5,2 tỷ đến 5,3 tỷ",
+    "SQL": "SELECT * FROM price_house WHERE price >= 5200000000 AND price <= 5300000000",
+    "Schema": "price[float]"
+  },
+  {
+    "Question": "Ủa, nhiều nhà có mặt tiền trên 4,4m không ta?",
+    "SQL": "SELECT COUNT(*) FROM price_house WHERE frontage > 4.4",
+    "Schema": "frontage[float], price[float]"
+  },
+  {
+    "Question": "Tìm nhà Bạn lọc giúp tôi nhà giá cỡ 5,6 tỷ tới 5,7 tỷ ở quận Gò Vấp",
+    "SQL": "SELECT * FROM price_house WHERE price >= 5600000000 AND price <= 5700000000 AND district = 'Gò Vấp'",
+    "Schema": "price[float], district[str]"
+  },
+  {
+    "Question": "Tìm nhà có giá từ 8,8 tỷ đến 8,9 tỷ",
+    "SQL": "SELECT * FROM price_house WHERE price >= 8800000000 AND price <= 8900000000",
+    "Schema": "price[float]"
+  },
+  {
+    "Question": "Tìm nhà có giá từ 9,7 tỷ đến 9,8 tỷ",
+    "SQL": "SELECT * FROM price_house WHERE price >= 9700000000 AND price <= 9800000000",
+    "Schema": "price[float]"
+  },
+  {
+    "Question": "Có nhà nào diện tích ít hơn 75m2 không bạn?",
+    "SQL": "SELECT * FROM price_house WHERE area < 75",
+    "Schema": "area[float], price[float]"
+  },
+  {
+    "Question": "Tìm nhà có mặt tiền là 4m",
+    "SQL": "SELECT * FROM price_house WHERE frontage = 4",
+    "Schema": "frontage[float], price[float]"
+  },
+  {
+    "Question": "Bất động sản nào có đường vào nhiều hơn 6m?",
+    "SQL": "SELECT * FROM price_house WHERE access_road > 6",
+    "Schema": "access_road[float], price[float]"
+  },
+  {
+    "Question": "Tôi muốn tìm nhà với giá từ 4,5 tỷ đến 4,6 tỷ",
+    "SQL": "SELECT * FROM price_house WHERE price >= 4500000000 AND price <= 4600000000",
+    "Schema": "price[float]"
+  },
+  {
+    "Question": "Nhà nào có giá nằm giữa 7 tỷ và 7,1 tỷ?",
+    "SQL": "SELECT * FROM price_house WHERE price >= 7000000000 AND price <= 7100000000",
+    "Schema": "price[float]"
+  },
+  {
+    "Question": "Bất động sản nào có diện tích lớn nhất?",
+    "SQL": "SELECT * FROM price_house ORDER BY area DESC LIMIT 1",
+    "Schema": "area[float], price[float]"
+  },
+  {
+    "Question": "Nhà nào mà diện tích dưới 80m2 vậy?",
+    "SQL": "SELECT * FROM price_house WHERE area < 80",
+    "Schema": "area[float], price[float]"
+  },
+  {
+    "Question": "Tìm nhà Tìm nhà giá dưới 7,5 tỷ tại phường Xuân Thới Thượng, quận Hóc Môn, Hồ Chí Minh",
+    "SQL": "SELECT * FROM price_house WHERE price < 7500000000 AND ward = 'Xuân Thới Thượng' AND district = 'Hóc Môn' AND city = 'Hồ Chí Minh'",
+    "Schema": "price[float], city[str], district[str], ward[str]"
+  },
+  {
+    "Question": "Bạn lọc giúp tôi nhà giá cỡ 8,6 tỷ tới 8,7 tỷ",
+    "SQL": "SELECT * FROM price_house WHERE price >= 8600000000 AND price <= 8700000000",
+    "Schema": "price[float]"
+  },
+  {
+    "Question": "Có nhà nào ở chỗ nào đó có chữ 'Bìn' trong tên không?",
+    "SQL": "SELECT * FROM price_house WHERE city LIKE '%Bìn%'",
+    "Schema": "price[float], city[str]"
+  },
+  {
+    "Question": "quận Gò Vấp có nhà nào liệt kê nhà đất có giá từ 4,4 tỷ đến 4,5 tỷ không?",
+    "SQL": "SELECT * FROM price_house WHERE price >= 4400000000 AND price <= 4500000000 AND district = 'Gò Vấp'",
+    "Schema": "price[float], district[str]"
+  },
+  {
+    "Question": "Có bất động sản nào giá trong khoảng 5,8 tỷ – 5,9 tỷ không?",
+    "SQL": "SELECT * FROM price_house WHERE price >= 5800000000 AND price <= 5900000000",
+    "Schema": "price[float]"
+  },
+  {
+    "Question": "Số lượng bất động sản đường vào là 3m là bao nhiêu?",
+    "SQL": "SELECT COUNT(*) FROM price_house WHERE access_road = 3",
+    "Schema": "access_road[float], price[float]"
+  },
+  {
+    "Question": "Nhà nào đứng đầu về giá?",
+    "SQL": "SELECT * FROM price_house ORDER BY price DESC LIMIT 1",
+    "Schema": "price[float]"
+  },
+  {
+    "Question": "Tôi muốn tìm nhà có tầng dưới 4 hoặc giá dưới 3,4 tỷ, có không?",
+    "SQL": "SELECT * FROM price_house WHERE floors < 4 OR price < 3400000000",
+    "Schema": "floors[str], price[float]"
+  },
+  {
+    "Question": "Bạn có biết căn nào có mặt tiền hơn 4,2 m hoặc giá hơn 2,8 tỷ không?",
+    "SQL": "SELECT * FROM price_house WHERE frontage > 4.2 OR price > 2830000000",
+    "Schema": "frontage[float], price[float]"
+  },
+  {
+    "Question": "Khoảng 4,4 tỷ-4,5 tỷ giá thì có nhà nào không?",
+    "SQL": "SELECT * FROM price_house WHERE price >= 4400000000 AND price <= 4500000000",
+    "Schema": "price[float]"
+  },
+  {
+    "Question": "Bạn lọc giúp tôi nhà giá cỡ 5,4 tỷ tới 5,5 tỷ",
+    "SQL": "SELECT * FROM price_house WHERE price >= 5400000000 AND price <= 5500000000",
+    "Schema": "price[float]"
+  },
+  {
+    "Question": "Bạn có biết căn nào có mặt tiền là 4,2 m hoặc phòng tắm là 5 không?",
+    "SQL": "SELECT * FROM price_house WHERE frontage = 4.2 OR bathrooms = 5",
+    "Schema": "frontage[float], bathrooms[str], price[float]"
+  },
+  {
+    "Question": "Tìm nhà tìm nhà giá thấp hơn 2,2 tỷ ở Hà Nội",
+    "SQL": "SELECT * FROM price_house WHERE price < 2200000000 AND city = 'Hà Nội'",
+    "Schema": "price[float], city[str]"
+  },
+  {
+    "Question": "Liệt kê nhà đất có giá từ 9 tỷ đến 9,1 tỷ",
+    "SQL": "SELECT * FROM price_house WHERE price >= 9000000000 AND price <= 9100000000",
+    "Schema": "price[float]"
+  },
+  {
+    "Question": "Bạn có biết căn nào có phòng ngủ là 2 hoặc diện tích là 65 m2 không?",
+    "SQL": "SELECT * FROM price_house WHERE bedrooms = 2 OR area = 65",
+    "Schema": "area[float], bedrooms[str], price[float]"
+  },
+  {
+    "Question": "Tìm giúp tôi nhà ở khu vực nào đó liên quan đến 'Hồ '",
+    "SQL": "SELECT * FROM price_house WHERE city LIKE '%Hồ %'",
+    "Schema": "price[float], city[str]"
+  },
+  {
+    "Question": "Nhà nào giá thấp hơn 4,8 tỷ?",
+    "SQL": "SELECT * FROM price_house WHERE price < 4800000000",
+    "Schema": "price[float]"
+  },
+  {
+    "Question": "Tôi muốn tìm nhà có mặt tiền hơn 4,1 m hoặc phòng tắm hơn 5, có không?",
+    "SQL": "SELECT * FROM price_house WHERE frontage > 4.1 OR bathrooms > 5",
+    "Schema": "frontage[float], bathrooms[str], price[float]"
+  },
+  {
+    "Question": "Nhà nào đứng đầu về diện tích?",
+    "SQL": "SELECT * FROM price_house ORDER BY area DESC LIMIT 1",
+    "Schema": "area[float], price[float]"
+  },
+  {
+    "Question": "Bất động sản nào có đường vào lớn nhất?",
+    "SQL": "SELECT * FROM price_house ORDER BY access_road DESC LIMIT 1",
+    "Schema": "access_road[float], price[float]"
+  },
+  {
+    "Question": "Top 5 căn có mặt tiền cao nhất là gì?",
+    "SQL": "SELECT * FROM price_house ORDER BY frontage DESC LIMIT 5",
+    "Schema": "frontage[float], price[float]"
+  },
+  {
+    "Question": "Tìm nhà ở khu vực có thành phố chứa từ 'Hồ '?",
+    "SQL": "SELECT * FROM price_house WHERE city LIKE '%Hồ %'",
+    "Schema": "price[float], city[str]"
+  },
+  {
+    "Question": "Giá nhà nào bằng 7,6 tỷ vậy?",
+    "SQL": "SELECT * FROM price_house WHERE price = 7600000000",
+    "Schema": "price[float]"
+  },
+  {
+    "Question": "Hà Nội có nhà nào giá nhà nào khoảng 5,6 tỷ vậy không?",
+    "SQL": "SELECT * FROM price_house WHERE price = 5600000000 AND city = 'Hà Nội'",
+    "Schema": "price[float], city[str]"
+  },
+  {
+    "Question": "Liệt kê các nhà có diện tích là 68m2",
+    "SQL": "SELECT * FROM price_house WHERE area = 68",
+    "Schema": "area[float], price[float]"
+  },
+  {
+    "Question": "Nhà nào có giá nằm giữa 5,5 tỷ và 5,6 tỷ?",
+    "SQL": "SELECT * FROM price_house WHERE price >= 5500000000 AND price <= 5600000000",
+    "Schema": "price[float]"
+  },
+  {
+    "Question": "Nhà nào có đường vào thấp nhất?",
+    "SQL": "SELECT * FROM price_house ORDER BY access_road ASC LIMIT 1",
+    "Schema": "access_road[float], price[float]"
+  },
+  {
+    "Question": "Tôi muốn tìm nhà có diện tích hơn 30,6 m2 hoặc giá hơn 6 tỷ, có không?",
+    "SQL": "SELECT * FROM price_house WHERE area > 30.6 OR price > 6000000000",
+    "Schema": "area[float], price[float]"
+  },
+  {
+    "Question": "Có bất động sản nào giá trong khoảng 4,1 tỷ – 4,2 tỷ không?",
+    "SQL": "SELECT * FROM price_house WHERE price >= 4100000000 AND price <= 4200000000",
+    "Schema": "price[float]"
+  },
+  {
+    "Question": "Bất động sản nào có đường vào trên 7m?",
+    "SQL": "SELECT * FROM price_house WHERE access_road > 7",
+    "Schema": "access_road[float], price[float]"
+  },
+  {
+    "Question": "Tìm nhà Tìm nhà giá rẻ hơn 9,2 tỷ tại phường Trung Liệt, quận Đống Đa",
+    "SQL": "SELECT * FROM price_house WHERE price < 9200000000 AND ward = 'Trung Liệt' AND district = 'Đống Đa'",
+    "Schema": "price[float], district[str], ward[str]"
+  },
+  {
+    "Question": "Có nhà nào có 4m mặt tiền không?",
+    "SQL": "SELECT * FROM price_house WHERE frontage = 4",
+    "Schema": "frontage[float], price[float]"
+  },
+  {
+    "Question": "Nhà nào có mặt tiền thấp nhất?",
+    "SQL": "SELECT * FROM price_house ORDER BY frontage ASC LIMIT 1",
+    "Schema": "frontage[float], price[float]"
+  },
+  {
+    "Question": "Cho tôi biết 5 nhà có giá lớn nhất",
+    "SQL": "SELECT * FROM price_house ORDER BY price DESC LIMIT 5",
+    "Schema": "price[float]"
+  },
+  {
+    "Question": "Tôi đang cần mua nhà tại quận Quận 7 trong tầm giá Tìm nhà giá dưới 5,6 tỷ, có không?",
+    "SQL": "SELECT * FROM price_house WHERE price < 5600000000 AND district = 'Quận 7'",
+    "Schema": "price[float], district[str]"
+  },
+  {
+    "Question": "Tìm nhà có mặt tiền từ 7m đến 8m ở Hà Nội",
+    "SQL": "SELECT * FROM price_house WHERE frontage >= 7 AND frontage <= 8 AND city = 'Hà Nội'",
+    "Schema": "frontage[float], price[float], city[str]"
+  },
+  {
+    "Question": "Tìm nhà tìm nhà giá rẻ hơn 7 tỷ ở phường Pháo Đài, quận Hà Tiên, Kiên Giang",
+    "SQL": "SELECT * FROM price_house WHERE price < 7000000000 AND ward = 'Pháo Đài' AND district = 'Hà Tiên' AND city = 'Kiên Giang'",
+    "Schema": "price[float], city[str], district[str], ward[str]"
+  },
+  {
+    "Question": "Liệt kê nhà đất có giá từ 2,5 tỷ đến 2,6 tỷ",
+    "SQL": "SELECT * FROM price_house WHERE price >= 2500000000 AND price <= 2600000000",
+    "Schema": "price[float]"
+  },
+  {
+    "Question": "Có bao nhiêu nhà có đường vào trên 5m?",
+    "SQL": "SELECT COUNT(*) FROM price_house WHERE access_road > 5",
+    "Schema": "access_road[float], price[float]"
+  },
+  {
+    "Question": "Khoảng 3,3 tỷ-3,4 tỷ giá thì có nhà nào không?",
+    "SQL": "SELECT * FROM price_house WHERE price >= 3300000000 AND price <= 3400000000",
+    "Schema": "price[float]"
+  },
+  {
+    "Question": "Tìm nhà có mặt tiền từ 4m đến 5m ở Hồ Chí Minh",
+    "SQL": "SELECT * FROM price_house WHERE frontage >= 4 AND frontage <= 5 AND city = 'Hồ Chí Minh'",
+    "Schema": "frontage[float], price[float], city[str]"
+  },
+  {
+    "Question": "Khoảng 6,2 tỷ-6,3 tỷ giá thì có nhà nào không?",
+    "SQL": "SELECT * FROM price_house WHERE price >= 6200000000 AND price <= 6300000000",
+    "Schema": "price[float]"
+  },
+  {
+    "Question": "Bạn có biết căn nào có đường vào là 4 m hoặc diện tích là 112 m2 không?",
+    "SQL": "SELECT * FROM price_house WHERE access_road = 4 OR area = 112",
+    "Schema": "area[float], access_road[float], price[float]"
+  },
+  {
+    "Question": "Bạn có biết căn nào có tầng hơn 4 hoặc đường vào hơn 8 m không?",
+    "SQL": "SELECT * FROM price_house WHERE floors > 4 OR access_road > 8",
+    "Schema": "access_road[float], floors[str], price[float]"
+  },
+  {
+    "Question": "Nhà nào có diện tích thấp nhất?",
+    "SQL": "SELECT * FROM price_house ORDER BY area ASC LIMIT 1",
+    "Schema": "area[float], price[float]"
+  },
+  {
+    "Question": "Top 1 đường vào là nhà nào?",
+    "SQL": "SELECT * FROM price_house ORDER BY access_road DESC LIMIT 1",
+    "Schema": "access_road[float], price[float]"
+  },
+  {
+    "Question": "Có nhà nào có 136m2 diện tích không?",
+    "SQL": "SELECT * FROM price_house WHERE area = 136",
+    "Schema": "area[float], price[float]"
+  },
+  {
+    "Question": "quận Gò Vấp có nhà nào bạn có biết nhà nào giá khoảng 9 tỷ không không?",
+    "SQL": "SELECT * FROM price_house WHERE price = 9000000000 AND district = 'Gò Vấp'",
+    "Schema": "price[float], district[str]"
+  },
+  {
+    "Question": "Tìm nhà có mặt tiền là 9m",
+    "SQL": "SELECT * FROM price_house WHERE frontage = 9",
+    "Schema": "frontage[float], price[float]"
+  },
+  {
+    "Question": "Hà Nội có nhà nào bạn có biết nhà nào giá rẻ hơn 3,8 tỷ không không?",
+    "SQL": "SELECT * FROM price_house WHERE price < 3800000000 AND city = 'Hà Nội'",
+    "Schema": "price[float], city[str]"
+  },
+  {
+    "Question": "Nhà nào có phòng tắm là 5 hoặc phòng ngủ là 6 nhỉ?",
+    "SQL": "SELECT * FROM price_house WHERE bathrooms = 5 OR bedrooms = 6",
+    "Schema": "bedrooms[str], bathrooms[str], price[float]"
+  },
+  {
+    "Question": "Tìm nhà có giá từ 7,8 tỷ đến 7,9 tỷ",
+    "SQL": "SELECT * FROM price_house WHERE price >= 7800000000 AND price <= 7900000000",
+    "Schema": "price[float]"
+  },
+  {
+    "Question": "Có bất động sản nào giá trong khoảng 2,5 tỷ – 2,6 tỷ không?",
+    "SQL": "SELECT * FROM price_house WHERE price >= 2500000000 AND price <= 2600000000",
+    "Schema": "price[float]"
+  },
+  {
+    "Question": "Bất động sản nào có mặt tiền nhiều hơn 5m?",
+    "SQL": "SELECT * FROM price_house WHERE frontage > 5",
+    "Schema": "frontage[float], price[float]"
+  },
+  {
+    "Question": "Tìm nhà có mặt tiền nhiều hơn 5,5m",
+    "SQL": "SELECT * FROM price_house WHERE frontage > 5.5",
+    "Schema": "frontage[float], price[float]"
+  },
+  {
+    "Question": "Tìm nhà có đường vào ít hơn 3m",
+    "SQL": "SELECT * FROM price_house WHERE access_road < 3",
+    "Schema": "access_road[float], price[float]"
+  },
+  {
+    "Question": "Bạn thống kê giúp mình số căn giá là 4,4 tỷ nha!",
+    "SQL": "SELECT COUNT(*) FROM price_house WHERE price = 4400000000",
+    "Schema": "price[float]"
+  },
+  {
+    "Question": "Hồ Chí Minh có nhà nào tìm nhà có giá từ 8,3 tỷ đến 8,4 tỷ không?",
+    "SQL": "SELECT * FROM price_house WHERE price >= 8300000000 AND price <= 8400000000 AND city = 'Hồ Chí Minh'",
+    "Schema": "price[float], city[str]"
+  },
+  {
+    "Question": "Số lượng bất động sản giá là 9,2 tỷ là bao nhiêu?",
+    "SQL": "SELECT COUNT(*) FROM price_house WHERE price = 9200000000",
+    "Schema": "price[float]"
+  },
+  {
+    "Question": "Có bất động sản nào giá trong khoảng 8,5 tỷ – 8,6 tỷ không?",
+    "SQL": "SELECT * FROM price_house WHERE price >= 8500000000 AND price <= 8600000000",
+    "Schema": "price[float]"
+  },
+  {
+    "Question": "Nhà nào có diện tích thấp nhất?",
+    "SQL": "SELECT * FROM price_house ORDER BY area ASC LIMIT 1",
+    "Schema": "area[float], price[float]"
+  },
+  {
+    "Question": "Tôi muốn tìm nhà có đường vào là 3 m hoặc giá là 6 tỷ, có không?",
+    "SQL": "SELECT * FROM price_house WHERE access_road = 3 OR price = 6000000000",
+    "Schema": "access_road[float], price[float]"
+  },
+  {
+    "Question": "quận Nha Trang có nhà nào giá nhà nào dưới 5,4 tỷ vậy không?",
+    "SQL": "SELECT * FROM price_house WHERE price < 5400000000 AND district = 'Nha Trang'",
+    "Schema": "price[float], district[str]"
+  },
+  {
+    "Question": "Tìm nhà có mặt tiền trên 6m",
+    "SQL": "SELECT * FROM price_house WHERE frontage > 6",
+    "Schema": "frontage[float], price[float]"
+  },
+  {
+    "Question": "Nhà nào ít giá nhất?",
+    "SQL": "SELECT * FROM price_house ORDER BY price ASC LIMIT 1",
+    "Schema": "price[float]"
+  },
+  {
+    "Question": "Tìm nhà có giá từ 2,9 tỷ đến 3 tỷ",
+    "SQL": "SELECT * FROM price_house WHERE price >= 2900000000 AND price <= 3000000000",
+    "Schema": "price[float]"
+  },
+  {
+    "Question": "Top 10 căn có diện tích cao nhất là gì?",
+    "SQL": "SELECT * FROM price_house ORDER BY area DESC LIMIT 10",
+    "Schema": "area[float], price[float]"
+  },
+  {
+    "Question": "Có bất động sản nào giá trong khoảng 4,8 tỷ – 4,9 tỷ không?",
+    "SQL": "SELECT * FROM price_house WHERE price >= 4800000000 AND price <= 4900000000",
+    "Schema": "price[float]"
+  },
+  {
+    "Question": "Số lượng bất động sản giá là 3,6 tỷ là bao nhiêu?",
+    "SQL": "SELECT COUNT(*) FROM price_house WHERE price = 3600000000",
+    "Schema": "price[float]"
+  },
+  {
+    "Question": "Liệt kê nhà đất có giá từ 6,9 tỷ đến 7 tỷ",
+    "SQL": "SELECT * FROM price_house WHERE price >= 6900000000 AND price <= 7000000000",
+    "Schema": "price[float]"
+  },
+  {
+    "Question": "Tôi muốn tìm nhà với giá từ 7 tỷ đến 7,1 tỷ",
+    "SQL": "SELECT * FROM price_house WHERE price >= 7000000000 AND price <= 7100000000",
+    "Schema": "price[float]"
+  },
+  {
+    "Question": "phường Phước Long, quận Nha Trang có nhà nào giá nhà nào rẻ hơn 9,4 tỷ vậy không?",
+    "SQL": "SELECT * FROM price_house WHERE price < 9400000000 AND ward = 'Phước Long' AND district = 'Nha Trang'",
+    "Schema": "price[float], district[str], ward[str]"
+  },
+  {
+    "Question": "Tìm nhà có đường vào là 4m",
+    "SQL": "SELECT * FROM price_house WHERE access_road = 4",
+    "Schema": "access_road[float], price[float]"
+  },
+  {
+    "Question": "Top 1 mặt tiền là nhà nào?",
+    "SQL": "SELECT * FROM price_house ORDER BY frontage DESC LIMIT 1",
+    "Schema": "frontage[float], price[float]"
+  },
+  {
+    "Question": "Nhà nào có đường vào cao nhất?",
+    "SQL": "SELECT * FROM price_house ORDER BY access_road DESC LIMIT 1",
+    "Schema": "access_road[float], price[float]"
+  },
+  {
+    "Question": "Có bất động sản nào giá trong khoảng 1,7 tỷ – 1,8 tỷ không?",
+    "SQL": "SELECT * FROM price_house WHERE price >= 1700000000 AND price <= 1800000000",
+    "Schema": "price[float]"
+  },
+  {
+    "Question": "Nhà nào có đường vào cao nhất?",
+    "SQL": "SELECT * FROM price_house ORDER BY access_road DESC LIMIT 1",
+    "Schema": "access_road[float], price[float]"
+  },
+  {
+    "Question": "Top nhà thấp nhất về mặt tiền là nhà nào?",
+    "SQL": "SELECT * FROM price_house ORDER BY frontage ASC LIMIT 1",
+    "Schema": "frontage[float], price[float]"
+  },
+  {
+    "Question": "Có bất động sản nào giá trong khoảng 4,8 tỷ – 4,9 tỷ không?",
+    "SQL": "SELECT * FROM price_house WHERE price >= 4800000000 AND price <= 4900000000",
+    "Schema": "price[float]"
+  },
+  {
+    "Question": "Liệt kê nhà đất có giá từ 7 tỷ đến 7,1 tỷ",
+    "SQL": "SELECT * FROM price_house WHERE price >= 7000000000 AND price <= 7100000000",
+    "Schema": "price[float]"
+  },
+  {
+    "Question": "quận Cầu Giấy có nhà nào nhà nào có giá nằm giữa 6,5 tỷ và 6,6 tỷ không?",
+    "SQL": "SELECT * FROM price_house WHERE price >= 6500000000 AND price <= 6600000000 AND district = 'Cầu Giấy'",
+    "Schema": "price[float], district[str]"
+  },
+  {
+    "Question": "Có bất động sản nào giá trong khoảng 6,7 tỷ – 6,8 tỷ không?",
+    "SQL": "SELECT * FROM price_house WHERE price >= 6700000000 AND price <= 6800000000",
+    "Schema": "price[float]"
+  },
+  {
+    "Question": "Tìm nhà có giá từ 5,9 tỷ đến 6 tỷ",
+    "SQL": "SELECT * FROM price_house WHERE price >= 5900000000 AND price <= 6000000000",
+    "Schema": "price[float]"
+  },
+  {
+    "Question": "Cho tôi biết nhà có mặt tiền cao nhất",
+    "SQL": "SELECT * FROM price_house ORDER BY frontage DESC LIMIT 1",
+    "Schema": "frontage[float], price[float]"
+  },
+  {
+    "Question": "Bất động sản nào có giá lớn nhất?",
+    "SQL": "SELECT * FROM price_house ORDER BY price DESC LIMIT 1",
+    "Schema": "price[float]"
+  },
+  {
+    "Question": "Hồ Chí Minh có nhà nào tìm nhà có giá từ 7,8 tỷ đến 7,9 tỷ không?",
+    "SQL": "SELECT * FROM price_house WHERE price >= 7800000000 AND price <= 7900000000 AND city = 'Hồ Chí Minh'",
+    "Schema": "price[float], city[str]"
+  },
+  {
+    "Question": "Tìm nhà có giá từ 1,8 tỷ đến 1,9 tỷ",
+    "SQL": "SELECT * FROM price_house WHERE price >= 1800000000 AND price <= 1900000000",
+    "Schema": "price[float]"
+  },
+  {
+    "Question": "Nhà nào mà mặt tiền ít hơn 3,5m vậy?",
+    "SQL": "SELECT * FROM price_house WHERE frontage < 3.5",
+    "Schema": "frontage[float], price[float]"
+  },
+  {
+    "Question": "Tôi muốn tìm nhà với giá từ 7,2 tỷ đến 7,3 tỷ",
+    "SQL": "SELECT * FROM price_house WHERE price >= 7200000000 AND price <= 7300000000",
+    "Schema": "price[float]"
+  },
+  {
+    "Question": "Ủa, nhiều nhà có giá là 4,5 tỷ không ta?",
+    "SQL": "SELECT COUNT(*) FROM price_house WHERE price = 4500000000",
+    "Schema": "price[float]"
+  },
+  {
+    "Question": "Khoảng 5,5 tỷ-5,6 tỷ giá thì có nhà nào không?",
+    "SQL": "SELECT * FROM price_house WHERE price >= 5500000000 AND price <= 5600000000",
+    "Schema": "price[float]"
+  },
+  {
+    "Question": "Có nhà nào đường vào trên 4m không bạn?",
+    "SQL": "SELECT * FROM price_house WHERE access_road > 4",
+    "Schema": "access_road[float], price[float]"
+  },
+  {
+    "Question": "Nhà nào có đường vào cao nhất?",
+    "SQL": "SELECT * FROM price_house ORDER BY access_road DESC LIMIT 1",
+    "Schema": "access_road[float], price[float]"
+  },
+  {
+    "Question": "Hà Nội có nhà nào bạn có biết nhà nào giá tầm 10 tỷ không không?",
+    "SQL": "SELECT * FROM price_house WHERE price = 10000000000 AND city = 'Hà Nội'",
+    "Schema": "price[float], city[str]"
+  },
+  {
+    "Question": "Bất động sản nào có đường vào dưới 6m?",
+    "SQL": "SELECT * FROM price_house WHERE access_road < 6",
+    "Schema": "access_road[float], price[float]"
+  },
+  {
+    "Question": "Tôi muốn tìm nhà ở nơi có tên gồm 'Hồ '",
+    "SQL": "SELECT * FROM price_house WHERE city LIKE '%Hồ %'",
+    "Schema": "price[float], city[str]"
+  },
+  {
+    "Question": "Tìm nhà có giá từ 5 tỷ đến 5,1 tỷ",
+    "SQL": "SELECT * FROM price_house WHERE price >= 5000000000 AND price <= 5100000000",
+    "Schema": "price[float]"
+  },
+  {
+    "Question": "Bạn có biết căn nào có tầng hơn 4 hoặc giá hơn 8 tỷ không?",
+    "SQL": "SELECT * FROM price_house WHERE floors > 4 OR price > 8000000000",
+    "Schema": "floors[str], price[float]"
+  },
+  {
+    "Question": "Tìm nhà có mặt tiền là 5m",
+    "SQL": "SELECT * FROM price_house WHERE frontage = 5",
+    "Schema": "frontage[float], price[float]"
+  },
+  {
+    "Question": "quận Gò Vấp có nhà nào bạn có biết nhà nào giá tầm 6,9 tỷ không không?",
+    "SQL": "SELECT * FROM price_house WHERE price = 6900000000 AND district = 'Gò Vấp'",
+    "Schema": "price[float], district[str]"
+  },
+  {
+    "Question": "Tìm nhà có đường vào nhiều hơn 3m",
+    "SQL": "SELECT * FROM price_house WHERE access_road > 3",
+    "Schema": "access_road[float], price[float]"
+  },
+  {
+    "Question": "Có bất động sản nào mặt tiền khoảng 4m – 5m tại quận Bình Thạnh, Hồ Chí Minh không?",
+    "SQL": "SELECT * FROM price_house WHERE frontage >= 4 AND frontage <= 5 AND district = 'Bình Thạnh' AND city = 'Hồ Chí Minh'",
+    "Schema": "frontage[float], price[float], city[str], district[str]"
+  },
+  {
+    "Question": "quận Thủ Đức có nhà nào nhà nào có giá nằm giữa 4,2 tỷ và 4,3 tỷ không?",
+    "SQL": "SELECT * FROM price_house WHERE price >= 4200000000 AND price <= 4300000000 AND district = 'Thủ Đức'",
+    "Schema": "price[float], district[str]"
+  },
+  {
+    "Question": "phường Phú Lợi, quận Thủ Dầu Một có nhà nào nhà nào có giá nằm giữa 3,2 tỷ và 3,3 tỷ không?",
+    "SQL": "SELECT * FROM price_house WHERE price >= 3200000000 AND price <= 3300000000 AND ward = 'Phú Lợi' AND district = 'Thủ Dầu Một'",
+    "Schema": "price[float], district[str], ward[str]"
+  },
+  {
+    "Question": "Có căn nào giá dưới 8,8 tỷ không?",
+    "SQL": "SELECT * FROM price_house WHERE price < 8800000000",
+    "Schema": "price[float]"
+  },
+  {
+    "Question": "Tìm nhà có giá từ 2,2 tỷ đến 2,3 tỷ",
+    "SQL": "SELECT * FROM price_house WHERE price >= 2200000000 AND price <= 2300000000",
+    "Schema": "price[float]"
+  },
+  {
+    "Question": "Bạn có biết căn nào có phòng ngủ là 1 hoặc diện tích là 140 m2 không?",
+    "SQL": "SELECT * FROM price_house WHERE bedrooms = 1 OR area = 140",
+    "Schema": "area[float], bedrooms[str], price[float]"
+  },
+  {
+    "Question": "Nhà nào mà đường vào dưới 6m vậy?",
+    "SQL": "SELECT * FROM price_house WHERE access_road < 6",
+    "Schema": "access_road[float], price[float]"
+  },
+  {
+    "Question": "Cho tôi biết nhà có đường vào thấp nhất",
+    "SQL": "SELECT * FROM price_house ORDER BY access_road ASC LIMIT 1",
+    "Schema": "access_road[float], price[float]"
+  },
+  {
+    "Question": "Liệt kê các nhà có đường vào là 7m",
+    "SQL": "SELECT * FROM price_house WHERE access_road = 7",
+    "Schema": "access_road[float], price[float]"
+  },
+  {
+    "Question": "Nhà nào ít diện tích nhất?",
+    "SQL": "SELECT * FROM price_house ORDER BY area ASC LIMIT 1",
+    "Schema": "area[float], price[float]"
+  },
+  {
+    "Question": "Tìm nhà có mặt tiền nhiều hơn 5m",
+    "SQL": "SELECT * FROM price_house WHERE frontage > 5",
+    "Schema": "frontage[float], price[float]"
+  },
+  {
+    "Question": "Tìm nhà có diện tích nhiều hơn 43m2",
+    "SQL": "SELECT * FROM price_house WHERE area > 43",
+    "Schema": "area[float], price[float]"
+  },
+  {
+    "Question": "Số lượng bất động sản diện tích trên 56m2 là bao nhiêu?",
+    "SQL": "SELECT COUNT(*) FROM price_house WHERE area > 56",
+    "Schema": "area[float], price[float]"
+  },
+  {
+    "Question": "Nhà nào có giá nằm giữa 4,8 tỷ và 4,9 tỷ?",
+    "SQL": "SELECT * FROM price_house WHERE price >= 4800000000 AND price <= 4900000000",
+    "Schema": "price[float]"
+  },
+  {
+    "Question": "Bất động sản nào có diện tích nhỏ nhất?",
+    "SQL": "SELECT * FROM price_house ORDER BY area ASC LIMIT 1",
+    "Schema": "area[float], price[float]"
+  },
+  {
+    "Question": "Cho tôi biết nhà có đường vào cao nhất",
+    "SQL": "SELECT * FROM price_house ORDER BY access_road DESC LIMIT 1",
+    "Schema": "access_road[float], price[float]"
+  },
+  {
+    "Question": "Bất động sản nào có diện tích nhỏ nhất?",
+    "SQL": "SELECT * FROM price_house ORDER BY area ASC LIMIT 1",
+    "Schema": "area[float], price[float]"
+  },
+  {
+    "Question": "Nhà nào có đường vào cao nhất?",
+    "SQL": "SELECT * FROM price_house ORDER BY access_road DESC LIMIT 1",
+    "Schema": "access_road[float], price[float]"
+  },
+  {
+    "Question": "Giá nhà nào cao hơn 7,8 tỷ vậy?",
+    "SQL": "SELECT * FROM price_house WHERE price > 7800000000",
+    "Schema": "price[float]"
+  },
+  {
+    "Question": "Tìm nhà có giá từ 9,2 tỷ đến 9,3 tỷ",
+    "SQL": "SELECT * FROM price_house WHERE price >= 9200000000 AND price <= 9300000000",
+    "Schema": "price[float]"
+  },
+  {
+    "Question": "Tìm nhà có mặt tiền là 3,8m",
+    "SQL": "SELECT * FROM price_house WHERE frontage = 3.8",
+    "Schema": "frontage[float], price[float]"
+  },
+  {
+    "Question": "Có nhà nào có 170m2 diện tích không?",
+    "SQL": "SELECT * FROM price_house WHERE area = 170",
+    "Schema": "area[float], price[float]"
+  },
+  {
+    "Question": "Khoảng 3,5 tỷ-3,6 tỷ giá thì có nhà nào không?",
+    "SQL": "SELECT * FROM price_house WHERE price >= 3500000000 AND price <= 3600000000",
+    "Schema": "price[float]"
+  },
+  {
+    "Question": "Có nhà nào ở quận Hà Đông, Hà Nội mà giá tìm nhà giá thấp hơn 8,8 tỷ không?",
+    "SQL": "SELECT * FROM price_house WHERE price < 8800000000 AND district = 'Hà Đông' AND city = 'Hà Nội'",
+    "Schema": "price[float], city[str], district[str]"
+  },
+  {
+    "Question": "Tôi muốn mua nhà Tìm nhà giá bằng 6,5 tỷ ở phường Phường 14, quận Quận 10, Hồ Chí Minh, có không?",
+    "SQL": "SELECT * FROM price_house WHERE price = 6500000000 AND ward = 'Phường 14' AND district = 'Quận 10' AND city = 'Hồ Chí Minh'",
+    "Schema": "price[float], city[str], district[str], ward[str]"
+  },
+  {
+    "Question": "Bất động sản nào có mặt tiền lớn nhất?",
+    "SQL": "SELECT * FROM price_house ORDER BY frontage DESC LIMIT 1",
+    "Schema": "frontage[float], price[float]"
+  },
+  {
+    "Question": "Tôi đang tìm nhà diện tích 6200000000tỷ–6300000000tỷ ở Hồ Chí Minh, có không?",
+    "SQL": "SELECT * FROM price_house WHERE price >= 6200000000 AND price <= 6300000000 AND city = 'Hồ Chí Minh'",
+    "Schema": "price[float], city[str]"
+  },
+  {
+    "Question": "Nhà nào có giá nằm giữa 6,2 tỷ và 6,3 tỷ?",
+    "SQL": "SELECT * FROM price_house WHERE price >= 6200000000 AND price <= 6300000000",
+    "Schema": "price[float]"
+  },
+  {
+    "Question": "Liệt kê các nhà đất tìm nhà giá tầm 5,1 tỷ tại Hải Phòng",
+    "SQL": "SELECT * FROM price_house WHERE price = 5100000000 AND city = 'Hải Phòng'",
+    "Schema": "price[float], city[str]"
+  },
+  {
+    "Question": "Nhà nào có giá nằm giữa 5,4 tỷ và 5,5 tỷ?",
+    "SQL": "SELECT * FROM price_house WHERE price >= 5400000000 AND price <= 5500000000",
+    "Schema": "price[float]"
+  },
+  {
+    "Question": "Liệt kê các nhà đất Tìm nhà giá thấp hơn 4,6 tỷ tại quận Bình Tân",
+    "SQL": "SELECT * FROM price_house WHERE price < 4600000000 AND district = 'Bình Tân'",
+    "Schema": "price[float], district[str]"
+  },
+  {
+    "Question": "Bạn lọc giúp tôi nhà giá cỡ 4,5 tỷ tới 4,6 tỷ",
+    "SQL": "SELECT * FROM price_house WHERE price >= 4500000000 AND price <= 4600000000",
+    "Schema": "price[float]"
+  },
+  {
+    "Question": "Có bao nhiêu nhà có đường vào là 67m?",
+    "SQL": "SELECT COUNT(*) FROM price_house WHERE access_road = 67",
+    "Schema": "access_road[float], price[float]"
+  },
+  {
+    "Question": "Cho tôi biết nhà có diện tích thấp nhất",
+    "SQL": "SELECT * FROM price_house ORDER BY area ASC LIMIT 1",
+    "Schema": "area[float], price[float]"
+  },
+  {
+    "Question": "Ủa, nhiều nhà có đường vào dưới 3m không ta?",
+    "SQL": "SELECT COUNT(*) FROM price_house WHERE access_road < 3",
+    "Schema": "access_road[float], price[float]"
+  },
+  {
+    "Question": "Nhà nào có giá thấp nhất?",
+    "SQL": "SELECT * FROM price_house ORDER BY price ASC LIMIT 1",
+    "Schema": "price[float]"
+  },
+  {
+    "Question": "Top 10 căn có đường vào cao nhất là gì?",
+    "SQL": "SELECT * FROM price_house ORDER BY access_road DESC LIMIT 10",
+    "Schema": "access_road[float], price[float]"
+  },
+  {
+    "Question": "Tôi muốn tìm nhà với giá từ 8,2 tỷ đến 8,3 tỷ",
+    "SQL": "SELECT * FROM price_house WHERE price >= 8200000000 AND price <= 8300000000",
+    "Schema": "price[float]"
+  },
+  {
+    "Question": "Nhà nào ít diện tích nhất?",
+    "SQL": "SELECT * FROM price_house ORDER BY area ASC LIMIT 1",
+    "Schema": "area[float], price[float]"
+  },
+  {
+    "Question": "Top 1 mặt tiền là nhà nào?",
+    "SQL": "SELECT * FROM price_house ORDER BY frontage DESC LIMIT 1",
+    "Schema": "frontage[float], price[float]"
+  },
+  {
+    "Question": "Tôi muốn biết có nhiều căn mặt tiền dưới 4m không?",
+    "SQL": "SELECT COUNT(*) FROM price_house WHERE frontage < 4",
+    "Schema": "frontage[float], price[float]"
+  },
+  {
+    "Question": "Có bất động sản nào giá trong khoảng 4 tỷ – 4,1 tỷ không?",
+    "SQL": "SELECT * FROM price_house WHERE price >= 4000000000 AND price <= 4100000000",
+    "Schema": "price[float]"
+  },
+  {
+    "Question": "Bất động sản nào có đường vào lớn nhất?",
+    "SQL": "SELECT * FROM price_house ORDER BY access_road DESC LIMIT 1",
+    "Schema": "access_road[float], price[float]"
+  },
+  {
+    "Question": "Có bất động sản nào giá trong khoảng 5,3 tỷ – 5,4 tỷ không?",
+    "SQL": "SELECT * FROM price_house WHERE price >= 5300000000 AND price <= 5400000000",
+    "Schema": "price[float]"
+  },
+  {
+    "Question": "Có nhà nào có phòng tắm hơn 4 hoặc tầng hơn 5 không?",
+    "SQL": "SELECT * FROM price_house WHERE bathrooms > 4 OR floors > 5",
+    "Schema": "floors[str], bathrooms[str], price[float]"
+  },
+  {
+    "Question": "Top 1 đường vào là nhà nào?",
+    "SQL": "SELECT * FROM price_house ORDER BY access_road DESC LIMIT 1",
+    "Schema": "access_road[float], price[float]"
+  },
+  {
+    "Question": "Tôi đang nhắm khu Hồ Chí Minh, có căn nào Tìm nhà giá dưới 4,2 tỷ không bạn?",
+    "SQL": "SELECT * FROM price_house WHERE price < 4200000000 AND city = 'Hồ Chí Minh'",
+    "Schema": "price[float], city[str]"
+  },
+  {
+    "Question": "Bạn lọc giúp tôi nhà giá cỡ 5,2 tỷ tới 5,3 tỷ",
+    "SQL": "SELECT * FROM price_house WHERE price >= 5200000000 AND price <= 5300000000",
+    "Schema": "price[float]"
+  },
+  {
+    "Question": "quận Nhà Bè có nhà nào có căn nào giá thấp hơn 6,5 tỷ không không?",
+    "SQL": "SELECT * FROM price_house WHERE price < 6500000000 AND district = 'Nhà Bè'",
+    "Schema": "price[float], district[str]"
+  },
+  {
+    "Question": "Tôi muốn tìm nhà có phòng ngủ dưới 5 hoặc đường vào dưới 13 m, có không?",
+    "SQL": "SELECT * FROM price_house WHERE bedrooms < 5 OR access_road < 13",
+    "Schema": "access_road[float], bedrooms[str], price[float]"
+  },
+  {
+    "Question": "Có bất động sản nào giá trong khoảng 3,6 tỷ – 3,7 tỷ không?",
+    "SQL": "SELECT * FROM price_house WHERE price >= 3600000000 AND price <= 3700000000",
+    "Schema": "price[float]"
+  },
+  {
+    "Question": "Nhà nào giá rẻ hơn 6,2 tỷ?",
+    "SQL": "SELECT * FROM price_house WHERE price < 6200000000",
+    "Schema": "price[float]"
+  },
+  {
+    "Question": "Tìm nhà ở khu vực có thành phố chứa từ 'Hà '?",
+    "SQL": "SELECT * FROM price_house WHERE city LIKE '%Hà %'",
+    "Schema": "price[float], city[str]"
+  },
+  {
+    "Question": "Tôi muốn biết có nhiều căn đường vào là 3m không?",
+    "SQL": "SELECT COUNT(*) FROM price_house WHERE access_road = 3",
+    "Schema": "access_road[float], price[float]"
+  },
+  {
+    "Question": "Tìm nhà giá trên 1,6 tỷ",
+    "SQL": "SELECT * FROM price_house WHERE price > 1600000000",
+    "Schema": "price[float]"
+  },
+  {
+    "Question": "Tìm nhà phường Phường 15, quận Quận 11, Hồ Chí Minh giá tìm nhà giá dưới 9,7 tỷ. Khu vực phường Phường 15, quận Quận 11, Hồ Chí Minh có nhà nào tìm nhà giá dưới 9,7 tỷ không?",
+    "SQL": "SELECT * FROM price_house WHERE price < 9700000000 AND ward = 'Phường 15' AND district = 'Quận 11' AND city = 'Hồ Chí Minh'",
+    "Schema": "price[float], city[str], district[str], ward[str]"
+  },
+  {
+    "Question": "quận Bình Thạnh có nhà nào nhà nào giá tầm 4,2 tỷ không?",
+    "SQL": "SELECT * FROM price_house WHERE price = 4200000000 AND district = 'Bình Thạnh'",
+    "Schema": "price[float], district[str]"
+  },
+  {
+    "Question": "Nhà nào có mặt tiền thấp nhất?",
+    "SQL": "SELECT * FROM price_house ORDER BY frontage ASC LIMIT 1",
+    "Schema": "frontage[float], price[float]"
+  },
+  {
+    "Question": "Tìm nhà có diện tích là 75m2",
+    "SQL": "SELECT * FROM price_house WHERE area = 75",
+    "Schema": "area[float], price[float]"
+  },
+  {
+    "Question": "Khoảng 8 tỷ-8,1 tỷ giá thì có nhà nào không?",
+    "SQL": "SELECT * FROM price_house WHERE price >= 8000000000 AND price <= 8100000000",
+    "Schema": "price[float]"
+  },
+  {
+    "Question": "Khoảng 3,9 tỷ-4 tỷ giá thì có nhà nào không?",
+    "SQL": "SELECT * FROM price_house WHERE price >= 3900000000 AND price <= 4000000000",
+    "Schema": "price[float]"
+  },
+  {
+    "Question": "Có nhà nào mặt tiền ít hơn 4,2m không bạn?",
+    "SQL": "SELECT * FROM price_house WHERE frontage < 4.2",
+    "Schema": "frontage[float], price[float]"
+  },
+  {
+    "Question": "Có nhà nào có 79,8m2 diện tích không?",
+    "SQL": "SELECT * FROM price_house WHERE area = 79.8",
+    "Schema": "area[float], price[float]"
+  },
+  {
+    "Question": "Có nhà nào có phòng ngủ là 3 hoặc đường vào là 4 m không?",
+    "SQL": "SELECT * FROM price_house WHERE bedrooms = 3 OR access_road = 4",
+    "Schema": "access_road[float], bedrooms[str], price[float]"
+  },
+  {
+    "Question": "Bất động sản nào có diện tích nhiều hơn 50m2?",
+    "SQL": "SELECT * FROM price_house WHERE area > 50",
+    "Schema": "area[float], price[float]"
+  },
+  {
+    "Question": "Tìm nhà có giá từ 2,8 tỷ đến 2,9 tỷ",
+    "SQL": "SELECT * FROM price_house WHERE price >= 2800000000 AND price <= 2900000000",
+    "Schema": "price[float]"
+  },
+  {
+    "Question": "Tìm nhà Tìm nhà giá khoảng 5,6 tỷ ở quận Cầu Giấy, Hà Nội",
+    "SQL": "SELECT * FROM price_house WHERE price = 5600000000 AND district = 'Cầu Giấy' AND city = 'Hà Nội'",
+    "Schema": "price[float], city[str], district[str]"
+  },
+  {
+    "Question": "Hồ Chí Minh có nhà nào tìm nhà có giá từ 2,8 tỷ đến 2,9 tỷ không?",
+    "SQL": "SELECT * FROM price_house WHERE price >= 2800000000 AND price <= 2900000000 AND city = 'Hồ Chí Minh'",
+    "Schema": "price[float], city[str]"
+  },
+  {
+    "Question": "Bất động sản nào có mặt tiền ít hơn 5m?",
+    "SQL": "SELECT * FROM price_house WHERE frontage < 5",
+    "Schema": "frontage[float], price[float]"
+  },
+  {
+    "Question": "Tôi muốn mua nhà Bạn lọc giúp tôi nhà giá cỡ 5,6 tỷ tới 5,7 tỷ ở phường Phường 13, quận Bình Thạnh, Hồ Chí Minh, có không?",
+    "SQL": "SELECT * FROM price_house WHERE price >= 5600000000 AND price <= 5700000000 AND ward = 'Phường 13' AND district = 'Bình Thạnh' AND city = 'Hồ Chí Minh'",
+    "Schema": "price[float], city[str], district[str], ward[str]"
+  },
+  {
+    "Question": "Tôi đang tìm nhà diện tích 8m–9m ở quận Ba Đình, Hà Nội, có không?",
+    "SQL": "SELECT * FROM price_house WHERE access_road >= 8 AND access_road <= 9 AND district = 'Ba Đình' AND city = 'Hà Nội'",
+    "Schema": "access_road[float], price[float], city[str], district[str]"
+  },
+  {
+    "Question": "quận Bình Chánh có nhà nào khoảng 8 tỷ-8,1 tỷ giá thì có nhà nào không không?",
+    "SQL": "SELECT * FROM price_house WHERE price >= 8000000000 AND price <= 8100000000 AND district = 'Bình Chánh'",
+    "Schema": "price[float], district[str]"
+  },
+  {
+    "Question": "Liệt kê các nhà có mặt tiền là 5,1m",
+    "SQL": "SELECT * FROM price_house WHERE frontage = 5.1",
+    "Schema": "frontage[float], price[float]"
+  },
+  {
+    "Question": "phường Khương Thượng, quận Đống Đa có nhà nào giá nhà nào thấp hơn 1,9 tỷ vậy không?",
+    "SQL": "SELECT * FROM price_house WHERE price < 1900000000 AND ward = 'Khương Thượng' AND district = 'Đống Đa'",
+    "Schema": "price[float], district[str], ward[str]"
+  },
+  {
+    "Question": "Bạn thống kê giúp mình số căn đường vào trên 5m nha!",
+    "SQL": "SELECT COUNT(*) FROM price_house WHERE access_road > 5",
+    "Schema": "access_road[float], price[float]"
+  },
+  {
+    "Question": "Nhà nào có đường vào hơn 3 m hoặc phòng tắm hơn 4 nhỉ?",
+    "SQL": "SELECT * FROM price_house WHERE access_road > 3 OR bathrooms > 4",
+    "Schema": "access_road[float], bathrooms[str], price[float]"
+  },
+  {
+    "Question": "Nhà nào có giá nằm giữa 9 tỷ và 9,1 tỷ?",
+    "SQL": "SELECT * FROM price_house WHERE price >= 9000000000 AND price <= 9100000000",
+    "Schema": "price[float]"
+  },
+  {
+    "Question": "Tìm nhà có diện tích là 110m2",
+    "SQL": "SELECT * FROM price_house WHERE area = 110",
+    "Schema": "area[float], price[float]"
+  },
+  {
+    "Question": "Tôi muốn tìm nhà với giá từ 1,8 tỷ đến 1,9 tỷ",
+    "SQL": "SELECT * FROM price_house WHERE price >= 1800000000 AND price <= 1900000000",
+    "Schema": "price[float]"
+  },
+  {
+    "Question": "Hà Nội có nhà nào tôi đang tìm nhà tầm giá 6,1 tỷ, có không không?",
+    "SQL": "SELECT * FROM price_house WHERE price = 6100000000 AND city = 'Hà Nội'",
+    "Schema": "price[float], city[str]"
+  },
+  {
+    "Question": "Nhà nào giá đắt hơn 3,8 tỷ?",
+    "SQL": "SELECT * FROM price_house WHERE price > 3800000000",
+    "Schema": "price[float]"
+  },
+  {
+    "Question": "Nhà nào có giá từ 7500000000tỷ đến 7600000000tỷ nằm tại quận Long Biên?",
+    "SQL": "SELECT * FROM price_house WHERE price >= 7500000000 AND price <= 7600000000 AND district = 'Long Biên'",
+    "Schema": "price[float], district[str]"
+  },
+  {
+    "Question": "Ở phường Đội Cấn, quận Ba Đình, Hà Nội có căn nào tìm nhà giá tầm 6,8 tỷ không?",
+    "SQL": "SELECT * FROM price_house WHERE price = 6800000000 AND ward = 'Đội Cấn' AND district = 'Ba Đình' AND city = 'Hà Nội'",
+    "Schema": "price[float], city[str], district[str], ward[str]"
+  },
+  {
+    "Question": "Nhà nào có giá nằm giữa 6 tỷ và 6,1 tỷ?",
+    "SQL": "SELECT * FROM price_house WHERE price >= 6000000000 AND price <= 6100000000",
+    "Schema": "price[float]"
+  },
+  {
+    "Question": "Tôi đang tìm nhà diện tích 69,5m2–70,5m2 ở quận Hai Bà Trưng, có không?",
+    "SQL": "SELECT * FROM price_house WHERE area >= 69.5 AND area <= 70.5 AND district = 'Hai Bà Trưng'",
+    "Schema": "area[float], price[float], district[str]"
+  },
+  {
+    "Question": "Nhà nào giá tầm 3,2 tỷ?",
+    "SQL": "SELECT * FROM price_house WHERE price = 3200000000",
+    "Schema": "price[float]"
+  },
+  {
+    "Question": "Nhà nào có mặt tiền từ 4,6m đến 5,6m nằm tại Hà Nội?",
+    "SQL": "SELECT * FROM price_house WHERE frontage >= 4.6 AND frontage <= 5.6 AND city = 'Hà Nội'",
+    "Schema": "frontage[float], price[float], city[str]"
+  },
+  {
+    "Question": "phường Bình Thuận, quận Quận 7, Hồ Chí Minh có nhà nào nhà nào giá dưới 2,8 tỷ không?",
+    "SQL": "SELECT * FROM price_house WHERE price < 2800000000 AND ward = 'Bình Thuận' AND district = 'Quận 7' AND city = 'Hồ Chí Minh'",
+    "Schema": "price[float], city[str], district[str], ward[str]"
+  },
+  {
+    "Question": "Tìm nhà có đường vào là 8m",
+    "SQL": "SELECT * FROM price_house WHERE access_road = 8",
+    "Schema": "access_road[float], price[float]"
+  },
+  {
+    "Question": "Tôi đang tìm nhà ở quận Thanh Xuân, Hà Nội giá 4,6 tỷ, có gợi ý nào không?",
+    "SQL": "SELECT * FROM price_house WHERE price < 4600000000 AND district = 'Thanh Xuân' AND city = 'Hà Nội'",
+    "Schema": "price[float], city[str], district[str]"
+  },
+  {
+    "Question": "Cho tôi biết nhà có giá cao nhất",
+    "SQL": "SELECT * FROM price_house ORDER BY price DESC LIMIT 1",
+    "Schema": "price[float]"
+  },
+  {
+    "Question": "phường Tân Quý, quận Tân Phú có nhà nào tôi đang tìm nhà tầm giá 5,7 tỷ, có không không?",
+    "SQL": "SELECT * FROM price_house WHERE price = 5700000000 AND ward = 'Tân Quý' AND district = 'Tân Phú'",
+    "Schema": "price[float], district[str], ward[str]"
+  },
+  {
+    "Question": "Tìm nhà có giá từ 3,6 tỷ đến 3,7 tỷ",
+    "SQL": "SELECT * FROM price_house WHERE price >= 3600000000 AND price <= 3700000000",
+    "Schema": "price[float]"
+  },
+  {
+    "Question": "Tôi đang tìm nhà ở phường Hoà Quý, quận Ngũ Hành Sơn giá 5,5 tỷ, có gợi ý nào không?",
+    "SQL": "SELECT * FROM price_house WHERE price < 5500000000 AND ward = 'Hoà Quý' AND district = 'Ngũ Hành Sơn'",
+    "Schema": "price[float], district[str], ward[str]"
+  },
+  {
+    "Question": "phường Nhị Bình, quận Hóc Môn có nhà nào tôi đang tìm nhà tầm giá 9,5 tỷ, có không không?",
+    "SQL": "SELECT * FROM price_house WHERE price < 9500000000 AND ward = 'Nhị Bình' AND district = 'Hóc Môn'",
+    "Schema": "price[float], district[str], ward[str]"
+  },
+  {
+    "Question": "Bất động sản nào có mặt tiền nhiều hơn 4m?",
+    "SQL": "SELECT * FROM price_house WHERE frontage > 4",
+    "Schema": "frontage[float], price[float]"
+  },
+  {
+    "Question": "Có nhà nào có 4,7m mặt tiền không?",
+    "SQL": "SELECT * FROM price_house WHERE frontage = 4.7",
+    "Schema": "frontage[float], price[float]"
+  },
+  {
+    "Question": "Tìm nhà có mặt tiền ít hơn 5m",
+    "SQL": "SELECT * FROM price_house WHERE frontage < 5",
+    "Schema": "frontage[float], price[float]"
+  },
+  {
+    "Question": "Top 1 mặt tiền là nhà nào?",
+    "SQL": "SELECT * FROM price_house ORDER BY frontage DESC LIMIT 1",
+    "Schema": "frontage[float], price[float]"
+  },
+  {
+    "Question": "Liệt kê các nhà có đường vào là 27m",
+    "SQL": "SELECT * FROM price_house WHERE access_road = 27",
+    "Schema": "access_road[float], price[float]"
+  },
+  {
+    "Question": "quận Thủ Đức có nhà nào có căn nào giá rẻ hơn 3,2 tỷ không không?",
+    "SQL": "SELECT * FROM price_house WHERE price < 3200000000 AND district = 'Thủ Đức'",
+    "Schema": "price[float], district[str]"
+  },
+  {
+    "Question": "Bất động sản nào có đường vào nhỏ nhất?",
+    "SQL": "SELECT * FROM price_house ORDER BY access_road ASC LIMIT 1",
+    "Schema": "access_road[float], price[float]"
+  },
+  {
+    "Question": "Tôi muốn biết top 10 nhà có giá lớn nhất",
+    "SQL": "SELECT * FROM price_house ORDER BY price DESC LIMIT 10",
+    "Schema": "price[float]"
+  },
+  {
+    "Question": "Nhà nào có giá nằm giữa 7,2 tỷ và 7,3 tỷ?",
+    "SQL": "SELECT * FROM price_house WHERE price >= 7200000000 AND price <= 7300000000",
+    "Schema": "price[float]"
+  },
+  {
+    "Question": "Cho tôi biết 10 nhà có đường vào lớn nhất",
+    "SQL": "SELECT * FROM price_house ORDER BY access_road DESC LIMIT 10",
+    "Schema": "access_road[float], price[float]"
+  },
+  {
+    "Question": "Tìm nhà có mặt tiền là 6m",
+    "SQL": "SELECT * FROM price_house WHERE frontage = 6",
+    "Schema": "frontage[float], price[float]"
+  },
+  {
+    "Question": "Nhà nào có đường vào dưới 4 m hoặc phòng tắm dưới 5 nhỉ?",
+    "SQL": "SELECT * FROM price_house WHERE access_road < 4 OR bathrooms < 5",
+    "Schema": "access_road[float], bathrooms[str], price[float]"
+  },
+  {
+    "Question": "Tôi đang tìm nhà diện tích 32m2–33m2 ở Hà Nội, có không?",
+    "SQL": "SELECT * FROM price_house WHERE area >= 32 AND area <= 33 AND city = 'Hà Nội'",
+    "Schema": "area[float], price[float], city[str]"
+  },
+  {
+    "Question": "Nhà nào có giá cao nhất?",
+    "SQL": "SELECT * FROM price_house ORDER BY price DESC LIMIT 1",
+    "Schema": "price[float]"
+  },
+  {
+    "Question": "Tôi muốn biết top 3 nhà có đường vào lớn nhất",
+    "SQL": "SELECT * FROM price_house ORDER BY access_road DESC LIMIT 3",
+    "Schema": "access_road[float], price[float]"
+  },
+  {
+    "Question": "quận Sơn Trà có nhà nào có căn nào giá bằng 6,2 tỷ không không?",
+    "SQL": "SELECT * FROM price_house WHERE price = 6200000000 AND district = 'Sơn Trà'",
+    "Schema": "price[float], district[str]"
+  },
+  {
+    "Question": "Có bất động sản nào giá trong khoảng 6,6 tỷ – 6,7 tỷ không?",
+    "SQL": "SELECT * FROM price_house WHERE price >= 6600000000 AND price <= 6700000000",
+    "Schema": "price[float]"
+  },
+  {
+    "Question": "Tìm nhà quận Hoài Đức, Hà Nội giá tìm nhà giá dưới 6,5 tỷ. Khu vực quận Hoài Đức, Hà Nội có nhà nào tìm nhà giá dưới 6,5 tỷ không?",
+    "SQL": "SELECT * FROM price_house WHERE price < 6500000000 AND district = 'Hoài Đức' AND city = 'Hà Nội'",
+    "Schema": "price[float], city[str], district[str]"
+  },
+  {
+    "Question": "Bạn lọc giúp tôi nhà giá cỡ 3,2 tỷ tới 3,3 tỷ",
+    "SQL": "SELECT * FROM price_house WHERE price >= 3200000000 AND price <= 3300000000",
+    "Schema": "price[float]"
+  },
+  {
+    "Question": "Nhà nào có giá nằm giữa 6,8 tỷ và 6,9 tỷ?",
+    "SQL": "SELECT * FROM price_house WHERE price >= 6800000000 AND price <= 6900000000",
+    "Schema": "price[float]"
+  },
+  {
+    "Question": "Nhà nào đang rao bán Bạn lọc giúp tôi nhà giá cỡ 8,1 tỷ tới 8,2 tỷ tại phường Cổ Nhuế 1, quận Bắc Từ Liêm, Hà Nội?",
+    "SQL": "SELECT * FROM price_house WHERE price >= 8100000000 AND price <= 8200000000 AND ward = 'Cổ Nhuế 1' AND district = 'Bắc Từ Liêm' AND city = 'Hà Nội'",
+    "Schema": "price[float], city[str], district[str], ward[str]"
+  },
+  {
+    "Question": "Có bao nhiêu nhà có diện tích trên 100m2?",
+    "SQL": "SELECT COUNT(*) FROM price_house WHERE area > 100",
+    "Schema": "area[float], price[float]"
+  },
+  {
+    "Question": "Có căn nào giá đắt hơn 3,2 tỷ không?",
+    "SQL": "SELECT * FROM price_house WHERE price > 3200000000",
+    "Schema": "price[float]"
+  },
+  {
+    "Question": "5 căn nhà có diện tích cao nhất đang rao bán là gì?",
+    "SQL": "SELECT * FROM price_house ORDER BY area DESC LIMIT 5",
+    "Schema": "area[float], price[float]"
+  },
+  {
+    "Question": "Có nhà nào có 2,5m mặt tiền không?",
+    "SQL": "SELECT * FROM price_house WHERE frontage = 2.5",
+    "Schema": "frontage[float], price[float]"
+  },
+  {
+    "Question": "Tôi đang tìm nhà diện tích 3,3m–4,3m ở Hà Nội, có không?",
+    "SQL": "SELECT * FROM price_house WHERE frontage >= 3.3 AND frontage <= 4.3 AND city = 'Hà Nội'",
+    "Schema": "frontage[float], price[float], city[str]"
+  },
+  {
+    "Question": "quận Bình Tân có nhà nào tôi đang tìm nhà tầm giá 9,8 tỷ, có không không?",
+    "SQL": "SELECT * FROM price_house WHERE price = 9800000000 AND district = 'Bình Tân'",
+    "Schema": "price[float], district[str]"
+  },
+  {
+    "Question": "Cho tôi biết nhà có mặt tiền cao nhất",
+    "SQL": "SELECT * FROM price_house ORDER BY frontage DESC LIMIT 1",
+    "Schema": "frontage[float], price[float]"
+  },
+  {
+    "Question": "Tôi muốn biết có nhiều căn mặt tiền dưới 4m không?",
+    "SQL": "SELECT COUNT(*) FROM price_house WHERE frontage < 4",
+    "Schema": "frontage[float], price[float]"
+  },
+  {
+    "Question": "Liệt kê các nhà đất tìm nhà giá tầm 6,8 tỷ tại phường Tân Hưng, quận Quận 7",
+    "SQL": "SELECT * FROM price_house WHERE price = 6800000000 AND ward = 'Tân Hưng' AND district = 'Quận 7'",
+    "Schema": "price[float], district[str], ward[str]"
+  },
+  {
+    "Question": "Tôi đang tìm nhà diện tích 5,6m–6,6m ở quận Sơn Trà, có không?",
+    "SQL": "SELECT * FROM price_house WHERE frontage >= 5.6 AND frontage <= 6.6 AND district = 'Sơn Trà'",
+    "Schema": "frontage[float], price[float], district[str]"
+  }
+]
